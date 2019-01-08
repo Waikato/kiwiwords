@@ -20,6 +20,7 @@ from .twokenize import tokenizeRawTweetText
 
 import numpy
 import os
+import re
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
@@ -93,28 +94,46 @@ def eval_embeddings(model_folder, gold_pairs, target):
     """
     Evaluates word embeddings
     """ 
+    
+    
+    model_folder = 'experiments'
+    gold_pairs = 'data/gold_pairs.csv'
+    
     pairs = pa.read_csv(gold_pairs,sep='\t')
     
     model_files = [i for i in glob.glob(model_folder+'/*.{}'.format("bin"))]
+    
+    
     with open(target, 'a') as out_file:
-        out_file.write("model\tmeadian.rank\n")
+        out_file.write("model\tw_value\td_value\tmedian.rank\n")
     
         for model_file in model_files:    
+            print(model_file)
             model = Word2Vec.load(model_file)
             ranks = []
             for index, row in pairs.iterrows():
                 eng,mao = row['English'], row['Te Reo Maori']
                 if eng in model.wv.vocab and mao in model.wv.vocab:
                     ranks.append(model.wv.rank(eng,mao))
+            
+            try:
+                w_pattern = re.search('-w(.+?)-', model_file)
+                w_value = w_pattern.group(1)
                 
-            out_file.write(model_file+"\t"+str(median(ranks))+"\n")
+                d_pattern = re.search('-d(.+?)\.bin', model_file)
+                d_value = d_pattern.group(1)
+                
+                
+                out_file.write(model_file[:model_file.find('-')]+"\t"+str(w_value)+"\t"+str(d_value)+"\t"+str(median(ranks))+"\n")
+            except:
+                continue
     
   
     
 
 
  
-def t_sne_scatterplot(model_file = "experiments/Word2Vec-w5-d400.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka'], target = "pics"):
+def t_sne_scatterplot(model_file = "experiments/Word2Vec-w5-d200.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka','kiwi','whakapapa','kia_kaha','matariki','aroha'], target = "pics"):
     """
     plots word vectors
     """ 
