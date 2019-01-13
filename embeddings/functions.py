@@ -72,7 +72,7 @@ def train_wordvectors(source,target):
     """
     Trains word vectors using various parameters
     """      
-    emb_models=[Word2Vec,FastText]
+    emb_models=[Word2Vec]
     window_sizes = [1,2,3,5,10,15]
     vector_dims = [10,50,100,200,400,800]
     min_c = 10
@@ -85,6 +85,7 @@ def train_wordvectors(source,target):
             for emb_mod in emb_models:
                 model = emb_mod(sentences, min_count=min_c, window = w, size = v_dim)
                 model.save(target+"/"+model.__class__.__name__+'-w'+str(w)+"-d"+str(v_dim)+'.bin')
+                
         
        
      
