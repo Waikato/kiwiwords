@@ -3,6 +3,8 @@
 # Plot a heatmap from the embeddings evaluation
 ###
 
+
+
 emb_res <- read.csv(file = "emb_res.csv",header=TRUE, sep='\t')
 
 emb_res <- emb_res[emb_res$model=='experiments/Word2Vec',]
@@ -15,4 +17,7 @@ v <- ggplot(emb_res, aes(w_value, d_value, z = median.rank))
 v + geom_tile(aes(fill = median.rank))+ scale_fill_gradient(low="white", high="black",limits=c(-10,5000) )+ 
   labs(x="window size",y ="vector size", title = "Median Rank") + theme(plot.title = element_text(hjust = 0.5))
 
-ggsave("tune_emb.pdf")
+pic.name <- "tune_emb.pdf"
+
+ggsave(pic.name)
+print(paste("Plot saved to",pic.name))
