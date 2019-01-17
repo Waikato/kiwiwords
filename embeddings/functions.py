@@ -134,7 +134,7 @@ def eval_embeddings(model_folder, gold_pairs, target):
 
 
  
-def t_sne_scatterplot(model_file = "experiments/Word2Vec-w5-d1 00.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka','kiwi','whakapapa','kia_kaha','matariki','aroha'], target = "pics"):
+def t_sne_scatterplot(model_file = "experiments/Word2Vec-w5-d100.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka','kiwi','whakapapa','kia_kaha','matariki','aroha'], target = "pics"):
     """
     plots word vectors
     """ 
