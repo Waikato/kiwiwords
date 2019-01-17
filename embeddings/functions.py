@@ -21,7 +21,9 @@ from .twokenize import tokenizeRawTweetText
 import numpy
 import os
 import re
-import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('agg')
+import pylab as plt
 from sklearn.manifold import TSNE
 
 
@@ -134,7 +136,7 @@ def eval_embeddings(model_folder, gold_pairs, target):
 
 
  
-def t_sne_scatterplot(model_file = "experiments/Word2Vec-w5-d100.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka','kiwi','whakapapa','kia_kaha','matariki','aroha'], target = "pics"):
+def t_sne_scatterplot(model_file = "experiments/Word2Vec-w2-d200.bin", words = ['marae','kia_ora','whanau','wahine','hapu','kura','haka','kiwi','whakapapa','kia_kaha','matariki','aroha'], target = "pics"):
     """
     plots word vectors
     """ 
