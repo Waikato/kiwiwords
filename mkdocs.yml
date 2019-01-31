@@ -1,6 +1,6 @@
 site_name: MaoriLoanWords
 theme: mkdocs 
-repo_url: https://github.com/felipebravom/AffectiveTweets
+repo_url: https://github.com/Waikato/MaoriLoanWords
 site_description: Moari LoanWords
 nav:
     - Home: index.md
