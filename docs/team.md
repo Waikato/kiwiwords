@@ -1,6 +1,7 @@
 # Who we are
-1. [Andreea Calude](https://www.calude.net/andreea/)
-2. [Felipe Bravo-Marquez](https://felipebravom.com/)
-3. David Trye
+* [Felipe Bravo-Marquez](https://felipebravom.com/) - machine learning
+* [Andreea Calude](https://www.calude.net/andreea/) - linguist
+* [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka) - te reo Māori /technical
+* David Trye - summer student researcher
 
 
