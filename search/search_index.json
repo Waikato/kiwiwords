@@ -32,13 +32,13 @@
         },
         {
             "location": "/word_vectors/",
-            "text": "Word Embeddings Visualisations\n\n\nThe visualisations from below were obtained after training Word2Vec embeddings on the corpus of tweets. Hyperparameters are optimised by minimising the median ranking of a list of given word pairs.  \n\n\nThe vectors are projected into a two-dimensional space using the TSNE method. \n\n\nWhakapapa\n\n\n\n\nAroha\n\n\n\n\nHaka\n\n\n\n\nKia Kaha\n\n\n\n\nKia Ora\n\n\n\n\nMatariki\n\n\n\n\nWahine\n\n\n\n\nWhakapapa",
-            "title": "Word Embeddings Visualisations"
+            "text": "Word Vectors\n\n\nThe visualisations from below were obtained after training Word2Vec embeddings on the corpus of tweets. Hyperparameters are optimised by minimising the median ranking of a list of given word pairs.  \n\n\nThe vectors are projected into a two-dimensional space using the TSNE method. \n\n\nWhakapapa\n\n\n\n\nAroha\n\n\n\n\nHaka\n\n\n\n\nKia Kaha\n\n\n\n\nKia Ora\n\n\n\n\nMatariki\n\n\n\n\nWahine\n\n\n\n\nWhakapapa",
+            "title": "Word Vectors"
         },
         {
-            "location": "/word_vectors/#word-embeddings-visualisations",
+            "location": "/word_vectors/#word-vectors",
             "text": "The visualisations from below were obtained after training Word2Vec embeddings on the corpus of tweets. Hyperparameters are optimised by minimising the median ranking of a list of given word pairs.    The vectors are projected into a two-dimensional space using the TSNE method.",
-            "title": "Word Embeddings Visualisations"
+            "title": "Word Vectors"
         },
         {
             "location": "/word_vectors/#whakapapa",
