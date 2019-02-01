@@ -3,6 +3,7 @@
 * [Andreea Calude](https://www.calude.net/andreea/) - linguist <img src="../pics/AndreeaCalude.jpg" alt="Andreea" width="200"/>
 * [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka) - te reo Māori /online digitization of te reo Māori <img src="../pics/TeTaka.jpg" alt="TeTaka" width="200"/>
 * David Trye - summer student researcher <img src="../pics/DavidTrye.jpg" alt="David" width="200"/>
+* Nicole Chan - former honours student 
 
 
 
