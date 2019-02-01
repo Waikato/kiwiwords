@@ -1,4 +1,4 @@
-# Word Embeddings Visualisations
+# Word Vectors
 
 The visualisations from below were obtained after training Word2Vec embeddings on the corpus of tweets. Hyperparameters are optimised by minimising the median ranking of a list of given word pairs.  
 
