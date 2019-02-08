@@ -8,4 +8,4 @@ Timeframe: 2008-2018 <br>
 Number of Tweeters (authors): XXX <br>
 Number of loanwords used to harvest the data: 77
 
- <img src="../pics/Process.png" alt="Process" width="1000"/>
+ <img src="../pics/Process.png" alt="Process" width="1200"/>
