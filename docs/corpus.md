@@ -1,4 +1,4 @@
 # NZT Corpus
 The corpus
 
- <img src="../pics/process.png" alt="Process" width="200"/>
+ <img src="../pics/Process.png" alt="Process" width="200"/>
