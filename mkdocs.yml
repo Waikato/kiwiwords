@@ -1,7 +1,7 @@
-site_name: MaoriLoanWords
+site_name: Kiwi Words
 theme: mkdocs 
-repo_url: https://github.com/Waikato/MaoriLoanWords
-site_description: Moari LoanWords
+repo_url: https://github.com/Waikato/kiwiwords
+site_description: Kiwi Words
 nav:
     - Home: index.md
     - The Corpus: corpus.md
