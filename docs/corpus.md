@@ -13,8 +13,7 @@ Number of Tweets: 1,179,390 <br>
 Timeframe: 2008-2018 <br>
 Number of Tweeters (authors): XXX <br>
 Number of loanwords used to harvest the data: 77
-<br>
-<i>Note that these statistics are for the </i>Processed Corpus.
+<i>Note that these statistics are for the Processed Corpus.</i>
 
 ### Building the Corpus
  <img src="../pics/Process2.png" alt="Process" width="1500"/>
