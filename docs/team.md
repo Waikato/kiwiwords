@@ -7,9 +7,5 @@
 <br><img src="../pics/TeTaka.jpg" alt="TeTaka" width="100"/></br>
 David Trye - Summer Research Student 
 <br><img src="../pics/DavidTrye.jpg" alt="David" width="100"/></br>
-Nicole Chan - Former Honours Student
-
-
-
-
-
+[Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan) - Former Honours Student
+<br><img src="../pics/NicoleChan.jpg" alt="Nicole" width="100"/></br>
