@@ -16,4 +16,4 @@ These pages detail the corpus of Tweets we have collected (the <i>New Zealand Tw
 Feel free to contact [us](https://waikato.github.io/kiwiwords/team/) for further details.
 
 Special thanks to: <br>
-<img src="../pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
+<img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
