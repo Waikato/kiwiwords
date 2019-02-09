@@ -13,3 +13,6 @@ These pages detail the corpus of tweets we have collected (the New Zealand Twitt
 (3) have the meanings of the borrowed words evolved through use and over time, and if so, how? 
 
 Feel free to contact [us](https://waikato.github.io/MaoriLoanWords/team/) for further details.
+
+Special thanks to: <br>
+<img src="../pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
