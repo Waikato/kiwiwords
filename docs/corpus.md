@@ -10,4 +10,4 @@ Number of Tweeters (authors): XXX <br>
 Number of loanwords used to harvest the data: 77
 
 ### Building the Corpus
- <img src="../pics/Process.png" alt="Process" width="1500"/>
+ <img src="../pics/Process2.png" alt="Process" width="1500"/>
