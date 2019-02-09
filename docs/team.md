@@ -1,5 +1,4 @@
 # Who we are
-<br>
 ### [Felipe Bravo-Marquez](https://felipebravom.com/)
 Machine Learning 
 <br><img src="../pics/FelipeBravo.jpg" alt="Felipe" width="100"/><br>
