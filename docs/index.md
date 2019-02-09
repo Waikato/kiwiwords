@@ -1,8 +1,8 @@
 # Māori Loanwords on Twitter
 <br>
-[Our Github repository](https://github.com/Waikato/kiwiwords/) provides code for analysing the use of Māori Loanwords in New Zealand English (NZE) Tweets.
+Our [Github repository](https://github.com/Waikato/kiwiwords/) provides code for analysing the use of Māori Loanwords in New Zealand English (NZE) Tweets.
 
-*It's Cool to Kōrero!* [Mai FM radio station](https://www.nzonscreen.com/title/mai-fm-cool-to-korero-1999)
+*It's Cool to Kōrero!* - Mai FM radio station
 
 The use of te reo Māori words in the variety of English spoken in New Zealand has been studied intensely over the past thirty years. When arriving in New Zealand, it is not uncommon to be greeted with the phrase "Kia ora!" at the airport.
 
@@ -18,4 +18,4 @@ Feel free to contact [us](https://waikato.github.io/kiwiwords/team/) for further
 
 <br>
 Special thanks to: <br>
-<img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
+<img src="../pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
