@@ -1,9 +1,13 @@
 # Who we are
-* [Felipe Bravo-Marquez](https://felipebravom.com/) - machine learning   <img src="../pics/FelipeBravo.jpg" alt="Felipe" width="100"/>
-* [Andreea Calude](https://www.calude.net/andreea/) - linguist <img src="../pics/AndreeaCalude.jpg" alt="Andreea" width="100"/>
-* [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka) - te reo Māori / online digitisation of te reo Māori <img src="../pics/TeTaka.jpg" alt="TeTaka" width="100"/>
-* David Trye - summer research student <img src="../pics/DavidTrye.jpg" alt="David" width="100"/>
-* Nicole Chan - former honours student
+[Felipe Bravo-Marquez](https://felipebravom.com/) - Machine Learning 
+<br><img src="../pics/FelipeBravo.jpg" alt="Felipe" width="100"/><br>
+[Andreea Calude](https://www.calude.net/andreea/) - Linguist 
+<br><img src="../pics/AndreeaCalude.jpg" alt="Andreea" width="100"/><br>
+[Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka) - Te Reo Māori / Online digitisation of te reo Māori 
+<br><img src="../pics/TeTaka.jpg" alt="TeTaka" width="100"/></br>
+David Trye - Summer Research Student 
+<br><img src="../pics/DavidTrye.jpg" alt="David" width="100"/></br>
+Nicole Chan - Former Honours Student
 
 
 
