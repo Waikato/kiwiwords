@@ -13,7 +13,7 @@ These pages detail the corpus of Tweets we have collected (the <i>New Zealand Tw
 (2) If so, which words, how do they use them, and how does this use compare with other genres of NZE?
 (3) Have the meanings of the borrowed words evolved through use and over time, and if so, how? 
 
-Feel free to contact [us](https://waikato.github.io/MaoriLoanWords/team/) for further details.
+Feel free to contact [us](https://waikato.github.io/kiwiwords/team/) for further details.
 
 Special thanks to: <br>
 <img src="../pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
