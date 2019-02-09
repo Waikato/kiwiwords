@@ -18,4 +18,4 @@ Feel free to contact [us](https://waikato.github.io/kiwiwords/team/) for further
 
 <br>
 Special thanks to: <br>
-<img src="../pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
+<img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
