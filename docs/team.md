@@ -8,7 +8,7 @@ Linguist
 ### [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 Te Reo Māori / Online digitisation of te reo Māori 
 <br><img src="../pics/TeTaka.jpg" alt="TeTaka" width="100"/></br>
-### David Trye
+### [David Trye](https://www.linkedin.com/in/david-trye/)
 Summer Research Student 
 <br><img src="../pics/DavidTrye.jpg" alt="David" width="100"/></br>
 ### [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
