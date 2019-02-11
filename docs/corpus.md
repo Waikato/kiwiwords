@@ -5,7 +5,7 @@ The <i>New Zealand Twitter Corpus (NZT Corpus)</i> is a diachronic corpus consis
 1. <i>Labelled Corpus</i>: 3,685 manually-coded Tweets which include at least one Māori word of interest.
 2. <i>Processed Corpus</i>: Just under 1.2 million Tweets that were classified as relevant, using the <i>Labelled Corpus</i> as training data. 
 
-Below is a description of the <i>Processed Corpus</i> and a flowchart outlining how it was built. 
+Below is a description of these components and a flowchart outlining how the <i>Processed Corpus</i> was built. 
 
 ### Key Stats
 | Statistic                                    | Labelled Corpus | Processed Corpus |
