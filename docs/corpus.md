@@ -8,11 +8,13 @@ The <i>New Zealand Twitter Corpus (NZT Corpus)</i> is a diachronic corpus consis
 Below is a description of the <i>Processed Corpus</i> and a flowchart outlining how it was built. 
 
 ### Key Stats
-* Number of tokens (words): 21,810,637 <br>
-* Number of Tweets: 1,179,390 <br>
-* Time frame: 2008-2018 <br>
-* Number of Tweeters (authors): 426,280 <br>
-* Number of loanwords used to harvest the data: 77
+| Statistic                                    | Labelled Corpus | Processed Corpus |
+| ---------------------------------------------|-----------------| -----------------|
+| Number of tokens (words)                     | 49,477          | 21,810,637       |
+| Number of Tweets                             | 2,495           | 1,179,390        |
+| Number of Tweeters (authors)                 | 1,866           | 426,280          |
+| Time frame                                   | 2008-2018       | 2008-2018        |
+| Number of loanwords used to harvest the data | 77              | 77               |
 
 ### Building the Corpus
  <img src="../pics/Process2.png" alt="Process" width="1500"/>
