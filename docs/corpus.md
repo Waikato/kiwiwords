@@ -10,7 +10,7 @@ Below is a description of the <i>Processed Corpus</i> and a flowchart outlining 
 ### Key Stats
 * Number of tokens (words): 21,810,637 <br>
 * Number of Tweets: 1,179,390 <br>
-* Timeframe: 2008-2018 <br>
+* Time frame: 2008-2018 <br>
 * Number of Tweeters (authors): XXX <br>
 * Number of loanwords used to harvest the data: 77
 
