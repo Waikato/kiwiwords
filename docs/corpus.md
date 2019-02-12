@@ -2,7 +2,7 @@
 <br>
 The <i>New Zealand Twitter Corpus (NZT Corpus)</i> is a diachronic corpus consisting of three components: 
 
-1. <i>Raw Corpus</i>: 1.6 million Tweets that havested using the 77 'best' loanwords.
+1. <i>Raw Corpus</i>: 1.6 million Tweets that were harvested using the 77 'best' loanwords.
 2. <i>Labelled Corpus</i>: 3,685 manually-coded Tweets which include at least one Māori word of interest.
 3. <i>Processed Corpus</i>: Just under 1.2 million Tweets that were classified as relevant, using the <i>Labelled Corpus</i> as training data. 
 
