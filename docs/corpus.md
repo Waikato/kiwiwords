@@ -1,4 +1,4 @@
-# MLT Corpus
+# The Corpus
 <br>
 The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 "query words" (Māori words of interest). It consists of three key components:
 
