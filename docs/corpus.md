@@ -4,7 +4,7 @@ The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of
 
 1. <i>Raw Corpus</i>: 1.6 million Tweets containing at least one query word, some of which are <i>not</i> used in relevant (NZE) contexts.
 2. <i>Labelled Corpus</i>: 3,685 Tweets that were manually labelled as relevant (i.e. the query words they contain <i>are</i> used in relevant contexts).
-3. <i>Processed Corpus</i>: Just under 1.2 million Tweets that were <i>classified</i> as relevant by a machine learning model which used the <i>Labelled Corpus</i> as training data. 
+3. <i>Processed Corpus</i>: 1.1 million Tweets that were <i>classified</i> as relevant by a machine learning model which used the <i>Labelled Corpus</i> as training data. 
 
 Below is a description of these components and a flowchart outlining how the <i>Processed Corpus</i> was built. 
 
