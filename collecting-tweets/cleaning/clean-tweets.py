@@ -7,7 +7,24 @@ from twokenize import tokenizeRawTweetText
 #Get the current directory
 DIR = os.path.dirname(os.path.realpath(__file__))
 #NB: Directory needs to be empty apart from this Python file and CSVs to run it on!
+#CSVs should be called <loanword>.csv with no space or macrons (e.g. "maori.csv")
 
+#When merging multiple files, header of next file appends to same line as last tweet of previous file
+#This method corrects this by moving the header down a line. 
+def fix_merge_issue(inputFile):
+    goodTweets = []
+    with open(inputFile, 'r') as f:
+        for line in f:
+            #Correct merge issue - split last line of previous file from first line of next file
+            line = line.replace("username;date;retweets", "\nusername;date;retweets")
+            goodTweets.append(line)
+    #Write to same file
+    outputFile = inputFile
+    with open(outputFile, 'w') as f:
+        for tweet in goodTweets:
+            f.write(tweet)
+    print("Merge issue fixed")
+                        
 #Converts raw data (with semi-colon separated tweets) to TSV file 
 #Cleans tweets by removing retweets (marked with 'rt'), blank lines and tweets where username contains target loanword (e.g. @kiwi, @happy_kiwi).
 def cleanTweets(inputFile):
@@ -18,11 +35,13 @@ def cleanTweets(inputFile):
     with open(inputFile, 'r') as f:
         for line in f:
             #Convert data to lowercase
-            line2 = line.lower()
+            line2 = line.lower().replace(";", " ;")
             #Extract loanword from filepath
             word = inputFile.replace(DIR + "/", "").replace(".csv", "")
             #Regular expression to find users whose username contains a loanword (e.g. @happy_kiwi) 
-            #BUG: If word has a macron, does not look for macron version
+            #Need to fix: If word has a macron, does not look for macron version
+            #Fixed: If tweet contains a user mention and #loanword afterwards, discarded
+            #e.g. miaangela;2018-12-30 01:06;1;3;"Top @edfringe show from @ModernMariQ Was expecting to be blown away by the singing and the humour but did not see the emotional story-telling coming and it had me Can’t recommend this enough, only 3 shows left #haeremai";;@edfringe @ModernMaoriQ;#haeremai;"1033002746243436545";https://twitter.com/miaangela/status/1078985508057886720
             username = re.compile('[@|_]\S*' + word.lower())            
             #Constant to store number of columns of data; this number minus one is the number of semi-colons we expect to read in
             NUM_COLUMNS = 10;
@@ -39,8 +58,9 @@ def cleanTweets(inputFile):
             #Replace all (remaining) semi-colons with tab delimiter
             line = line.replace(";", "\t")
             #Remove retweets, blank lines and old-style headings
-            if '"rt' not in line2 and "username;date;retweets" not in line2 and line2 != "\n": #and PHRASE not in line2
+            if '"rt' not in line2 and "username ;date ;retweets" not in line2 and line2 != "\n": #and "<phrase>" not in line2
                 #Remove tweets containing loanword in username
+                #print(username.search(line2))
                 if(username.search(line2) == None):
                     #Add all other tweets to list
                     goodTweets.append(line)
@@ -143,6 +163,9 @@ def getFiles(suffix, methodToCall):
                 filePath = os.path.join(root, filename)            
                 print("Processing %s..." % filename)
                 methodToCall(filePath)
+
+def fix_merge_issues():
+    getFiles(".csv", fix_merge_issue)  
                 
 def convertAllToTSV():
     getFiles(".csv", cleanTweets)        
@@ -172,9 +195,10 @@ def removeTmpFiles():
     for root, dirs, files in os.walk(DIR, topdown=False):
         for file in filter(lambda x: re.match(pattern, x), files):
             os.remove(os.path.join(root, file))
-            
+
+fix_merge_issues()            
 convertAllToTSV()
 removeAllShortTweets()
 removeAllSimilarTweets()
-#removeTmpFiles()
+removeTmpFiles()
 print("Done!")
