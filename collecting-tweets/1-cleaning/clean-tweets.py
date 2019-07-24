@@ -1,4 +1,5 @@
 import csv
+import random
 import os
 import re
 import pandas as pa
@@ -175,7 +176,7 @@ def removeAllShortTweets():
 
 def removeAllSimilarTweets():   
     getFiles("-duplicates2.csv", removeSimilarTweets)        
-
+    
 #Reads a CSV file containing tweets
 def readCSV(inputFile):
     tweets = []
@@ -185,6 +186,51 @@ def readCSV(inputFile):
             for term in row:
                 tweets.append(term)
     return tweets
+
+
+########Methods for extracting samples########    
+#Generates a random sample of 200 tweets or just shuffles tweets if population < 200.
+def getRandomSample(tweets):
+    #Don't include header in sample
+    header = tweets[0]
+    tweets.remove(header)
+    SAMPLE_SIZE = 200
+    #If there are fewer than 200 tweets
+    if(len(tweets) < SAMPLE_SIZE):
+        SAMPLE_SIZE = len(tweets)
+    sample = random.sample(tweets, SAMPLE_SIZE)
+    #Insert header
+    sample.insert(0, header)
+    return sample
+
+#Save CSV 
+def writeToCSV(word, sample):
+    #https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory-in-python
+    if not os.path.exists(DIR + "/new-samples"):
+        os.makedirs(DIR + "/new-samples")
+    filename = word.replace(DIR, DIR + "/new-samples").replace(".csv","") + "-sample.csv"
+    with open(filename, 'w') as f:
+        for tweet in sample:
+            f.write(tweet + "\n")
+
+#Gets filepaths for all CSVs in directory and calls functions to generate a random sample for each one.
+def getFilesForSampling():
+    for root, dirs, files in os.walk(DIR, topdown=False):   
+        #For each file
+        for filename in files:
+            #If it's a CSV (containing Tweets)
+            if filename.endswith("-good.csv"):
+                #Join filename with path to get location
+                filePath = os.path.join(root, filename)            
+                print("Processing %s..." % filename)
+                #Read file
+                tweets = readCSV(filePath)
+                #Generate random sample
+                sample = getRandomSample(tweets)
+                #Save to file
+                writeToCSV(filePath, sample)
+###########################
+
 
 #MAKE SURE THERE ARE NO OTHER IMPORTANT FILES IN THIS DIRECTORY!!
 #https://www.tutorialspoint.com/How-to-delete-multiple-files-in-a-directory-in-Python
