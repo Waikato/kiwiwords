@@ -14,9 +14,9 @@ Below is a description of these components and a flowchart outlining how the <i>
 ### Key Stats
 | Description          | Raw Corpus V1 |Raw Corpus V2 | Labelled Corpus | Processed V1     | Processed V2 |
 | ---------------------|---------------|--------------|-----------------| -----------------|--------------|
-| Tokens (words)       | 28,804,640    | 70,964,941   |49,477           | 21,810,637       | 47,547,878   | 
-| Tweets               | 1,628,042     | 4,559,105    | 2,495           | 1,179,390        | 2,955,450    |
-| Tweeters (authors)   | 604,006       | 1,839,707    | 1,866           | 426,280          | 1,256,317    |
+| Tokens (words)       | 28,804,640    | 70,964,941   |49,477           | 21,810,637       | 46,827,631   | 
+| Tweets               | 1,628,042     | 4,559,105    | 2,495           | 1,179,390        | 2,880,211    |
+| Tweeters (authors)   | 604,006       | 1,839,707    | 1,866           | 426,280          | 1,226,109    |
 
 ### Building the Corpus
  <img src="../pics/Process2.png" alt="Process" width="1500"/>
