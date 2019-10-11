@@ -13,25 +13,25 @@ DIR = os.path.dirname(os.path.realpath(__file__))
 #When merging multiple files, header of next file appends to same line as last tweet of previous file
 #This method corrects this by moving the header down a line. 
 def fix_merge_issue(inputFile):
-    goodTweets = []
+    good_tweets = []
     with open(inputFile, 'r') as f:
         for line in f:
             #Correct merge issue - split last line of previous file from first line of next file
             line = line.replace("username;date;retweets", "\nusername;date;retweets")
-            goodTweets.append(line)
+            good_tweets.append(line)
     #Write to same file
     outputFile = inputFile
     with open(outputFile, 'w') as f:
-        for tweet in goodTweets:
+        for tweet in good_tweets:
             f.write(tweet)
     print("Merge issue fixed")
                         
 #Converts raw data (with semi-colon separated tweets) to TSV file 
 #Cleans tweets by removing retweets (marked with 'rt'), blank lines and tweets where username contains target loanword (e.g. @kiwi, @happy_kiwi).
-def cleanTweets(inputFile):
-    goodTweets = []
+def clean_tweets(inputFile):
+    good_tweets = []
     #Insert tab-separated header
-    goodTweets.append("username\tdate\tretweets\tfavourites\ttext\tgeo\tmentions\thashtags\tid\tpermalink\n")
+    good_tweets.append("username\tdate\tretweets\tfavourites\ttext\tgeo\tmentions\thashtags\tid\tpermalink\n")
     #Read file
     with open(inputFile, 'r') as f:
         for line in f:
@@ -53,7 +53,7 @@ def cleanTweets(inputFile):
                 #For each semi-colon in Tweet
                 for i in range(semicolonsInTweet):
                     #Remove semi-colon from Tweet
-                    line = replaceOccurrence(line, ";", ",", 4) 
+                    line = replace_occurrence(line, ";", ",", 4) 
             #Remove any tabs already in Tweet
             line = line.replace("\t", "")
             #Replace all (remaining) semi-colons with tab delimiter
@@ -64,16 +64,16 @@ def cleanTweets(inputFile):
                 #print(username.search(line2))
                 if(username.search(line2) == None):
                     #Add all other tweets to list
-                    goodTweets.append(line)
+                    good_tweets.append(line)
     #Write to file
     outputFile = DIR + "/" + word + "-duplicates.csv"    
     with open(outputFile, 'w') as f:
-        for tweet in goodTweets:
+        for tweet in good_tweets:
             f.write(tweet)
                         
 #Replaces the nth occurrence of the given substring.
 #Copied from https://forums.cgsociety.org/t/python-how-to-replace-nth-occurence-of-substring/1562801/2 
-def replaceOccurrence(str, search, replacement, index):
+def replace_occurrence(str, search, replacement, index):
     split = str.split(search, index + 1)
     if len(split) <= index + 1:
         return str
@@ -102,7 +102,7 @@ def remove_short_tweets(inputFile):
     tweets.to_csv(outputFile, sep="\t", index = False)     
 
 #Removes tweets that have different id's but identical or almost identical text (i.e. same wording but slightly different punctuation and/or spelling). 
-def removeSimilarTweets(inputFile):
+def remove_similar_tweets(inputFile):
     #Extract loanword from filename
     word = inputFile.replace(DIR + "/", "").replace("-duplicates2.csv", "")
     #Make dataframe from CSV file
@@ -154,7 +154,7 @@ def removeSimilarTweets(inputFile):
     #print(tweets)
 
 #Get filepaths for all CSVs in directory
-def getFiles(suffix, methodToCall):
+def get_files(suffix, methodToCall):
     for root, dirs, files in os.walk(DIR, topdown=False):   
         #For each file
         for filename in files:
@@ -166,19 +166,19 @@ def getFiles(suffix, methodToCall):
                 methodToCall(filePath)
 
 def fix_merge_issues():
-    getFiles(".csv", fix_merge_issue)  
+    get_files(".csv", fix_merge_issue)  
                 
-def convertAllToTSV():
-    getFiles(".csv", cleanTweets)        
+def convert_all_to_TSV():
+    get_files(".csv", clean_tweets)        
 
-def removeAllShortTweets():   
-    getFiles("-duplicates.csv", remove_short_tweets)        
+def remove_all_short_tweets():   
+    get_files("-duplicates.csv", remove_short_tweets)        
 
-def removeAllSimilarTweets():   
-    getFiles("-duplicates2.csv", removeSimilarTweets)        
+def remove_all_similar_tweets():   
+    get_files("-duplicates2.csv", remove_similar_tweets)        
     
 #Reads a CSV file containing tweets
-def readCSV(inputFile):
+def read_CSV(inputFile):
     tweets = []
     with open(inputFile) as csvFile:
         for row in csv.reader(csvFile, delimiter='\n'):
@@ -190,7 +190,7 @@ def readCSV(inputFile):
 
 ########Methods for extracting samples########    
 #Generates a random sample of 200 tweets or just shuffles tweets if population < 200.
-def getRandomSample(tweets):
+def get_random_sample(tweets):
     #Don't include header in sample
     header = tweets[0]
     tweets.remove(header)
@@ -204,7 +204,7 @@ def getRandomSample(tweets):
     return sample
 
 #Save CSV 
-def writeToCSV(word, sample):
+def write_to_CSV(word, sample):
     #https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory-in-python
     if not os.path.exists(DIR + "/new-samples"):
         os.makedirs(DIR + "/new-samples")
@@ -224,17 +224,17 @@ def getFilesForSampling():
                 filePath = os.path.join(root, filename)            
                 print("Processing %s..." % filename)
                 #Read file
-                tweets = readCSV(filePath)
+                tweets = read_CSV(filePath)
                 #Generate random sample
-                sample = getRandomSample(tweets)
+                sample = get_random_sample(tweets)
                 #Save to file
-                writeToCSV(filePath, sample)
+                write_to_CSV(filePath, sample)
 ###########################
 
 
 #MAKE SURE THERE ARE NO OTHER IMPORTANT FILES IN THIS DIRECTORY!!
 #https://www.tutorialspoint.com/How-to-delete-multiple-files-in-a-directory-in-Python
-def removeTmpFiles():
+def remove_tmp_files():
     #Remove all CSV files except "-good.csv" (cleaned data)
     #Probably safer to change this so that it only removes <word>.csv and -duplicates(2) in case there are other important files in directory 
     pattern = "^((?!-good\.csv|.py).)*$"
@@ -243,8 +243,8 @@ def removeTmpFiles():
             os.remove(os.path.join(root, file))
 
 fix_merge_issues()            
-convertAllToTSV()
-removeAllShortTweets()
-removeAllSimilarTweets()
-removeTmpFiles()
+convert_all_to_TSV()
+remove_all_short_tweets()
+remove_all_similar_tweets()
+remove_tmp_files()
 print("Done!")
