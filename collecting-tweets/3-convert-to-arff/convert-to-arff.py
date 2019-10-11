@@ -64,7 +64,10 @@ def convert_to_arff(inputFile):
             line = p.sub(r'\1","', line)                 
             #Add speechmark to end of loanword AND start of Tweet
             p = re.compile(r'(^\d*,"\S*","\S* \d\d:\d\d","[^,]*),')
-            line = p.sub(r'\1","', line)                 
+            line = p.sub(r'\1","', line) 
+            #Add speechmarks around id
+#            p = re.compile(r"^(\d*)")
+#            line = p.sub(r'"\1"', line)
             goodTweets.append(line)
     #Close reader
     f.close()
@@ -145,7 +148,9 @@ def fix_negative_ids(inputFile):
             #Add speechmark to end of loanword AND start of Tweet
             p = re.compile(r'(^\d*,"\S*","\S* \d\d:\d\d","[^,]*),')
             line = p.sub(r'\1","', line)                 
-
+            #Add speechmarks around id
+#            p = re.compile(r"^(\d*)")
+#            line = p.sub(r'"\1"', line)
             tweets.append(line)
     #Write to file
     outputFile = "corrected-ids.arff"    
@@ -163,13 +168,28 @@ def merge_files(inputFile1, inputFile2):
             with open(f, "rb") as fd:
                 shutil.copyfileobj(fd, wfd, 1024*1024*10)
     print(inputFile1 + " and " + inputFile2 + " merged successfully!")
-    
+
+def id_to_string(inputFile):
+    tweets = []    
+    with open(inputFile, 'r') as f:
+        for line in f:
+            p = re.compile(r"^(\d*)")
+            line = p.sub(r'"\1"', line)
+            tweets.append(line)
+    #Write to file
+    outputFile = "loanwords4.target.arff"
+    with open(outputFile, 'w') as f:
+        for tweet in tweets:
+            f.write(tweet)
+    #Close writer
+    f.close()
+            
 #Add ARFF structure and escape special characters with backslash
 def escape_backslash(inputFile):
     goodTweets = []
     goodTweets.append("""@relation target-tweets
                       
-@attribute id numeric
+@attribute id string
 @attribute username string
 @attribute timestamp date "yyyy-MM-dd HH:mm"
 @attribute loanword string 
@@ -204,5 +224,6 @@ convert_to_arff("comma-separated.csv")
 remove_bad_tweets("crap.arff")
 fix_negative_ids("bad.target.arff")
 merge_files("loanwords2.target.arff","corrected-ids.arff")
-escape_backslash("loanwords3.target.arff")
+id_to_string("loanwords3.target.arff")
+escape_backslash("loanwords4.target.arff")
 print("Done!")
