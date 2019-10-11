@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-08-26</lastmod>
+     <loc>/</loc>
+     <lastmod>2019-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-08-26</lastmod>
+     <loc>/corpus/</loc>
+     <lastmod>2019-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-08-26</lastmod>
+     <loc>/team/</loc>
+     <lastmod>2019-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-08-26</lastmod>
+     <loc>/word_vectors/</loc>
+     <lastmod>2019-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
 </urlset>

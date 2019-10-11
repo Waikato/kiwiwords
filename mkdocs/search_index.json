@@ -1,0 +1,119 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "M\u0101ori Loanwords on Twitter\n\n\n\nOur \nGithub repository\n provides code for analysing the use of M\u0101ori Loanwords in New Zealand English (NZE) Tweets.\n\n\nIt's Cool to K\u014drero!\n - Mai FM radio station\n\n\nThe use of te reo M\u0101ori words in the variety of English spoken in New Zealand has been studied intensively over the past thirty years. When arriving in New Zealand, it is not uncommon to be greeted with the phrase \"Kia ora!\" at the airport.\n\n\nOur project aims to contribute to this body of knowledge by building tools which help us analyse the use of M\u0101ori words on Twitter. If you would like to see more about the study of te reo M\u0101ori in NZE - \nhere\n is a useful link with a reference list. \n\n\nThese pages detail the corpus of Tweets we have collected (the \nM\u0101ori Loanword Twitter Corpus\n), including how we went about cleaning it and increasing its size using Machine Learning techniques. We also include some initial analyses that we have conducted on this data. Our project developed from three main research questions:\n\n\n\n\nDo people use M\u0101ori borrowings (or loanwords) on Twitter?\n\n\nIf so, which words, how do they use them, and how does this use compare with other genres of NZE?\n\n\nHave the meanings of the borrowed words evolved through use and over time, and if so, how? \n\n\n\n\nFeel free to contact \nus\n for further details.\n\n\n\nSpecial thanks to:",
+            "title": "Home"
+        },
+        {
+            "location": "/#maori-loanwords-on-twitter",
+            "text": "Our  Github repository  provides code for analysing the use of M\u0101ori Loanwords in New Zealand English (NZE) Tweets.  It's Cool to K\u014drero!  - Mai FM radio station  The use of te reo M\u0101ori words in the variety of English spoken in New Zealand has been studied intensively over the past thirty years. When arriving in New Zealand, it is not uncommon to be greeted with the phrase \"Kia ora!\" at the airport.  Our project aims to contribute to this body of knowledge by building tools which help us analyse the use of M\u0101ori words on Twitter. If you would like to see more about the study of te reo M\u0101ori in NZE -  here  is a useful link with a reference list.   These pages detail the corpus of Tweets we have collected (the  M\u0101ori Loanword Twitter Corpus ), including how we went about cleaning it and increasing its size using Machine Learning techniques. We also include some initial analyses that we have conducted on this data. Our project developed from three main research questions:   Do people use M\u0101ori borrowings (or loanwords) on Twitter?  If so, which words, how do they use them, and how does this use compare with other genres of NZE?  Have the meanings of the borrowed words evolved through use and over time, and if so, how?    Feel free to contact  us  for further details.  \nSpecial thanks to:",
+            "title": "M\u0101ori Loanwords on Twitter"
+        },
+        {
+            "location": "/corpus/",
+            "text": "The Corpus\n\n\n\n\nDownload the Corpus\n\n\n\n\n\nThe M\u0101ori Loanword Twitter Corpus (\nMLT Corpus\n) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 \"query words\" (M\u0101ori words of interest). It consists of three key components:\n\n\n\n\nRaw Corpus\n: 1.6 million Tweets containing at least one query word, some of which are \nnot\n used in relevant (NZE) contexts.\n\n\nLabelled Corpus\n: 3,685 Tweets that were manually labelled as relevant (i.e. the query words they contain \nare\n used in relevant contexts).\n\n\nProcessed Corpus\n: 1.1 million Tweets that were \nclassified\n as relevant by a machine learning model which used the \nLabelled Corpus\n as training data. \n\n\n\n\nBelow is a description of these components and a flowchart outlining how the \nProcessed Corpus\n was built. \n\n\nKey Stats\n\n\n\n\n\n\n\n\nDescription\n\n\nRaw Corpus V1\n\n\nRaw Corpus V2\n\n\nLabelled Corpus\n\n\nProcessed V1\n\n\nProcessed V2\n\n\n\n\n\n\n\n\n\n\nTokens (words)\n\n\n28,804,640\n\n\n70,964,941\n\n\n49,477\n\n\n21,810,637\n\n\n46,827,631\n\n\n\n\n\n\nTweets\n\n\n1,628,042\n\n\n4,559,105\n\n\n2,495\n\n\n1,179,390\n\n\n2,880,211\n\n\n\n\n\n\nTweeters (authors)\n\n\n604,006\n\n\n1,839,707\n\n\n1,866\n\n\n426,280\n\n\n1,226,109\n\n\n\n\n\n\n\n\nBuilding the Corpus",
+            "title": "Corpus"
+        },
+        {
+            "location": "/corpus/#the-corpus",
+            "text": "Download the Corpus   \nThe M\u0101ori Loanword Twitter Corpus ( MLT Corpus ) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 \"query words\" (M\u0101ori words of interest). It consists of three key components:   Raw Corpus : 1.6 million Tweets containing at least one query word, some of which are  not  used in relevant (NZE) contexts.  Labelled Corpus : 3,685 Tweets that were manually labelled as relevant (i.e. the query words they contain  are  used in relevant contexts).  Processed Corpus : 1.1 million Tweets that were  classified  as relevant by a machine learning model which used the  Labelled Corpus  as training data.    Below is a description of these components and a flowchart outlining how the  Processed Corpus  was built.",
+            "title": "The Corpus"
+        },
+        {
+            "location": "/corpus/#key-stats",
+            "text": "Description  Raw Corpus V1  Raw Corpus V2  Labelled Corpus  Processed V1  Processed V2      Tokens (words)  28,804,640  70,964,941  49,477  21,810,637  46,827,631    Tweets  1,628,042  4,559,105  2,495  1,179,390  2,880,211    Tweeters (authors)  604,006  1,839,707  1,866  426,280  1,226,109",
+            "title": "Key Stats"
+        },
+        {
+            "location": "/corpus/#building-the-corpus",
+            "text": "",
+            "title": "Building the Corpus"
+        },
+        {
+            "location": "/team/",
+            "text": "Who we are\n\n\n\n\nFelipe Bravo-Marquez\n\n\nMachine Learning \n\n\n\nAndreea Calude\n\n\nLinguist \n\n\n\nTe Taka Keegan\n\n\nTe Reo M\u0101ori / Online digitisation of te reo M\u0101ori \n\n\n\nDavid Trye\n\n\nSummer Research Student \n\n\n\nNicole Chan\n\n\nFormer Honours Student",
+            "title": "Team"
+        },
+        {
+            "location": "/team/#who-we-are",
+            "text": "",
+            "title": "Who we are"
+        },
+        {
+            "location": "/team/#felipe-bravo-marquez",
+            "text": "Machine Learning",
+            "title": "Felipe Bravo-Marquez"
+        },
+        {
+            "location": "/team/#andreea-calude",
+            "text": "Linguist",
+            "title": "Andreea Calude"
+        },
+        {
+            "location": "/team/#te-taka-keegan",
+            "text": "Te Reo M\u0101ori / Online digitisation of te reo M\u0101ori",
+            "title": "Te Taka Keegan"
+        },
+        {
+            "location": "/team/#david-trye",
+            "text": "Summer Research Student",
+            "title": "David Trye"
+        },
+        {
+            "location": "/team/#nicole-chan",
+            "text": "Former Honours Student",
+            "title": "Nicole Chan"
+        },
+        {
+            "location": "/word_vectors/",
+            "text": "Word Vectors\n\n\n\nThe visualisations below were obtained after training Word2Vec Embeddings on our corpus of Tweets. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs.  \n\n\nThe vectors are projected into two-dimensional space using the t-SNE method. \n\n\nWhakapapa\n\n\n\n\nAroha\n\n\n\n\nHaka\n\n\n\n\nKia Kaha\n\n\n\n\nKia Ora\n\n\n\n\nMatariki\n\n\n\n\nWahine\n\n\n\n\nWhakapapa",
+            "title": "Word vectors"
+        },
+        {
+            "location": "/word_vectors/#word-vectors",
+            "text": "The visualisations below were obtained after training Word2Vec Embeddings on our corpus of Tweets. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs.    The vectors are projected into two-dimensional space using the t-SNE method.",
+            "title": "Word Vectors"
+        },
+        {
+            "location": "/word_vectors/#whakapapa",
+            "text": "",
+            "title": "Whakapapa"
+        },
+        {
+            "location": "/word_vectors/#aroha",
+            "text": "",
+            "title": "Aroha"
+        },
+        {
+            "location": "/word_vectors/#haka",
+            "text": "",
+            "title": "Haka"
+        },
+        {
+            "location": "/word_vectors/#kia-kaha",
+            "text": "",
+            "title": "Kia Kaha"
+        },
+        {
+            "location": "/word_vectors/#kia-ora",
+            "text": "",
+            "title": "Kia Ora"
+        },
+        {
+            "location": "/word_vectors/#matariki",
+            "text": "",
+            "title": "Matariki"
+        },
+        {
+            "location": "/word_vectors/#wahine",
+            "text": "",
+            "title": "Wahine"
+        },
+        {
+            "location": "/word_vectors/#whakapapa_1",
+            "text": "",
+            "title": "Whakapapa"
+        }
+    ]
+}
