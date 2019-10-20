@@ -1,0 +1,1 @@
+java -Xmx14G -cp /home/dgt12/weka-3-8-3/weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -l liblinear.model -T corpus_words.target.arff -classifications "weka.classifiers.evaluation.output.prediction.CSV -use-tab -p first-last -file liblinear-Pred-Target.csv"
