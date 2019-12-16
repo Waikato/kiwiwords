@@ -6,6 +6,6 @@ site_description: Kiwi Words
 nav:
     - Home: index.md
     - MLT Corpus: corpus.md
-    - HH Sub-Corpus : hh_corpus.md
+    - Hybrid Hashtags: hh_corpus.md
     - Word Embeddings: word_vectors.md
     - Team: team.md
