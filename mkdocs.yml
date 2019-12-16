@@ -5,7 +5,7 @@ google_analytics: ['UA-139965982-2', 'mkdocs.org']
 site_description: Kiwi Words
 nav:
     - Home: index.md
-    - The MLT Corpus: corpus.md
-    - The HH Sub-Corpus : hh_corpus.md
-    - Word Vectors: word_vectors.md
-    - Who we are: team.md
+    - MLT Corpus: corpus.md
+    - HH Sub-Corpus : hh_corpus.md
+    - Word Embeddings: word_vectors.md
+    - Team: team.md
