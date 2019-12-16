@@ -1,6 +1,6 @@
-# The Corpus
+# The MLT Corpus
 <br>
-<a href="../pics/mlt-v2.zip">Download the Corpus</a>
+<a href="../pics/mlt-v2.zip">Download the MLT Corpus</a>
 <br>
 <br>
 The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 "query words" (Māori words of interest). It consists of three key components:
@@ -18,5 +18,5 @@ Below is a description of these components and a flowchart outlining how the <i>
 | Tweets               | 1,628,042     | 4,559,105    | 2,495           | 1,179,390        | 2,880,211    |
 | Tweeters (authors)   | 604,006       | 1,839,707    | 1,866           | 426,280          | 1,226,109    |
 
-### Building the Corpus
+### Building the MLT Corpus
  <img src="../pics/Process2.png" alt="Process" width="1500"/>
