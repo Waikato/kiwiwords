@@ -3,7 +3,7 @@ theme: mkdocs
 repo_url: https://github.com/Waikato/kiwiwords
 google_analytics: ['UA-139965982-2', 'mkdocs.org']
 site_description: Kiwi Words
-nav:
+pages:
     - Home: index.md
     - MLT Corpus: corpus.md
     - Hybrid Hashtags: hh_corpus.md
