@@ -100,65 +100,66 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#the-mlt-corpus">The MLT Corpus</a></li>
-            <li><a href="#key-stats">Key Stats</a></li>
             <li><a href="#building-the-mlt-corpus">Building the MLT Corpus</a></li>
+            <li><a href="#summary-statistics">Summary Statistics</a></li>
+            <li><a href="#download-the-mlt-corpus">Download the MLT Corpus</a></li>
+            <li><a href="#citing-the-mlt-corpus">Citing the MLT Corpus</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="the-mlt-corpus">The MLT Corpus</h1>
 <p><br>
-<a href="../pics/mlt-v2.zip">Download the MLT Corpus</a>
-<br>
-<br>
-The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 "query words" (Māori words of interest). It consists of three key components:</p>
+The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of nearly 3 million New Zealand English tweets, posted between 2008 and 2018. The data was collected by extracting tweets containing one or more terms from a list of 77 Māori words and phrases. We then used computational machine learning methods to clean up the raw data, because many of the tweets were not relevant to a New Zealand English context (for instance, the loanword <i>Moana</i>, meaning sea, is commonly used to refer to the Disney film/princess).</p>
+<p>The corpus consists of three key components:</p>
 <ol>
-<li><i>Raw Corpus</i>: 1.6 million Tweets containing at least one query word, some of which are <i>not</i> used in relevant (NZE) contexts.</li>
-<li><i>Labelled Corpus</i>: 3,685 Tweets that were manually labelled as relevant (i.e. the query words they contain <i>are</i> used in relevant contexts).</li>
-<li><i>Processed Corpus</i>: 1.1 million Tweets that were <i>classified</i> as relevant by a machine learning model which used the <i>Labelled Corpus</i> as training data. </li>
+<li><i>Raw Corpus</i>: The original dataset, which includes many irrelevant (non-New Zealand English) tweets.</li>
+<li><i>Labelled Corpus</i>: 3,685 tweets that were manually labelled as "relevant" or "irrelevant" and used as training data for our model.</li>
+<li><i>Processed Corpus</i>: The final version of the corpus, containing only tweets that the model classified as relevant.</li>
 </ol>
-<p>Below is a description of these components and a flowchart outlining how the <i>Processed Corpus</i> was built. </p>
-<h3 id="key-stats">Key Stats</h3>
+<h3 id="building-the-mlt-corpus">Building the MLT Corpus</h3>
+<p>Below is a visual representation of the steps involved in building the corpus.
+<img src="../pics/Process2.png" alt="Process" width="1500"/></p>
+<p>For further information, see <a href="https://www.aclweb.org/anthology/P19-2018/">our paper</a>. </p>
+<h3 id="summary-statistics">Summary Statistics</h3>
+<p>This table shows key stats for the different components of the MLT Corpus:</p>
 <table>
 <thead>
 <tr>
 <th>Description</th>
-<th>Raw Corpus V1</th>
-<th>Raw Corpus V2</th>
+<th>Raw Corpus V2*</th>
 <th>Labelled Corpus</th>
-<th>Processed V1</th>
-<th>Processed V2</th>
+<th>Processed Corpus V2*</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Tokens (words)</td>
-<td>28,804,640</td>
 <td>70,964,941</td>
 <td>49,477</td>
-<td>21,810,637</td>
 <td>46,827,631</td>
 </tr>
 <tr>
 <td>Tweets</td>
-<td>1,628,042</td>
 <td>4,559,105</td>
 <td>2,495</td>
-<td>1,179,390</td>
 <td>2,880,211</td>
 </tr>
 <tr>
 <td>Tweeters (authors)</td>
-<td>604,006</td>
 <td>1,839,707</td>
 <td>1,866</td>
-<td>426,280</td>
 <td>1,226,109</td>
 </tr>
 </tbody>
 </table>
-<h3 id="building-the-mlt-corpus">Building the MLT Corpus</h3>
-<p><img src="../pics/Process2.png" alt="Process" width="1500"/></p></div>
+<p>*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. </p>
+<h3 id="download-the-mlt-corpus">Download the MLT Corpus</h3>
+<p>Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.</p>
+<h3 id="citing-the-mlt-corpus">Citing the MLT Corpus</h3>
+<p>If you use the MLT corpus, please cite the following paper:
+<br>
+* Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). <a href="https://www.aclweb.org/anthology/P19-2018/">Māori loanwords: A corpus of New Zealand English tweets</a>. In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. </p></div>
         </div>
 
         <footer class="col-md-12">
