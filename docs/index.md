@@ -14,7 +14,7 @@ These pages detail the corpus of Tweets we have collected (the <i>Māori Loanwor
 2. If so, which words, how do they use them, and how does this use compare with other genres of NZE?
 3. Have the meanings of the borrowed words evolved through use and over time, and if so, how? 
 
-Feel free to contact [us](https://waikato.github.io/kiwiwords/team/) for further details.
+Feel free to [contact us](https://waikato.github.io/kiwiwords/team/) for further details.
 
 <br>
 Special thanks to: <br>
