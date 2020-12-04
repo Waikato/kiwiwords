@@ -1,22 +1,34 @@
 # The MLT Corpus
 <br>
-<a href="../pics/mlt-v2.zip">Download the MLT Corpus</a>
-<br>
-<br>
-The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of tweets from 2008-2018 that were harvested using 77 "query words" (Māori words of interest). It consists of three key components:
+The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of nearly 3 million New Zealand English tweets, posted between 2008 and 2018. The data was collected by extracting tweets containing one or more terms from a list of 77 Māori words and phrases. We then used computational machine learning methods to clean up the raw data, because many of the tweets were not relevant to a New Zealand English context (for instance, the loanword <i>Moana</i>, meaning sea, is commonly used to refer to the Disney film/princess).
 
-1. <i>Raw Corpus</i>: 1.6 million Tweets containing at least one query word, some of which are <i>not</i> used in relevant (NZE) contexts.
-2. <i>Labelled Corpus</i>: 3,685 Tweets that were manually labelled as relevant (i.e. the query words they contain <i>are</i> used in relevant contexts).
-3. <i>Processed Corpus</i>: 1.1 million Tweets that were <i>classified</i> as relevant by a machine learning model which used the <i>Labelled Corpus</i> as training data. 
+The corpus consists of three key components:
 
-Below is a description of these components and a flowchart outlining how the <i>Processed Corpus</i> was built. 
-
-### Key Stats
-| Description          | Raw Corpus V1 |Raw Corpus V2 | Labelled Corpus | Processed V1     | Processed V2 |
-| ---------------------|---------------|--------------|-----------------| -----------------|--------------|
-| Tokens (words)       | 28,804,640    | 70,964,941   |49,477           | 21,810,637       | 46,827,631   | 
-| Tweets               | 1,628,042     | 4,559,105    | 2,495           | 1,179,390        | 2,880,211    |
-| Tweeters (authors)   | 604,006       | 1,839,707    | 1,866           | 426,280          | 1,226,109    |
+1. <i>Raw Corpus</i>: The original dataset, which includes many irrelevant (non-New Zealand English) tweets.
+2. <i>Labelled Corpus</i>: 3,685 tweets that were manually labelled as "relevant" or "irrelevant" and used as training data for our model.
+3. <i>Processed Corpus</i>: The final version of the corpus, containing only tweets that the model classified as relevant.
 
 ### Building the MLT Corpus
- <img src="../pics/Process2.png" alt="Process" width="1500"/>
+Below is a visual representation of the steps involved in building the corpus.
+<img src="../pics/Process2.png" alt="Process" width="1500"/>
+
+For further information, see [our paper](https://www.aclweb.org/anthology/P19-2018/). 
+
+### Summary Statistics
+This table shows key stats for the different components of the MLT Corpus:
+
+| Description          |Raw Corpus V2*| Labelled Corpus | Processed Corpus V2*|
+| ---------------------|--------------|-----------------|---------------------| 
+| Tokens (words)       | 70,964,941   |49,477           | 46,827,631          | 
+| Tweets               | 4,559,105    | 2,495           | 2,880,211           |
+| Tweeters (authors)   | 1,839,707    | 1,866           | 1,226,109           |
+
+\*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. 
+
+### Download the MLT Corpus
+Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
+
+### Citing the MLT Corpus
+If you use the MLT corpus, please cite the following paper:
+<br>
+Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
