@@ -1,32 +1,7 @@
-# Māori Loanwords in Twitter
-Code for analysing the usage of Māori Loanwords in New Zealand Tweets.
+# Māori Words on Twitter
 
-## Word Embeddings Visualisations
+Code for building and analysing two different Twitter corpora: 
+1. The <i>RMT Corpus</i> comprising 77,000 te reo Māori tweets.
+2. The <i>MLT Corpus</i> containnig Māori loanwords in New Zealand English.
 
-The visualisations below were obtained after training Word2Vec embeddings on the corpus of tweets. Hyperparameters are optimised by minimising the median ranking of a list of given word pairs.  
-
-The vectors are projected into a two-dimensional space using the TSNE method. 
-
-### Whakapapa 
-![alt text](pics/whakapapa_tsne.png)
-
-### Aroha
-![alt text](pics/aroha_tsne.png)
-
-### Haka
-![alt text](pics/haka_tsne.png)
-
-### Kia Kaha
-![alt text](pics/kia_kaha_tsne.png)
-
-### Kia Ora
-![alt text](pics/kia_ora_tsne.png)
-
-### Matariki
-![alt text](pics/matariki_tsne.png)
-
-### Wahine
-![alt text](pics/wahine_tsne.png)
-
-### Whakapapa
-![alt text](pics/whakapapa_tsne.png)
+For further information, please visit the [companion website](https://kiwiwords.cms.waikato.ac.nz/). 

@@ -1,8 +1,6 @@
 # Word Vectors
-<br>
-The visualisations below were obtained after training Word2Vec Embeddings on our corpus of Tweets. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs.  
-
-The vectors are projected into two-dimensional space using the t-SNE method. 
+<br>  
+The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
 ### Whakapapa 
 ![alt text](pics/whakapapa_tsne.png)
