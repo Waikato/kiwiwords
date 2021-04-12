@@ -30,7 +30,7 @@ This will download the corpus in batches of 100 tweets. If you use the default s
 ```
 python json_to_tsv.py
 ```
-This script will produce a file called `rmt-corpus-final.csv`, which you can then open in a spreadsheet application. Tweets are formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original `rmt-corpus-v1.csv` file. A description of the variables in each of the CSV files is given below.
+This script will produce a file called `rmt-corpus-final.csv`, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original `rmt-corpus-v1.csv` file. A description of the variables in each of the CSV files is given below.
 
 ### Data Description: rmt-corpus-v1.csv
 
