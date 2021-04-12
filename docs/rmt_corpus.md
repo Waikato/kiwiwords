@@ -8,23 +8,23 @@ The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from 
 
 **Note:** The speed at which you can download the corpus depends on the [rate limit](https://developer.twitter.com/en/docs/twitter-api/rate-limits) for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.
 
-1. Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
-2. Ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine. The code for hydrating the corpus uses `requests==2.24.0`, which in turn uses `requests-oauthlib==1.3.0`. You can install these packages as follows:
+- Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
+- Ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine. The code for hydrating the corpus uses `requests==2.24.0`, which in turn uses `requests-oauthlib==1.3.0`. You can install these packages as follows:
 ```
 pip install requests
 pip install requests-oauthlib
 ```
-3. Download and extract all files in the <a href="../pics/rmt-v1.zip">rmt-v1</a> folder. This folder contains a file called `rmt-corpus-v1.csv`, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, `get_tweets_with_bearer_token.py` and `json_to_tsv.py`).
+- Download and extract all files in the <a href="../pics/rmt-v1.zip">rmt-v1</a> folder. This folder contains a file called `rmt-corpus-v1.csv`, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, `get_tweets_with_bearer_token.py` and `json_to_tsv.py`).
 
-4. Configure your API bearer token by running the following command in the terminal:
+- Configure your API bearer token by running the following command in the terminal:
 ```
 export 'BEARER_TOKEN'='<your_bearer_token>'
 ```
-5. Run `get_tweets_with_bearer_token.py` from the terminal. This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, `output.json`, is only pseudo-JSON (each batch is separated by a line in the form "Batch X, Code Y", where X and Y are numbers). 
+- Run `get_tweets_with_bearer_token.py` from the terminal. This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, `output.json`, is only pseudo-JSON (each batch is separated by a line in the form "Batch X, Code Y", where X and Y are numbers). 
 ```
 python get_tweets_with_bearer_token.py > output.json
 ```
-7. Run `json_to_tsv.py` to convert the output file to TSV format and apply consistent formatting (remove special characters, decode HTML, standardise user mentions and links). The tweets are also supplemented with metadata in the original file, **<FILE>**. This will produce a file called `rmt-corpus-final.csv`, which you can then open in a spreadsheet application. A description of the variables in `rmt-corpus-final.csv` is given below.
+- Run `json_to_tsv.py` to convert the output file to TSV format and apply consistent formatting (remove special characters, decode HTML, standardise user mentions and links). The tweets are also supplemented with metadata in the original file, **<FILE>**. This will produce a file called `rmt-corpus-final.csv`, which you can then open in a spreadsheet application. A description of the variables in `rmt-corpus-final.csv` is given below.
 ```
 python json_to_tsv.py
 ```
