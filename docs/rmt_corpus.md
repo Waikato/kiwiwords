@@ -36,7 +36,7 @@ The following variables are available in `rmt-corpus-v1.csv` (even if the tweet 
 | Data Column                       | Description |
 | -------------                     | ------------- |
 | id                                | Twitter's unique identifier for the tweet. You can search for a tweet online by visiting
-(https://twitter.com/user/status/XXX), where `XXX` is the tweet's ID.  |
+https://twitter.com/user/status/XXX, where `XXX` is the tweet's ID.  |
 | num_maori_words                   | The number of Māori words in the tweet.
 | total_words                       | The total number of words in the tweet.
 | percent_maori                     | The percentage of Māori text detected in the tweet (=num_maori_words/total_words\*100).
