@@ -1,7 +1,7 @@
-#RMT Corpus
+# RMT Corpus
 The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
 
-##Downloading the RMT Corpus
+### Download the RMT Corpus
 The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's [sample code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for API v2 endpoints.
 
 **Note:** Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please email dtrye@waikato.ac.nz if you would like access to the complete dataset, including additional metadata mentioned in our paper.**
@@ -29,7 +29,7 @@ python get_tweets_with_bearer_token.py > output.json
 python json_to_tsv.py
 ```
 
-##Data Description: rmt-corpus-v1.csv
+### Data Description: rmt-corpus-v1.csv
 
 The following variables are available in `rmt-corpus-v1.csv` (even if the tweet is no longer available on Twitter).
 
@@ -49,7 +49,7 @@ The following variables are available in `rmt-corpus-v1.csv` (even if the tweet 
 | user.region                       | The user's location, based on self-reported information. Where possible, the data has been aggregated into [New Zealand regions](https://en.wikipedia.org/wiki/Regions_of_New_Zealand) and names of foreign countries. |
 | year								| The year the tweet was written (between 2007 and 2020). |
 
-##Data Description: rmt-corpus-final.csv
+### Data Description: rmt-corpus-final.csv
 
 If the tweet is still publicly available on Twitter, the following variables will appear alongside those mentioned above. Missing values are indicated with 'None':
 
