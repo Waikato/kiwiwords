@@ -1,4 +1,4 @@
-# RMT Corpus
+# The RMT Corpus
 The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
 
 ### Download the RMT Corpus
