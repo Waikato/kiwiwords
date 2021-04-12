@@ -63,14 +63,14 @@ If the tweet is still publicly available on Twitter, the following variables wil
 | in_reply_to_user_id               | If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet. | 
 | author_id                         | Twitter's unique identifier for the user who wrote the tweet. |
 | created_at                        | The timestamp when the tweet was posted, in the format `YYYY-MM-DDTHH:mm:ss.000Z`. |
-| lang                              | The code for language that the tweet was (erroneously) classfied as (NOT Māori, as the API does not support te reo) |
+| lang                              | The two-letter code representing the language that the tweet was (erroneously) classified as (NOT Māori, as the API does not support te reo) |
 | source                            | The device or third-party application from which the tweet was posted (e.g. 'Twitter Web Client', 'Twitter for iPhone').
-| error								| Ihe reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None'). | 
+| error								| The reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None'). | 
 
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 <br>
-'Building a High-Quality Corpus of Māori Language Tweets' (reference coming April 2021).
+'Building a High-Quality Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
 
 The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus) could be successfully downloaded from Twitter.
