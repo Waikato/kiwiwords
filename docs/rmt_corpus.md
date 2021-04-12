@@ -41,7 +41,7 @@ The following information (where known) is supplied in `rmt-corpus-v1.csv`, even
 | id                                | Twitter's unique identifier for the tweet. You can search for a tweet online by visiting [twitter.com/user/status/XXX](twitter.com/user/status/XXX), where `XXX` is the tweet's ID.  |
 | num_maori_words                   | The number of Māori words in the tweet.
 | total_words                       | The total number of words in the tweet.
-| percent_maori                     | The percentage of Māori text detected in the tweet (`=num_maori_words/total_words\*100`).
+| percent_maori                     | The percentage of Māori text detected in the tweet (=`num_maori_words`/`total_words`\*100).
 | favourites                        | The number of favourites (likes, retweets & quotes) that the given tweet received. |
 | reply_count                       | The number of replies that the given tweet received.
 | user.alias                        | An alias for the author of the tweet in the form T`X`, where `X` represents the user’s ranking based on their total number of tweets in the corpus (`user.num_tweets`). |
