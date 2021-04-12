@@ -115,8 +115,8 @@
 <p>The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
 <h3 id="download-the-rmt-corpus">Download the RMT Corpus</h3>
 <p>The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
-<p><strong>Note:</strong> Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please email dtrye@waikato.ac.nz if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
-<p><strong>Note:</strong> The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
+<p>Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please email dtrye@waikato.ac.nz if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
+<p>The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
 <ul>
 <li>Apply for a <a href="https://developer.twitter.com/en/apply-for-access">Twitter developer account</a> if you do not have one already.</li>
 <li>Ensure that <a href="https://www.python.org/downloads/">Python 3</a> is installed on your machine. The code for hydrating the corpus uses <code>requests==2.24.0</code>, which in turn uses <code>requests-oauthlib==1.3.0</code>. You can install these packages as follows:</li>
@@ -137,19 +137,21 @@ pip install requests-oauthlib
 </code></pre>
 
 <ul>
-<li>Run <code>get_tweets_with_bearer_token.py</code> from the terminal. This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch X, Code Y", where X and Y are numbers). </li>
+<li>Run <code>get_tweets_with_bearer_token.py</code> from the terminal. </li>
 </ul>
 <pre><code>python get_tweets_with_bearer_token.py &gt; output.json
 </code></pre>
 
+<p>This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch <code>X</code>, Code <code>Y</code>", where <code>X</code> and <code>Y</code> are numbers). </p>
 <ul>
-<li>Run <code>json_to_tsv.py</code> to convert the output file to TSV format and apply consistent formatting (remove special characters, decode HTML, standardise user mentions and links). The tweets are also supplemented with metadata in the original file, <strong><FILE></strong>. This will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. A description of the variables in <code>rmt-corpus-final.csv</code> is given below.</li>
+<li>Run <code>json_to_tsv.py</code> to convert the output file to TSV format. </li>
 </ul>
 <pre><code>python json_to_tsv.py
 </code></pre>
 
+<p>This script will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original <code>rmt-corpus-v1.csv</code> file. A description of the variables in each of the CSV files is given below.</p>
 <h3 id="data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</h3>
-<p>The following variables are available in <code>rmt-corpus-v1.csv</code> (even if the tweet is no longer available on Twitter).</p>
+<p>The following information (where known) is supplied in <code>rmt-corpus-v1.csv</code>, even if the tweet is no longer available on Twitter.</p>
 <table>
 <thead>
 <tr>
@@ -184,7 +186,7 @@ pip install requests-oauthlib
 </tr>
 <tr>
 <td>user.alias</td>
-<td>An alias for the author of the tweet in the form T<X>, where <X> represents the user’s ranking based on their total number of tweets in the corpus (user.num_tweets).</td>
+<td>An alias for the author of the tweet in the form T<code>X</code>, where <code>X</code> represents the user’s ranking based on their total number of tweets in the corpus (user.num_tweets).</td>
 </tr>
 <tr>
 <td>user.status</td>
@@ -240,7 +242,7 @@ pip install requests-oauthlib
 </tr>
 <tr>
 <td>created_at</td>
-<td>The timestamp when the tweet was posted, in the format YYYY-MM-DDTHH:mm:ss.000Z.</td>
+<td>The timestamp when the tweet was posted, in the format <code>YYYY-MM-DDTHH:mm:ss.000Z</code>.</td>
 </tr>
 <tr>
 <td>lang</td>
@@ -259,7 +261,7 @@ pip install requests-oauthlib
 <h3 id="citing-the-rmt-corpus">Citing the RMT Corpus</h3>
 <p>If you use the RMT corpus, please cite the following paper:
 <br>
-Reference coming April 2021.</p>
+'Building a High-Quality Corpus of Māori Language Tweets' (reference coming April 2021).</p>
 <p>The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (<strong>91.85%</strong> of the RMT Corpus) could be successfully downloaded from Twitter.</p></div>
         </div>
