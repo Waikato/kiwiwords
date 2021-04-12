@@ -102,21 +102,166 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#the-rmt-corpus">The RMT Corpus</a></li>
+        <li class="main active"><a href="#rmt-corpus">RMT Corpus</a></li>
             <li><a href="#download-the-rmt-corpus">Download the RMT Corpus</a></li>
+            <li><a href="#data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</a></li>
+            <li><a href="#data-description-rmt-corpus-finalcsv">Data Description: rmt-corpus-final.csv</a></li>
             <li><a href="#citing-the-rmt-corpus">Citing the RMT Corpus</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="the-rmt-corpus">The RMT Corpus</h1>
-<p>Watch this space!</p>
+<h1 id="rmt-corpus">RMT Corpus</h1>
+<p>The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
 <h3 id="download-the-rmt-corpus">Download the RMT Corpus</h3>
-<p>Coming soon (April 2021). </p>
+<p>The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
+<p><strong>Note:</strong> Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please email dtrye@waikato.ac.nz if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
+<p><strong>Note:</strong> The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
+<ol>
+<li>Apply for a <a href="https://developer.twitter.com/en/apply-for-access">Twitter developer account</a> if you do not have one already.</li>
+<li>Ensure that <a href="https://www.python.org/downloads/">Python 3</a> is installed on your machine. The code for hydrating the corpus uses <code>requests==2.24.0</code>, which in turn uses <code>requests-oauthlib==1.3.0</code>. You can install these packages as follows:</li>
+</ol>
+<pre><code>pip install requests
+pip install requests-oauthlib
+</code></pre>
+
+<ol>
+<li>
+<p>Download and extract all files in the <a href="../pics/rmt-v1.zip">rmt-v1</a> folder. This folder contains a file called <code>rmt-corpus-v1.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
+</li>
+<li>
+<p>Configure your API bearer token by running the following command in the terminal:</p>
+</li>
+</ol>
+<pre><code>export 'BEARER_TOKEN'='&lt;your_bearer_token&gt;'
+</code></pre>
+
+<ol>
+<li>Run <code>get_tweets_with_bearer_token.py</code> from the terminal. This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch X, Code Y", where X and Y are numbers). </li>
+</ol>
+<pre><code>python get_tweets_with_bearer_token.py &gt; output.json
+</code></pre>
+
+<ol>
+<li>Run <code>json_to_tsv.py</code> to convert the output file to TSV format and apply consistent formatting (remove special characters, decode HTML, standardise user mentions and links). The tweets are also supplemented with metadata in the original file, <strong><FILE></strong>. This will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. A description of the variables in <code>rmt-corpus-final.csv</code> is given below.</li>
+</ol>
+<pre><code>python json_to_tsv.py
+</code></pre>
+
+<h3 id="data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</h3>
+<p>The following variables are available in <code>rmt-corpus-v1.csv</code> (even if the tweet is no longer available on Twitter).</p>
+<table>
+<thead>
+<tr>
+<th>Data Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>Twitter's unique identifier for the tweet. You can search for a tweet online by visiting <a href="twitter.com/user/status/XXX">twitter.com/user/status/XXX</a>, where <code>XXX</code> is the tweet's ID.</td>
+</tr>
+<tr>
+<td>num_maori_words</td>
+<td>The number of Māori words in the tweet.</td>
+</tr>
+<tr>
+<td>total_words</td>
+<td>The total number of words in the tweet.</td>
+</tr>
+<tr>
+<td>percent_maori</td>
+<td>The percentage of Māori text detected in the tweet (=num_maori_words/total_words*100).</td>
+</tr>
+<tr>
+<td>favourites</td>
+<td>The number of favourites (likes, retweets &amp; quotes) that the given tweet received.</td>
+</tr>
+<tr>
+<td>reply_count</td>
+<td>The number of replies that the given tweet received.</td>
+</tr>
+<tr>
+<td>user.alias</td>
+<td>An alias for the author of the tweet in the form T<X>, where <X> represents the user’s ranking based on their total number of tweets in the corpus (user.num_tweets).</td>
+</tr>
+<tr>
+<td>user.status</td>
+<td>The account status (as of Decemeber 2020) of the user who wrote the tweet: 'active', 'protected', 'suspended' or 'not found'.</td>
+</tr>
+<tr>
+<td>user.followers</td>
+<td>The user's number of followers (as of December 2020).</td>
+</tr>
+<tr>
+<td>user.friends</td>
+<td>The number of accounts that the user follows (as of December 2020).</td>
+</tr>
+<tr>
+<td>user.num_tweets</td>
+<td>The total number of tweets in the corpus that were written by this user.</td>
+</tr>
+<tr>
+<td>user.region</td>
+<td>The user's location, based on self-reported information. Where possible, the data has been aggregated into <a href="https://en.wikipedia.org/wiki/Regions_of_New_Zealand">New Zealand regions</a> and names of foreign countries.</td>
+</tr>
+<tr>
+<td>year</td>
+<td>The year the tweet was written (between 2007 and 2020).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="data-description-rmt-corpus-finalcsv">Data Description: rmt-corpus-final.csv</h3>
+<p>If the tweet is still publicly available on Twitter, the following variables will appear alongside those mentioned above. Missing values are indicated with 'None':</p>
+<table>
+<thead>
+<tr>
+<th>Data Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td>The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised).</td>
+</tr>
+<tr>
+<td>conversation_id</td>
+<td>The ID for the conversation that the tweet is part of.</td>
+</tr>
+<tr>
+<td>in_reply_to_user_id</td>
+<td>If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet.</td>
+</tr>
+<tr>
+<td>author_id</td>
+<td>Twitter's unique identifier for the user who wrote the tweet.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>The timestamp when the tweet was posted, in the format YYYY-MM-DDTHH:mm:ss.000Z.</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>The code for language that the tweet was (erroneously) classfied as (NOT Māori, as the API does not support te reo)</td>
+</tr>
+<tr>
+<td>source</td>
+<td>The device or third-party application from which the tweet was posted (e.g. 'Twitter Web Client', 'Twitter for iPhone').</td>
+</tr>
+<tr>
+<td>error</td>
+<td>Ihe reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None').</td>
+</tr>
+</tbody>
+</table>
 <h3 id="citing-the-rmt-corpus">Citing the RMT Corpus</h3>
 <p>If you use the RMT corpus, please cite the following paper:
 <br>
-Reference coming April 2021.</p></div>
+Reference coming April 2021.</p>
+<p>The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
+As of 12 April 2021, 72,575 tweets (<strong>91.85%</strong> of the RMT Corpus) could be successfully downloaded from Twitter.</p></div>
         </div>
 
         <footer class="col-md-12">
