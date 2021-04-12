@@ -54,6 +54,8 @@ https://twitter.com/user/status/XXX, where `XXX` is the tweet's ID.  |
 
 If the tweet is still publicly available on Twitter, the following variables will appear alongside those mentioned above. Missing values are indicated with 'None':
 
+| Data Column                       | Description |
+| -------------                     | ------------- |
 | text								| The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised). |
 | conversation_id                   | The ID for the conversation that the tweet is part of. |
 | in_reply_to_user_id               | If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet. | 
