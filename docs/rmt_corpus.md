@@ -41,7 +41,7 @@ The following information (where known) is supplied in `rmt-corpus-v1.csv`, even
 | id                                | Twitter's unique identifier for the tweet. You can search for a tweet online by visiting [twitter.com/user/status/XXX](twitter.com/user/status/XXX), where `XXX` is the tweet's ID.  |
 | num_maori_words                   | The number of Māori words in the tweet.
 | total_words                       | The total number of words in the tweet.
-| percent_maori                     | The percentage of Māori text detected in the tweet (=`num_maori_words`/`total_words`\*100).
+| percent_maori                     | The percentage of Māori text detected in the tweet (=`num_maori_words` / `total_words`\*100).
 | favourites                        | The number of favourites (likes, retweets & quotes) that the given tweet received. |
 | reply_count                       | The number of replies that the given tweet received.
 | user.alias                        | An alias for the author of the tweet in the form T`X`, where `X` represents the user’s ranking based on their total number of tweets in the corpus (`user.num_tweets`). |
@@ -63,7 +63,7 @@ If the tweet is still publicly available on Twitter, the following variables wil
 | in_reply_to_user_id               | If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet. | 
 | author_id                         | Twitter's unique identifier for the user who wrote the tweet. |
 | created_at                        | The timestamp when the tweet was posted, in the format `YYYY-MM-DDTHH:mm:ss.000Z`. |
-| lang                              | The two-letter code representing the language that the tweet was (erroneously) classified as (NOT Māori, as the API does not support te reo) |
+| lang                              | The two-letter code representing the language that the tweet was (erroneously) classified as (NOT Māori, as the API does not support te reo). |
 | source                            | The device or third-party application from which the tweet was posted (e.g. 'Twitter Web Client', 'Twitter for iPhone').
 | error								| The reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None'). | 
 
