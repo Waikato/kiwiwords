@@ -1,0 +1,57 @@
+#!/usr/bin/python3
+# Checks words that are considered 'māori' against maoridictionary.co.nz to
+# determine whether they are legitimate words
+from taumahi import hihira_raupapa, kōmiri_kupu
+import argparse
+
+
+def tangohia_kupu_tōkau(kōwhiri):
+    kōnae = open(kōwhiri.input, 'r')
+    kupu_tōkau = kōnae.read().split()
+    kōnae.close()
+    return kupu_tōkau
+
+
+def tuhi_puta_tuhinga(kōwhiri, kupu_pai, kupu_kino):
+    # Writes the list of words to a new document if they have been specified,
+    # otherwise just prints the list to the console, each word and hyphenated
+    # word on a new line
+    if kōwhiri.good_output:
+        kupu_tūtira_hou = open(kōwhiri.good_output, "w")
+        kupu_tūtira_hou.write("\n".join(kupu_pai))
+        kupu_tūtira_hou.close()
+    else:
+        print(kupu_pai)
+
+    if kōwhiri.bad_output:
+        kupu_tūtira_hou = open(kōwhiri.bad_output, "w")
+        kupu_tūtira_hou.write("\n".join(kupu_kino))
+        kupu_tūtira_hou.close()
+
+
+def matua():
+    # Set up the terminal arguments
+    whakatukai = argparse.ArgumentParser()
+    whakatukai.add_argument('--input', '-i', help="Input text file")
+    whakatukai.add_argument('--good_output', '-g',
+                            help="Output text file where defined Māori word are stored")
+    whakatukai.add_argument(
+        '--bad_output', '-b', help="Output text file where English words of Māori format (i.e. undefined by maoridictionary.co.nz) are stored")
+    whakatukai.add_argument(
+        '--prune', '-p', help="Switch to determine whether input text file is multi or monolingual", action="store_true")
+    kōwhiri = whakatukai.parse_args()
+
+    # Gather text from file
+    kupu_hou = tangohia_kupu_tōkau(kōwhiri)
+
+    # Checks these words against the dictionary, returns a list of words that
+    # are defined by the dictionary, and a list of words that aren't
+    kupu_pai, kupu_kino = hihira_raupapa(kupu_hou)
+
+    # Writes these words to their output files or prints them to the console
+    # depending on user input
+    tuhi_puta_tuhinga(kōwhiri, kupu_pai, kupu_kino)
+
+
+if __name__ == '__main__':
+    matua()

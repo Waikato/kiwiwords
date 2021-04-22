@@ -1,0 +1,76 @@
+#!/usr/bin/python3
+# Makes the stop lists for use in kōmiri_kupu
+
+import context
+import re
+import sys
+import argparse
+import time
+
+from taumahi import auaha_raupapa_tū, nahanaha, hihira_raupapa
+
+# Returns the plain text from the input file in one string
+
+
+def tangohia_kupu_tōkau(kōwhiri):
+    kōnae = open(kōwhiri.input, 'r')
+    kupu_tōkau = kōnae.read()
+    kōnae.close()
+    return kupu_tōkau
+
+
+def tuhi_puta_tuhinga(kupu_kino_kūare_tohutō, kupu_kino, kupu_rangirua_kūare_tohutō, kupu_rangirua):
+    # Writes the list of words to a new document if it is specified, each word
+    # and hyphenated word on a new line, else it just prints the list to the terminal
+
+    kupu_tūtira_hou = open("kupu_kino_kūare_tohutō1.txt", "w")
+    kupu_tūtira_hou.write("\n".join(kupu_kino_kūare_tohutō))
+    kupu_tūtira_hou.close()
+
+    kupu_tūtira_hou = open("kupu_kino1.txt", "w")
+    kupu_tūtira_hou.write("\n".join(kupu_kino))
+    kupu_tūtira_hou.close()
+
+    kupu_tūtira_hou = open("kupu_rangirua_kūare_tohutō1.txt", "w")
+    kupu_tūtira_hou.write("\n".join(kupu_rangirua_kūare_tohutō))
+    kupu_tūtira_hou.close()
+
+    kupu_tūtira_hou = open("kupu_rangirua1.txt", "w")
+    kupu_tūtira_hou.write("\n".join(kupu_rangirua))
+    kupu_tūtira_hou.close()
+
+
+def matua():
+    # Starts recording the time
+    tāti_wā = time.time()
+    # Set up the terminal arguments
+    whakatukai = argparse.ArgumentParser()
+    whakatukai.add_argument(
+        '--input', '-i', help="Input multilanguage corpus text file")
+    kōwhiri = whakatukai.parse_args()
+
+    # Gathers text from input files
+    kupu_tōkau = tangohia_kupu_tōkau(kōwhiri)
+
+    # Writes these words that are considered to be Māori in the text (the keys
+    # of the first object returned by the kōmiri_kupu function) to their output
+    # files or prints them to the console depending on user input, in Māori
+    # alphabetical order
+
+    kupu_rangirua, kupu_kino = hihira_raupapa(auaha_raupapa_tū(kupu_tōkau)[0])
+    kupu_rangirua_kūare_tohutō, kupu_kino_kūare_tohutō = hihira_raupapa(
+        auaha_raupapa_tū(kupu_tōkau)[0], True)
+
+    kupu_kino_kūare_tohutō, kupu_kino, kupu_rangirua_kūare_tohutō, kupu_rangirua = nahanaha(
+        kupu_kino_kūare_tohutō), nahanaha(kupu_kino), nahanaha(kupu_rangirua_kūare_tohutō), nahanaha(kupu_rangirua)
+
+    tuhi_puta_tuhinga(kupu_kino_kūare_tohutō, kupu_kino,
+                      kupu_rangirua_kūare_tohutō, kupu_rangirua)
+
+    print(
+        "\n\n----------\n\nAll text has been analysed. The process took {:0.2f} seconds.\n".format(time.time() - tāti_wā))  # Prints out how long the process took in a user friendly format
+    return
+
+
+if __name__ == '__main__':
+    matua()
