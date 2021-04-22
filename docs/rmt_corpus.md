@@ -67,6 +67,10 @@ If the tweet is still publicly available on Twitter, the following variables wil
 | source                            | The device or third-party application from which the tweet was posted (e.g. 'Twitter Web Client', 'Twitter for iPhone').
 | error								| The reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None'). | 
 
+### Other Resources
+- Code for cleaning and analysing the RMT Corpus is available on the [project GitHub repository](https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus).
+- You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in the corpus.
+
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 <br>
