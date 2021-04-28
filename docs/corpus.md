@@ -27,35 +27,33 @@ This table shows key stats for the different components of the MLT Corpus:
 # Word Vectors  
 The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
-Whakapapa 
-![alt text](pics/whakapapa_tsne.png)
+Whakapapa (genealogy):
+<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa" width="200"/>
 
-Aroha
-![alt text](pics/aroha_tsne.png)
+Aroha (love):
+<img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha" width="200"/>
 
-Haka
+Haka (tribal war dance):
 ![alt text](pics/haka_tsne.png)
 
-Kia Kaha
+Kia kaha ("be strong"):
 ![alt text](pics/kia_kaha_tsne.png)
 
-Kia Ora
+Kia ora ("hello", "thank you"):
 ![alt text](pics/kia_ora_tsne.png)
 
-Matariki
+Matariki (Māori New Year):
 ![alt text](pics/matariki_tsne.png)
 
-Wahine
+Wahine (Woman):
 ![alt text](pics/wahine_tsne.png)
-
-Whakapapa
-![alt text](pics/whakapapa_tsne.png)
 
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
 
 ### Citing the MLT Corpus
-If you use the MLT corpus, please cite the following paper
+If you use the MLT corpus, please cite the following paper:
+
 - Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
 
 ### Team
@@ -65,10 +63,12 @@ If you use the MLT corpus, please cite the following paper
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 - [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
 
-External Collaborators
+External Collaborators:
+
 - [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile
 
 ### Funding
 
-We graciously acknowledge the generous support of
+We graciously acknowledge the generous support of:
+
 - Marsden Fund, Royal Society of New Zealand
