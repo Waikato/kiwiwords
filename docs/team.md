@@ -1,17 +1,5 @@
-# Who we are
-<br>
-### [Felipe Bravo-Marquez](https://felipebravom.com/)
-Machine Learning Expert at the University of Chile
-<br><img src="../pics/FelipeBravo.jpg" alt="Felipe" width="100"/>
-### [Andreea Calude](https://www.calude.net/andreea/)
-Linguist at the University of Waikato
-<br><img src="../pics/AndreeaCalude.jpg" alt="Andreea" width="100"/>
-### [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
-Te Reo Māori Expert and Computer Scientist at the University of Waikato 
-<br><img src="../pics/TeTaka.jpg" alt="TeTaka" width="100"/>
-### [David Trye](https://www.linkedin.com/in/david-trye/)
-PhD Student at the University of Waikato
-<br><img src="../pics/DavidTrye.jpg" alt="David" width="100"/>
-### [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
-Former Honours Student at the University of Waikato
-<br><img src="../pics/NicoleChan.jpg" alt="Nicole" width="100"/></br>
+# Māori English Corpus
+
+This project aims to document the fastest growing variety of English spoken currently in Aotearoa New Zealand, Māori English. 
+
+We have recorded and manually transcribed 43 spontaneous dyadic conversations from 49 speakers of Māori English located in and around the Waikato region. Because Māori English distinguishes itself from related varieties of English in relative (rather than absolute) frequencies of various features, it has to date been difficult to clearly capture the nature of this variety. The corpus is currently being analysed and our hope is to use this data to increase understanding of Māori English.
