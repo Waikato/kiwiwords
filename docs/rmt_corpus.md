@@ -1,4 +1,4 @@
-# The RMT Corpus
+# Māori Twitter Corpus
 The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
 
 ### Download the RMT Corpus
@@ -74,7 +74,26 @@ If the tweet is still publicly available on Twitter, the following variables wil
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 <br>
-'Building a High-Quality Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
+'Building a Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
 
 The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus) could be successfully downloaded from Twitter.
+
+### Team
+
+- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
+- [Paora Mato](https://www.waikato.ac.nz/staff-profiles/people/pmato)
+- [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
+- [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
+
+External Collaborators:
+- [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
+- [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University  
+
+### Funding
+
+We graciously acknowledge the generous support of:
+
+- Ngā Pae o te Māramatanga
+- The University of Waikato

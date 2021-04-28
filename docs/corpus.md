@@ -1,5 +1,4 @@
-# The MLT Corpus
-<br>
+# Loanword Twitter Corpus
 The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of nearly 3 million New Zealand English tweets, posted between 2008 and 2018. The data was collected by extracting tweets containing one or more terms from a list of 77 Māori words and phrases. We then used computational machine learning methods to clean up the raw data, because many of the tweets were not relevant to a New Zealand English context (for instance, the loanword <i>Moana</i>, meaning sea, is commonly used to refer to the Disney film/princess).
 
 The corpus consists of three key components:
@@ -25,10 +24,52 @@ This table shows key stats for the different components of the MLT Corpus:
 
 \*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. 
 
+# Word Vectors  
+The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
+
+Whakapapa 
+![alt text](pics/whakapapa_tsne.png)
+
+Aroha
+![alt text](pics/aroha_tsne.png)
+
+Haka
+![alt text](pics/haka_tsne.png)
+
+Kia Kaha
+![alt text](pics/kia_kaha_tsne.png)
+
+Kia Ora
+![alt text](pics/kia_ora_tsne.png)
+
+Matariki
+![alt text](pics/matariki_tsne.png)
+
+Wahine
+![alt text](pics/wahine_tsne.png)
+
+Whakapapa
+![alt text](pics/whakapapa_tsne.png)
+
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
 
 ### Citing the MLT Corpus
 If you use the MLT corpus, please cite the following paper:
-<br>
-Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
+- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
+
+### Team
+
+- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [Andreea Calude](https://www.calude.net/andreea/)
+- [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
+- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
+
+External Collaborators:
+- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile
+
+### Funding
+
+We graciously acknowledge the generous support of:
+
+- Marsden Fund, Royal Society of New Zealand
