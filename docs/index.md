@@ -1,21 +1,18 @@
-# Māori Loanwords on Twitter
-<br>
-Our [Github repository](https://github.com/Waikato/kiwiwords/) provides code for analysing the use of Māori Loanwords in New Zealand English (NZE) Tweets.
+# Welcome to Kiwi Words!
 
-*It's Cool to Kōrero!* - Mai FM radio station
+This website presents research on languages spoken in Aotearoa New Zealand, carried out by academics at the University of Waikato, NZ. Specifically, our projects document and analyse **te reo Māori** (the indigenous language of the country) and various **varieties of English** spoken on the shores of Aotearoa New Zealand.
 
-The use of te reo Māori words in the variety of English spoken in New Zealand has been studied intensively over the past thirty years. When arriving in New Zealand, it is not uncommon to be greeted with the phrase "Kia ora!" at the airport.
+Each project has a different focus and makes use of different data (all of which is collected by Waikato researchers in conjunction with our collaborators). The various tabs provide information on the different projects, their main objective, the specific team of researchers involved and arising publications or media attention.
 
-Our project aims to contribute to this body of knowledge by building tools which help us analyse the use of Māori words on Twitter. If you would like to see more about the study of te reo Māori in NZE - [here](https://www.calude.net/andreea/MaoriLoans.html) is a useful link with a reference list. 
-
-These pages detail the corpus of Tweets we have collected (the <i>Māori Loanword Twitter Corpus</i>), including how we went about cleaning it and increasing its size using Machine Learning techniques. We also include some initial analyses that we have conducted on this data. Our project developed from three main research questions:<br>
-
-1. Do people use Māori borrowings (or loanwords) on Twitter?
-2. If so, which words, how do they use them, and how does this use compare with other genres of NZE?
-3. Have the meanings of the borrowed words evolved through use and over time, and if so, how? 
-
-Feel free to [contact us](https://waikato.github.io/kiwiwords/team/) for further details.
-
-<br>
-Special thanks to: <br>
+<br>We are grateful to our funders for their generous support:<br>
 <img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
+
+# GitHub Repository
+
+Our [Github repository](https://github.com/Waikato/kiwiwords/) provides code associated with each project.
+
+# Get in touch
+
+If you would like to get in touch with us, please email Andreea Calude (andreea@waikato.ac.nz) for general research inquiries and David Trye (dtrye@waikato.ac.nz) for website admin and data downloading inquiries.
+
+Thank you for visiting our website!
