@@ -6,18 +6,22 @@ We have recorded and manually transcribed 43 spontaneous dyadic conversations fr
 
 <img src="../pics/bag.JPG" alt="PakNSave Bag featuring the text 'Proudly Kiwi as'" width="300"/>
 
+### Publications
+
+Publications coming soon - watch this space!
+
 ### Team
 
 - PI [Andreea S. Calude](https://www.calude.net/andreea/)
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
-External Collaborators
+External Collaborators:
 
 - [Alex D’Arcy](https://www.uvic.ca/humanities/linguistics/people/faculty/darcyalexandra.php)
 - [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay)
 
 ### Funding
 
-We graciously acknowledge the generous support of
+We graciously acknowledge the generous support of:
 
 - The University of Waikato Medium SIF Fund
