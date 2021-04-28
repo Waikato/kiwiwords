@@ -72,7 +72,8 @@ If the tweet is still publicly available on Twitter, the following variables wil
 - You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in the corpus.
 
 ### Citing the RMT Corpus
-If you use the RMT corpus, please cite the following paper
+If you use the RMT corpus, please cite the following paper:
+
 - 'Building a Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
 
 ### Team
@@ -83,14 +84,15 @@ If you use the RMT corpus, please cite the following paper
 - [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
 - [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
 
-External Collaborators
+External Collaborators:
 
 - [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
 - [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University 
 
 ### Funding
 
-We graciously acknowledge the generous support of
+We graciously acknowledge the generous support of:
+
 - Ngā Pae o te Māramatanga
 - The University of Waikato
 
