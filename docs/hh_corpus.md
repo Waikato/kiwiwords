@@ -2,7 +2,7 @@
 # Hybrid Hashtag Sub-Corpus
 The Hybrid Hashtag Sub-Corpus (<i>HH Corpus</i>) is a subset of tweets in the MLT corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users.
 
-<img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing th esemantic domain and word class of hybrid hashtags in the MLT Corpus" width="300"/>
+<img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing th esemantic domain and word class of hybrid hashtags in the MLT Corpus"/>
 
 ## Download the HH Corpus
 Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.
