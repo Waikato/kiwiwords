@@ -25,6 +25,33 @@ This table shows key stats for the different components of the MLT Corpus:
 
 \*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. 
 
+# Word Vectors  
+The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
+
+Whakapapa 
+![alt text](pics/whakapapa_tsne.png)
+
+Aroha
+![alt text](pics/aroha_tsne.png)
+
+Haka
+![alt text](pics/haka_tsne.png)
+
+Kia Kaha
+![alt text](pics/kia_kaha_tsne.png)
+
+Kia Ora
+![alt text](pics/kia_ora_tsne.png)
+
+Matariki
+![alt text](pics/matariki_tsne.png)
+
+Wahine
+![alt text](pics/wahine_tsne.png)
+
+Whakapapa
+![alt text](pics/whakapapa_tsne.png)
+
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
 
