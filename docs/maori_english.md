@@ -12,10 +12,12 @@ We have recorded and manually transcribed 43 spontaneous dyadic conversations fr
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
 External Collaborators
+
 - [Alex D’Arcy](https://www.uvic.ca/humanities/linguistics/people/faculty/darcyalexandra.php)
 - [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay)
 
 ### Funding
 
 We graciously acknowledge the generous support of
+
 - The University of Waikato Medium SIF Fund
