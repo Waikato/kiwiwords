@@ -28,25 +28,28 @@ This table shows key stats for the different components of the MLT Corpus:
 The following visualisations were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
 Whakapapa (genealogy):
-<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa" width="800"/>
+<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa"/>
 
 Aroha (love):
-<img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha" width="800"/>
+<img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha"/>
 
 Haka (tribal war dance):
-<img src="../pics/haka_tsne.png" alt="Word embeddings for haka" width="800"/>
+<img src="../pics/haka_tsne.png" alt="Word embeddings for haka"/>
 
 Kia kaha ("be strong"):
-<img src="../pics/kia_kaha_tsne.png" alt="Word embeddings for kia kaha" width="800"/>
+<img src="../pics/kia_kaha_tsne.png" alt="Word embeddings for kia kaha"/>
 
 Kia ora ("hello", "thank you"):
-<img src="../pics/kia_ora_tsne.png" alt="Word embeddings for kia ora" width="800"/>
+<img src="../pics/kia_ora_tsne.png" alt="Word embeddings for kia ora"/>
 
 Matariki (Māori New Year):
-<img src="../pics/matariki_tsne.png" alt="Word embeddings for Matariki" width="800"/>
+<img src="../pics/matariki_tsne.png" alt="Word embeddings for Matariki"/>
 
-Wahine (Woman):
-<img src="../pics/wahine.png" alt="Word embeddings for wahine" width="800"/>
+Wahine (woman):
+<img src="../pics/wahine_tsne.png" alt="Word embeddings for wahine"/>
+
+Whānau (family):
+<img src="../pics/whanau_tsne.png" alt="Word embeddings for whānau"/>
 
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
