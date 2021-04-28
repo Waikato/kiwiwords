@@ -84,6 +84,7 @@ If you use the RMT corpus, please cite the following paper
 - [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
 
 External Collaborators
+
 - [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
 - [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University 
 
