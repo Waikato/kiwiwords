@@ -1,26 +1,21 @@
-# Word Vectors  
-The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
+### NZE Lexicon
 
-### Whakapapa 
-![alt text](pics/whakapapa_tsne.png)
+This project will investigate knowledge of New Zealand English words (both native English words and words borrowed from te reo Māori) believed to be in common use in NZ. We will norm a set of pictures combining a subset of existing pictures normed with other languages including two separate English varieties. The pictures include a set of purpose-drawn illustrations denoting concepts commonly borrowed from te reo Māori. See some pictures from our set below:
 
-### Aroha
-![alt text](pics/aroha_tsne.png)
+<img src="../pics/maori_pics.png" alt="Four illustations of concepts borrowed from te reo Māori: tiki, hongi, harakeke/flax, Pukeko" width="100"/>
+Credit for images: Scott Pearson @ [Visual Evolution](http://visualevolution.co.nz/wp/) 
 
-### Haka
-![alt text](pics/haka_tsne.png)
+We will then use these materials to test New Zealand children’s receptive vocabulary knowledge and cultural sensitivity towards the concepts shown.
 
-### Kia Kaha
-![alt text](pics/kia_kaha_tsne.png)
+# Team
 
-### Kia Ora
-![alt text](pics/kia_ora_tsne.png)
+- PI [Andreea S. Calude](https://www.calude.net/andreea/)
+- [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
-### Matariki
-![alt text](pics/matariki_tsne.png)
+External Collaborators:
+- [Eline Zenner](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00056687), KU Leuven
+- [Laura Rosseel](https://researchportal.vub.be/en/persons/laura-rosseel), Vrije Universiteit Brussel 
 
-### Wahine
-![alt text](pics/wahine_tsne.png)
+# Publications
 
-### Whakapapa
-![alt text](pics/whakapapa_tsne.png)
+Publications coming soon - watch this space!
