@@ -9,7 +9,7 @@ Each project has a different focus and makes use of different data (all of which
 
 ### GitHub Repository
 
-Our [Github repository](https://github.com/Waikato/kiwiwords/) provides relevant code for each project (e.g. for collecting, cleaning and analysing the data).
+Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant code for each project (e.g. for collecting, cleaning and analysing the data).
 
 ### Get in touch
 
