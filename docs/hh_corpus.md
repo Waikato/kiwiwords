@@ -6,7 +6,7 @@ The Hybrid Hashtag Sub-Corpus (<i>HH Corpus</i>) is a subset of tweets in the ML
 Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.
 
 ## Citing the HH Corpus
-If you use the Hybrid Hashtag Corpus, please cite the following paper: <br><br>
+If you use the Hybrid Hashtag Corpus, please cite the following paper:
 - Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i>3:15. doi:10.3389/frai.2020.00015.
 
 ### Team
