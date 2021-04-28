@@ -8,7 +8,7 @@ We have recorded and manually transcribed 43 spontaneous dyadic conversations fr
 
 ### Team
 
-- PI [Andreea Calude](https://www.calude.net/andreea/)
+- PI [Andreea S. Calude](https://www.calude.net/andreea/)
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
 External Collaborators:
