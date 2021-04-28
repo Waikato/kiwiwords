@@ -85,6 +85,7 @@ As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus) could be succe
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 - [Paora Mato](https://www.waikato.ac.nz/staff-profiles/people/pmato)
 - [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
+- [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
 
 External Collaborators:
 - [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
