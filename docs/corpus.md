@@ -28,10 +28,12 @@ This table shows key stats for the different components of the MLT Corpus:
 The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
 Whakapapa (genealogy):
-<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa" width="200"/>
+
+<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa" width="600"/>
 
 Aroha (love):
-<img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha" width="200"/>
+
+<img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha" width="600"/>
 
 Haka (tribal war dance):
 ![alt text](pics/haka_tsne.png)
