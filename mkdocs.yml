@@ -5,8 +5,8 @@ google_analytics: ['UA-139965982-2', 'mkdocs.org']
 site_description: Kiwi Words
 nav:
     - Home: index.md
-    - Māori Twitter Corpus: rmt_corpus.md
-    - Loanword Twitter Corpus: corpus.md
+    - Māori Corpus: rmt_corpus.md
+    - Loanword Corpus: corpus.md
     - Hybrid Hashtags: hh_corpus.md
     - NZE Lexicon: word_vectors.md
     - Māori English: team.md
