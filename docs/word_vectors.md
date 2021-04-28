@@ -12,7 +12,7 @@ We will then use these materials to test New Zealand children’s receptive voca
 - PI [Andreea S. Calude](https://www.calude.net/andreea/)
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
-External Collaborators:
+External Collaborators
 - [Eline Zenner](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00056687), KU Leuven
 - [Laura Rosseel](https://researchportal.vub.be/en/persons/laura-rosseel), Vrije Universiteit Brussel 
 
