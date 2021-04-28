@@ -64,6 +64,7 @@ If you use the MLT corpus, please cite the following paper:
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
 - [Andreea Calude](https://www.calude.net/andreea/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
+- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
 
 External Collaborators:
 - [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile
