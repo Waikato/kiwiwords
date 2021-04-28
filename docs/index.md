@@ -7,11 +7,11 @@ Each project has a different focus and makes use of different data (all of which
 <br>We are grateful to our funders for their generous support:<br>
 <img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
 
-# GitHub Repository
+### GitHub Repository
 
 Our [Github repository](https://github.com/Waikato/kiwiwords/) provides relevant code for each project (e.g. for collecting, cleaning and analysing the data).
 
-# Get in touch
+### Get in touch
 
 If you would like to get in touch with us, please email Andreea Calude for general research inquiries (andreea@waikato.ac.nz) and David Trye for website admin and data downloading inquiries (dtrye@waikato.ac.nz).
 
