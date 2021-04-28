@@ -94,5 +94,5 @@ External Collaborators:
 
 We graciously acknowledge the generous support of:
 
-- The University of Waikato PhD Doctoral Scholarship
+- The University of Waikato Doctoral Scholarship
 - Ngā Pae o te Māramatanga
