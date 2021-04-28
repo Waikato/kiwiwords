@@ -7,6 +7,10 @@ Credit for images: Scott Pearson at [Visual Evolution](http://visualevolution.co
 
 We will then use these materials to test New Zealand children’s receptive vocabulary knowledge and cultural sensitivity towards the concepts shown.
 
+### Publications
+
+Publications coming soon - watch this space!
+
 ### Team
 
 - PI [Andreea S. Calude](https://www.calude.net/andreea/)
@@ -16,7 +20,3 @@ External Collaborators:
 
 - [Eline Zenner](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00056687), KU Leuven
 - [Laura Rosseel](https://researchportal.vub.be/en/persons/laura-rosseel), Vrije Universiteit Brussel 
-
-### Publications
-
-Publications coming soon - watch this space!
