@@ -17,8 +17,8 @@ Publications coming soon - watch this space!
 
 External Collaborators:
 
-- [Alex D’Arcy](https://www.uvic.ca/humanities/linguistics/people/faculty/darcyalexandra.php)
-- [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay)
+- [Alex D’Arcy](https://www.uvic.ca/humanities/linguistics/people/faculty/darcyalexandra.php), University of Victoria, Canada
+- [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay), Macquarie University
 
 ### Funding
 
