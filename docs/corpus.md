@@ -1,5 +1,4 @@
-# The MLT Corpus
-<br>
+# Loanword Twitter Corpus
 The Māori Loanword Twitter Corpus (<i>MLT Corpus</i>) is a diachronic corpus of nearly 3 million New Zealand English tweets, posted between 2008 and 2018. The data was collected by extracting tweets containing one or more terms from a list of 77 Māori words and phrases. We then used computational machine learning methods to clean up the raw data, because many of the tweets were not relevant to a New Zealand English context (for instance, the loanword <i>Moana</i>, meaning sea, is commonly used to refer to the Disney film/princess).
 
 The corpus consists of three key components:
