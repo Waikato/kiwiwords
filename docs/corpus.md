@@ -24,7 +24,7 @@ This table shows key stats for the different components of the MLT Corpus:
 
 \*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. 
 
-# Word Vectors  
+### Word Vectors  
 The visualisations below were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
 Whakapapa (genealogy):
