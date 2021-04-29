@@ -5,7 +5,7 @@ This website documents research on languages spoken in Aotearoa New Zealand, car
 Each project has a different focus and makes use of different data (all of which is collected by Waikato researchers in conjunction with our collaborators). The various tabs provide information on the different projects, their main objective, the specific team of researchers involved and arising publications or media attention.
 
 <br>We are grateful to our funders for their generous support:<br>
-<img src="pics/logos.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand" width="600"/>
+<img src="pics/logos_new.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand, Ngā Pae o te Māramatanga"/>
 
 ### GitHub Repository
 
