@@ -25,31 +25,15 @@ This table shows key stats for the different components of the MLT Corpus:
 \*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. 
 
 ### Word Vectors  
-The following visualisations were obtained after training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
-
-Whakapapa (genealogy):
-<img src="../pics/whakapapa_tsne.png" alt="Word embeddings for whakapapa"/>
+The following visualisations were created by training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. 
 
 Aroha (love):
 <img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha"/>
 
-Haka (tribal war dance):
-<img src="../pics/haka_tsne.png" alt="Word embeddings for haka"/>
-
-Kia kaha ("be strong"):
-<img src="../pics/kia_kaha_tsne.png" alt="Word embeddings for kia kaha"/>
-
-Kia ora ("hello", "thank you"):
-<img src="../pics/kia_ora_tsne.png" alt="Word embeddings for kia ora"/>
-
-Matariki (Māori New Year):
-<img src="../pics/matariki_tsne.png" alt="Word embeddings for Matariki"/>
-
-Wahine (woman):
-<img src="../pics/wahine_tsne.png" alt="Word embeddings for wahine"/>
-
 Whānau (family):
 <img src="../pics/whanau_tsne.png" alt="Word embeddings for whānau"/>
+
+Click to <a href="../pics/word_vectors.zip">download all images</a> (for other loanwords, as well).
 
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
@@ -64,11 +48,11 @@ If you use the MLT corpus, please cite the following paper:
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
 - [Andreea Calude](https://www.calude.net/andreea/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
-- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan)
 
 External Collaborators:
 
-- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile
+- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile, Chile
+- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan), Industry (NZ)
 
 ### Funding
 
