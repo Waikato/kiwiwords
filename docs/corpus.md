@@ -52,7 +52,7 @@ If you use the MLT corpus, please cite the following paper:
 External Collaborators:
 
 - [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile, Chile
-- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan), Industry (NZ)
+- [Nicole Chan](https://www.linkedin.com/in/hi-nicole-chan), Industry, NZ
 
 ### Funding
 
