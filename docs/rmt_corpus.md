@@ -87,7 +87,7 @@ If you use the RMT corpus, please cite the following paper:
 External Collaborators:
 
 - [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
-- [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University 
+- [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University, US
 
 ### Funding
 
@@ -96,5 +96,5 @@ We graciously acknowledge the generous support of:
 - Ngā Pae o te Māramatanga
 - The University of Waikato
 
-The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
+The information on this page was last checked in April 2021. Please [let us know](mailto:dtrye@waikato.ac.nz) if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus) could be successfully downloaded from Twitter.
