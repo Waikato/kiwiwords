@@ -12,13 +12,13 @@ Publications coming soon - watch this space!
 
 ### Team
 
-- PI [Andreea S. Calude](https://www.calude.net/andreea/)
+- [Andreea S. Calude](https://www.calude.net/andreea/) (PI)
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
 External Collaborators:
 
 - [Alex D’Arcy](https://www.uvic.ca/humanities/linguistics/people/faculty/darcyalexandra.php), University of Victoria, Canada
-- [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay), Macquarie University
+- [Anita Szakay](https://researchers.mq.edu.au/en/persons/anita-szakay), Macquarie University, Australia
 
 ### Funding
 
