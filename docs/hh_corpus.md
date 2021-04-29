@@ -15,7 +15,7 @@ If you use the Hybrid Hashtag Corpus, please cite the following paper:
 ### Team
 
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
-- [Andreea Calude](https://www.calude.net/andreea/)
+- [Andreea S. Calude](https://www.calude.net/andreea/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 
 External Collaborators:
