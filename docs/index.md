@@ -1,5 +1,5 @@
 # Welcome to Kiwi Words!
-<img src="pics/kiwi.png" alt="Kiwi bird"/ width="200">
+<img src="pics/kiwi.png" alt="Kiwi bird" width="200"/>
 
 This website documents research on languages spoken in Aotearoa New Zealand, carried out by academics at the [University of Waikato](https://www.waikato.ac.nz/), NZ. Specifically, our projects describe and analyse **te reo Māori** (the indigenous language of the country) and various **varieties of English** spoken on the shores of Aotearoa New Zealand.
 
