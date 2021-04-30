@@ -1,6 +1,6 @@
 
-# Hybrid Hashtag Sub-Corpus
-The Hybrid Hashtag Sub-Corpus (<i>HH Corpus</i>) is a subset of tweets in the MLT corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users.
+# Hybrid Hashtags
+The *Hybrid Hashtag (HH) Sub-Corpus* is a subset of tweets in the MLT Corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users. Popular hashtags include #waitangiday, #maorilanguageweek, #gokiwi, #proudkiwi, #kiwipride and #letssharegoodtereostories.
 
 <img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing the semantic domain and word class of hybrid hashtags in the MLT Corpus" width="500"/>
 
