@@ -1,5 +1,4 @@
 # Welcome to Kiwi Words!
-<img src="pics/kiwi.png" alt="Kiwi bird" width="200"/>
 
 This website documents research on languages spoken in Aotearoa New Zealand, carried out by academics at the [University of Waikato](https://www.waikato.ac.nz/), NZ. Specifically, our projects describe and analyse **te reo Māori** (the indigenous language of the country) and various **varieties of English** spoken on the shores of Aotearoa New Zealand.
 
@@ -17,3 +16,5 @@ Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant
 If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin and data downloading inquiries (dtrye@waikato.ac.nz).
 
 Thank you for visiting our website!
+
+<img src="pics/kiwi.png" alt="Kiwi bird" width="300"/>
