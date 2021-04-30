@@ -14,9 +14,11 @@ Publications coming soon - watch this space!
 ### Team
 
 - [Andreea S. Calude](https://www.calude.net/andreea/) (PI)
+- [Maryanne Garry](https://www.waikato.ac.nz/fass/about/staff/mgarry) 
 - [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
 
 External Collaborators:
 
 - [Eline Zenner](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00056687), KU Leuven, Belgium
 - [Laura Rosseel](https://researchportal.vub.be/en/persons/laura-rosseel), Vrije Universiteit Brussel, Belgium 
+- [Gillian Roberts](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00133801), KU Leuven, Belgium
