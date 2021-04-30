@@ -33,7 +33,7 @@ Aroha (love):
 Whānau (family):
 <img src="../pics/whanau_tsne.png" alt="Word embeddings for whānau"/>
 
-Click to <a href="../pics/word_vectors.zip">download all images</a> (for other loanwords, as well).
+Click to <a href="../pics/word_vectors.zip">download all word vector plots</a> (including other loanwords).
 
 ### Download the MLT Corpus
 Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
