@@ -43,6 +43,12 @@ If you use the MLT corpus, please cite the following paper:
 
 - Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
 
+### Media Attention
+
+- Interview for Stuff NZ, [*Māori loanwords enrich Twitter*](https://www.stuff.co.nz/science/113958987/mori-loanwords-enrich-twitter), 8 July 2019
+- Interview for Radio NZ, [*NZ’s unique te reo tweets*](https://www.radionz.co.nz/news/te-manu-korihi/382254/nz-s-unique-te-reo-tweets), 12 February 2019
+- Coverage from the University of Waikato, [*When machine learning, Twitter and te reo Māori merge*](https://www.waikato.ac.nz/news-opinion/media/2019/when-machine-learning-twitter-and-te-reo-maori-merge), 11 February 2019
+
 ### Team
 
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
