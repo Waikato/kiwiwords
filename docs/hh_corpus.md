@@ -20,7 +20,7 @@ If you use the Hybrid Hashtag Corpus, please cite the following paper:
 
 External Collaborators:
 
-- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile
+- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile, Chile
 
 ### Funding
 
