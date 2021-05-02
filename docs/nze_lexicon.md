@@ -19,6 +19,6 @@ Publications coming soon - watch this space!
 
 External Collaborators:
 
-- [Eline Zenner](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00056687), KU Leuven, Belgium
+- [Eline Zenner](https://www.arts.kuleuven.be/english/research/researchers/elinezenner), KU Leuven, Belgium
 - [Laura Rosseel](https://researchportal.vub.be/en/persons/laura-rosseel), Vrije Universiteit Brussel, Belgium 
-- [Gillian Roberts](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00133801), KU Leuven, Belgium
+- Gillian Roberts, [KU Leuven](https://www.arts.kuleuven.be/ling/qlvl/people/pages/00133801) & [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/gillian-roberts), Belgium. Funded by FWO (Flemish Research Foundation).
