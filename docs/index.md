@@ -1,6 +1,6 @@
 # Welcome to Kiwi Words!
 
-This website documents research on languages spoken in Aotearoa New Zealand, carried out by academics at the [University of Waikato](https://www.waikato.ac.nz/), NZ. Specifically, our projects describe and analyse **te reo Māori** (the indigenous language of the country) and various **varieties of English** spoken on the shores of Aotearoa New Zealand.
+This website documents research on languages spoken in Aotearoa New Zealand, carried out by academics at the [University of Waikato](https://www.waikato.ac.nz/), NZ. Specifically, our projects describe and analyse **te reo Māori** (the indigenous language of the country) and **varieties of English** spoken on the shores of Aotearoa New Zealand.
 
 Each project has a different focus and makes use of different data (all of which is collected by Waikato researchers in conjunction with our collaborators). The various tabs provide information on the different projects, their main objective, the specific team of researchers involved and arising publications or media attention.
 
