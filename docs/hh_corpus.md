@@ -1,33 +1,23 @@
+# Covid NZ Twitter Corpus 
+The *Covid NZ Twitter (CovidNZT) Corpus* consists of 40,243 tweets obtained between 22 February and 10 November 2020 (1,001 of which have been manually coded). All tweets contain the hashtag #covid19nz, including variations with one or more capital letters. The aim of the project is to study linguistic strategies which tweeters use to express their viewpoints and stance in Covid-related tweets. In particular, one of our points of interests is the use of directive constructions.
 
-# Hybrid Hashtags
-The *Hybrid Hashtag (HH) Sub-Corpus* is a subset of tweets in the MLT Corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users. Popular hashtags include #waitangiday, #maorilanguageweek, #gokiwi, #proudkiwi, #kiwipride and #letssharegoodtereostories.
+<img src="../pics/covid_poster.pdf" alt="Covid19NZ Poster"/>
 
-<img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing the semantic domain and word class of hybrid hashtags in the MLT Corpus" width="500"/>
+This work is just beginning and we will have more details in due course. If you would like to talk to us about this project, please [email Andreea Calude](mailto:andreea@waikato.ac.nz).
 
-### Download the HH Corpus
-Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.
+### Download the CovidNZT Corpus
+We are working on this.
 
-### Citing the HH Corpus
-If you use the Hybrid Hashtag Corpus, please cite the following paper:
-
-- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015.
-
-### Media Attention
-
-- Article in *The Conversation*, [Hashtags may not be words, grammatically speaking, but they help spread a message](https://theconversation.com/hashtags-may-not-be-words-grammatically-speaking-but-they-help-spread-a-message-133045), 3 November 2020
+### Citing the CovidNZT Corpus
+Coming soon - watch this space!
 
 ### Team
 
+- [Jessie Burnette](https://www.linkedin.com/in/jessie-burnette-9b243933?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5mMkT4FJT5qBJPmE8W8UzA%3D%3D)
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
 - [Andreea S. Calude](https://www.calude.net/andreea/)
-- [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
-
-External Collaborators:
-
-- [Felipe Bravo Marquez](https://felipebravom.com/), University of Chile, Chile
 
 ### Funding
-
 We graciously acknowledge the generous support of:
 
-- Marsden Fund, Royal Society of New Zealand
+- The University of Waikato Summer Scholarship
