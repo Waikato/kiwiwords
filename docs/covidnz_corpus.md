@@ -1,7 +1,7 @@
 # Covid NZ Twitter Corpus 
 The *Covid NZ Twitter (CovidNZT) Corpus* consists of 40,243 tweets obtained between 22 February and 10 November 2020 (1,001 of which have been manually coded). All tweets contain the hashtag #covid19nz, including variations with one or more capital letters. The aim of the project is to study linguistic strategies which tweeters use to express their viewpoints and stance in Covid-related tweets. In particular, one of our points of interests is the use of directives.
 
-<img src="pics/covid_poster.jpg" alt="Covid19NZ Poster"/>
+<img src="../pics/covid_poster.jpg" alt="Covid19NZ Poster"/>
 
 This work is just beginning and we will have more details in due course. If you would like to talk to us about this project, please [email Andreea Calude](mailto:andreea@waikato.ac.nz).
 
