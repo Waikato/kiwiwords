@@ -43,8 +43,22 @@ If you use the MLT corpus, please cite the following paper:
 
 - Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
 
+### Hybrid Hashtags
+The *Hybrid Hashtag (HH) Sub-Corpus* is a subset of tweets in the MLT Corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users. Popular hashtags include #waitangiday, #maorilanguageweek, #gokiwi, #proudkiwi, #kiwipride and #letssharegoodtereostories.
+
+<img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing the semantic domain and word class of hybrid hashtags in the MLT Corpus" width="500"/>
+
+### Download the HH Sub-Corpus
+Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.
+
+### Citing the HH Sub-Corpus
+If you use the Hybrid Hashtag Sub-Corpus, please cite the following paper:
+
+- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015.
+
 ### Media Attention
 
+- Article in *The Conversation*, [Hashtags may not be words, grammatically speaking, but they help spread a message](https://theconversation.com/hashtags-may-not-be-words-grammatically-speaking-but-they-help-spread-a-message-133045), 3 November 2020
 - Interview for Stuff NZ, [*Māori loanwords enrich Twitter*](https://www.stuff.co.nz/science/113958987/mori-loanwords-enrich-twitter), 8 July 2019
 - Interview for Radio NZ, [*NZ’s unique te reo tweets*](https://www.radionz.co.nz/news/te-manu-korihi/382254/nz-s-unique-te-reo-tweets), 12 February 2019
 - Coverage from the University of Waikato, [*When machine learning, Twitter and te reo Māori merge*](https://www.waikato.ac.nz/news-opinion/media/2019/when-machine-learning-twitter-and-te-reo-maori-merge), 11 February 2019
