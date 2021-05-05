@@ -7,6 +7,6 @@ nav:
     - Home: index.md
     - Māori Corpus: rmt_corpus.md
     - Loanwords: corpus.md
-    - Hybrid Hashtags: hh_corpus.md
+    - \#Covid19NZ: covidnz_corpus.md
     - NZE Lexicon: nze_lexicon.md
     - Māori English: maori_english.md
