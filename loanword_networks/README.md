@@ -1,4 +1,4 @@
-#Loanword Co-occurrence Networks
+# Loanword Co-occurrence Networks
 
 This folder contains resources related to our paper on loanword networks:
 
