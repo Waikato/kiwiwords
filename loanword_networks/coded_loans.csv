@@ -1,0 +1,112 @@
+ngram,english_equivalent,borrowing_type,semantic_domain,size,listedness
+te reo,"language, voice",core,SC,2,YES
+te reo maori,Māori language,proper noun,PN,3,NO
+aoraki,Mount Cook,proper noun,PN,1,YES
+aotearoa,New Zealand,proper noun,PN,1,YES
+aroha,love,core,SC,1,YES
+haka,"war-dance, tribal dance",cultural,SC,1,YES
+hangi,underground oven,cultural,MC,1,YES
+hapu,clan / sub-tribe,cultural,SC,1,YES
+harakeke,flax,cultural,FF,1,YES
+hikoi,"walk, protests",cultural,SC,1,YES
+hoki,whiptail,core,FF,1,YES
+hui,meeting,core,SC,1,YES
+huia,glossy black bird,core,FF,1,YES
+iwi,tribe,cultural,SC,1,YES
+kahui,"swarm, flock, constellation",core,SC,1,NO
+kaitiaki,"guardian, custodian",core,SC,1,YES
+kaka,brown bittern,core,FF,1,YES
+kakapo,ground parrot,core,FF,1,YES
+kapa haka,traditional Indigenous dance,cultural,SC,2,YES
+karakia,prayer,cultural,SC,1,YES
+karanga,"call, shout-out",cultural,SC,1,YES
+kaumatua,elder,cultural,SC,1,YES
+kaupapa (maori),"tribal knowledge, Indigenous knowledge",cultural,SC,1,YES
+kauri,largest tree found in NI,core,FF,1,YES
+kawakawa,pepper tree,core,FF,1,YES
+kea,mountain parrot,core,FF,1,YES
+kereru,wood pidgeon,core,FF,1,YES
+ki-o-rahi,traditional game,cultural,SC,1,NO
+kina,"sea-egg, common sea urchin",cultural,FF,1,YES
+kiwi,"New Zealand(er), pertaining to NZ, also the name of a flightless bird",proper noun,PN,1,YES
+koha,"donation, gift",core,SC,1,YES
+kohanga (reo),"Māori immersion kindergarten (lit. ""language nest"")",cultural,SC,2,YES
+korero,"talk, chat",core,SC,1,YES
+korero maori,"to speak, talk Māori",core,SC,2,NO
+koro,old man,core,SC,1,YES
+kuia,old woman,core,SC,1,YES
+kumara,sweet potato,cultural,FF,1,YES
+kupu,word,core,SC,1,NO
+kura,school,core,SC,1,YES
+kura kaupapa (maori),Māori immersion school,cultural,SC,3,YES
+mahi,work,core,SC,1,NO
+mana,power,cultural,SC,1,YES
+mana whenua,territorial rights,cultural,SC,2,NO
+manaakitanga,hospitality,core,SC,1,NO
+manuhiri,"visitor, guest",core,SC,1,YES
+manuka,tea-tree,core,FF,1,YES
+maori,indigenous/native,proper noun,PN,1,YES
+maoritanga,"explanation, meaning, Māori culture",cultural,SC,1,YES
+marae,meeting house,cultural,MC,1,YES
+matariki,"Pleiades star, celebration of Māori New Year",proper noun,PN,1,NO
+maungakiekie,One Tree Hill,proper noun,PN,1,YES
+mauri,life force,cultural,SC,1,YES
+mihi,introduction,cultural,SC,1,YES
+moana,sea,core,MC,1,NO
+mohua,yellowhead bird,core,FF,1,YES
+moko,Māori tattoo,cultural,SC,1,YES
+mokopuna,grandchildren,core,SC,1,YES
+motu,island,core,MC,1,NO
+nikau,palm tree,core,FF,1,YES
+non-maori,"non-Indigenous (esp. Pākehā, acc to dictionary)",proper noun,PN,1,YES
+pai,good,core,SC,1,NO
+pakeha,(pertaining to) European New Zealander,proper noun,PN,1,YES
+paua,abalone,core,FF,1,YES
+pepeha,introduction,cultural,SC,1,NO
+pohutukawa,Christmas tree,core,FF,1,YES
+poi,dancing element,cultural,MC,1,YES
+pou,support poles,cultural,MC,1,NO
+pounamu,greenstone,cultural,FF,1,YES
+powhiri,welcoming ceremony,cultural,SC,1,YES
+puanga,Rigel star,cultural,FF,1,NO
+pukeko,blue feathered bird,core,FF,1,YES
+rakau,"tree, stick, timber, wood",core,MC,1,YES
+rakiura,Stewart Island,proper noun,PN,1,YES
+rangatahi,youth,core,SC,1,YES
+rangatira,chief,cultural,SC,1,YES
+rata,large forest tree,core,FF,1,YES
+rimu,red pine,cultural,FF,1,YES
+taiaha,long wooden weapon,cultural,MC,1,YES
+tama,boy,core,SC,1,YES
+tamaki makaurau,Auckland,proper noun,PN,2,YES
+tamariki,children,core,SC,1,YES
+tangata whenua,people of the land,cultural,SC,2,YES
+tangi,Māori funeral,cultural,SC,1,YES
+taniwha,"spirit, monster",cultural,SC,1,YES
+taonga,treasure,core,SC,1,YES
+taonga puoro,musical instrument,cultural,MC,2,NO
+tapu,sacred,cultural,SC,1,YES
+taro,plant used for making bread,cultural,FF,1,YES
+te puni kokiri,New Zealand Government (Ministry of Māori Development),proper noun,PN,3,YES
+te taura whiri i te reo maori,Māori Language Commission,proper noun,PN,7,YES
+te wiki o te reo maori,Māori Language Week,proper noun,PN,6,NO
+teina,"younger brother, younger sister",cultural,SC,1,NO
+tikanga,custom,cultural,SC,1,YES
+tiki,traditional carved figure,cultural,MC,1,YES
+tino rangatiratanga,sovereignty,cultural,SC,2,YES
+totara,glossy olive-leafed tree,core,FF,1,YES
+tuatara,endemic reptile,core,FF,1,YES
+tui,parson bird,core,FF,1,YES
+tuakana,"elder brother, elder sister",cultural,SC,1,NO
+tupuna,ancestors,cultural,SC,1,YES
+wahine,"woman, girl",core,SC,1,YES
+waiata,song,core,SC,1,YES
+waka,canoe,cultural,MC,1,YES
+wananga,"university, learning seminar/conference",cultural,SC,1,NO
+weka,woodhen,core,FF,1,YES
+weta,large insect,core,FF,1,YES
+whakapapa,Māori genealogy,cultural,SC,1,YES
+whanau,extended family,core,SC,1,YES
+whanaungatanga,"introductions, getting to know each other",cultural,SC,1,YES
+whare,house,core,MC,1,YES
+wharenui,Māori meeting house,cultural,MC,1,YES

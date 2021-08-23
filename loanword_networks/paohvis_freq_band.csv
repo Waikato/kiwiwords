@@ -1,0 +1,336 @@
+kaupapa (maori)_ki-o-rahi_poi_taiaha,kaupapa (maori),1,,3,cultural,SC,YES
+kaupapa (maori)_ki-o-rahi_poi_taiaha,ki-o-rahi,1,,2,cultural,SC,NO
+kaupapa (maori)_ki-o-rahi_poi_taiaha,poi,1,,2,cultural,MC,YES
+kaupapa (maori)_ki-o-rahi_poi_taiaha,taiaha,1,,4,cultural,MC,YES
+hangi_kumara,hangi,1,,1,cultural,MC,YES
+hangi_kumara,kumara,1,,3,cultural,FF,YES
+pakeha_taonga puoro_waiata,pakeha,1,,2,proper noun,PN,YES
+pakeha_taonga puoro_waiata,taonga puoro,1,,2,cultural,MC,NO
+pakeha_taonga puoro_waiata,waiata,1,,2,core,SC,YES
+kiwi_korero_taiaha_tamariki_whanau,kiwi,1,,1,proper noun,PN,YES
+kiwi_korero_taiaha_tamariki_whanau,korero,1,,3,core,SC,YES
+kiwi_korero_taiaha_tamariki_whanau,taiaha,1,,4,cultural,MC,YES
+kiwi_korero_taiaha_tamariki_whanau,tamariki,1,,2,core,SC,YES
+kiwi_korero_taiaha_tamariki_whanau,whanau,1,,1,core,SC,YES
+korero_tangata whenua_te reo_te reo maori,korero,1,,3,core,SC,YES
+korero_tangata whenua_te reo_te reo maori,tangata whenua,1,,3,cultural,SC,YES
+korero_tangata whenua_te reo_te reo maori,te reo,1,,1,core,SC,YES
+korero_tangata whenua_te reo_te reo maori,te reo maori,1,,2,proper noun,PN,NO
+kapa haka_kohanga (reo)_poi_tamariki_tikanga,kapa haka,1,,1,cultural,SC,YES
+kapa haka_kohanga (reo)_poi_tamariki_tikanga,kohanga (reo),1,,3,cultural,SC,YES
+kapa haka_kohanga (reo)_poi_tamariki_tikanga,poi,1,,2,cultural,MC,YES
+kapa haka_kohanga (reo)_poi_tamariki_tikanga,tamariki,1,,2,core,SC,YES
+kapa haka_kohanga (reo)_poi_tamariki_tikanga,tikanga,1,,4,cultural,SC,YES
+kawakawa_pakeha,kawakawa,1,,2,core,FF,YES
+kawakawa_pakeha,pakeha,1,,2,proper noun,PN,YES
+puanga_te puni kokiri,puanga,2,,1,cultural,FF,NO
+puanga_te puni kokiri,te puni kokiri,2,,3,proper noun,PN,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,kiwi,1,,1,proper noun,PN,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,marae,1,,1,cultural,MC,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,non-maori,1,,4,proper noun,PN,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,pakeha,1,,2,proper noun,PN,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,taonga,1,,4,core,SC,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,te puni kokiri,1,,3,proper noun,PN,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,te reo,1,,1,core,SC,YES
+kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,te reo maori,1,,2,proper noun,PN,NO
+aotearoa_kiwi,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_kiwi,kiwi,1,,1,proper noun,PN,YES
+hikoi_kiwi_kohanga (reo)_pakeha,hikoi,1,,4,cultural,SC,YES
+hikoi_kiwi_kohanga (reo)_pakeha,kiwi,1,,1,proper noun,PN,YES
+hikoi_kiwi_kohanga (reo)_pakeha,kohanga (reo),1,,3,cultural,SC,YES
+hikoi_kiwi_kohanga (reo)_pakeha,pakeha,1,,2,proper noun,PN,YES
+iwi_kauri,iwi,1,,1,cultural,SC,YES
+iwi_kauri,kauri,1,,4,core,FF,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,hapu,1,,4,cultural,SC,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,iwi,1,,1,cultural,SC,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,kapa haka,1,,1,cultural,SC,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,kaupapa (maori),1,,3,cultural,SC,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,ki-o-rahi,1,,2,cultural,SC,NO
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,pakeha,1,,2,proper noun,PN,YES
+hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,pou,1,,3,cultural,MC,NO
+hikoi_tamariki,hikoi,1,,4,cultural,SC,YES
+hikoi_tamariki,tamariki,1,,2,core,SC,YES
+puanga_te puni kokiri,puanga,1,,1,cultural,FF,NO
+puanga_te puni kokiri,te puni kokiri,1,,3,proper noun,PN,YES
+korero_whanau,korero,1,,3,core,SC,YES
+korero_whanau,whanau,1,,1,core,SC,YES
+kaupapa (maori)_non-maori,kaupapa (maori),1,,3,cultural,SC,YES
+kaupapa (maori)_non-maori,non-maori,1,,4,proper noun,PN,YES
+hangi_whanau,hangi,1,,1,cultural,MC,YES
+hangi_whanau,whanau,1,,1,core,SC,YES
+ki-o-rahi_poi,ki-o-rahi,1,,2,cultural,SC,NO
+ki-o-rahi_poi,poi,1,,2,cultural,MC,YES
+hikoi_hui_korero_marae_te puni kokiri,hikoi,1,,4,cultural,SC,YES
+hikoi_hui_korero_marae_te puni kokiri,hui,1,,2,core,SC,YES
+hikoi_hui_korero_marae_te puni kokiri,korero,1,,3,core,SC,YES
+hikoi_hui_korero_marae_te puni kokiri,marae,1,,1,cultural,MC,YES
+hikoi_hui_korero_marae_te puni kokiri,te puni kokiri,1,,3,proper noun,PN,YES
+aotearoa_kapa haka_mauri_non-maori,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_kapa haka_mauri_non-maori,kapa haka,1,,1,cultural,SC,YES
+aotearoa_kapa haka_mauri_non-maori,mauri,1,,3,cultural,SC,YES
+aotearoa_kapa haka_mauri_non-maori,non-maori,1,,4,proper noun,PN,YES
+karakia_powhiri_waka_whanau,karakia,1,,3,cultural,SC,YES
+karakia_powhiri_waka_whanau,powhiri,1,,4,cultural,SC,YES
+karakia_powhiri_waka_whanau,waka,1,,1,cultural,MC,YES
+karakia_powhiri_waka_whanau,whanau,1,,1,core,SC,YES
+hui_marae,hui,1,,2,core,SC,YES
+hui_marae,marae,1,,1,cultural,MC,YES
+taonga_te reo maori,taonga,1,,4,core,SC,YES
+taonga_te reo maori,te reo maori,1,,2,proper noun,PN,NO
+hui_mauri_tangata whenua,hui,1,,2,core,SC,YES
+hui_mauri_tangata whenua,mauri,1,,3,cultural,SC,YES
+hui_mauri_tangata whenua,tangata whenua,1,,3,cultural,SC,YES
+ki-o-rahi_tikanga_whanau,ki-o-rahi,1,,2,cultural,SC,NO
+ki-o-rahi_tikanga_whanau,tikanga,1,,4,cultural,SC,YES
+ki-o-rahi_tikanga_whanau,whanau,1,,1,core,SC,YES
+iwi_kiwi_pakeha_te reo maori,iwi,1,,1,cultural,SC,YES
+iwi_kiwi_pakeha_te reo maori,kiwi,1,,1,proper noun,PN,YES
+iwi_kiwi_pakeha_te reo maori,pakeha,1,,2,proper noun,PN,YES
+iwi_kiwi_pakeha_te reo maori,te reo maori,1,,2,proper noun,PN,NO
+kapa haka_poi,kapa haka,1,,1,cultural,SC,YES
+kapa haka_poi,poi,1,,2,cultural,MC,YES
+puanga_whanau,puanga,1,,1,cultural,FF,NO
+puanga_whanau,whanau,1,,1,core,SC,YES
+aotearoa_hangi_iwi_marae,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_hangi_iwi_marae,hangi,1,,1,cultural,MC,YES
+aotearoa_hangi_iwi_marae,iwi,1,,1,cultural,SC,YES
+aotearoa_hangi_iwi_marae,marae,1,,1,cultural,MC,YES
+haka_hangi_marae_waiata,haka,1,,2,cultural,SC,YES
+haka_hangi_marae_waiata,hangi,1,,1,cultural,MC,YES
+haka_hangi_marae_waiata,marae,1,,1,cultural,MC,YES
+haka_hangi_marae_waiata,waiata,1,,2,core,SC,YES
+kapa haka_taonga puoro_waiata,kapa haka,1,,1,cultural,SC,YES
+kapa haka_taonga puoro_waiata,taonga puoro,1,,2,cultural,MC,NO
+kapa haka_taonga puoro_waiata,waiata,1,,2,core,SC,YES
+hangi_mana,hangi,1,,1,cultural,MC,YES
+hangi_mana,mana,1,,3,cultural,SC,YES
+hapu_hikoi_iwi_taonga_waka,hapu,1,,4,cultural,SC,YES
+hapu_hikoi_iwi_taonga_waka,hikoi,1,,4,cultural,SC,YES
+hapu_hikoi_iwi_taonga_waka,iwi,1,,1,cultural,SC,YES
+hapu_hikoi_iwi_taonga_waka,taonga,1,,4,core,SC,YES
+hapu_hikoi_iwi_taonga_waka,waka,1,,1,cultural,MC,YES
+pakeha_te reo_teina_tikanga_tuakana,pakeha,1,,2,proper noun,PN,YES
+pakeha_te reo_teina_tikanga_tuakana,te reo,1,,1,core,SC,YES
+pakeha_te reo_teina_tikanga_tuakana,teina,1,,3,cultural,SC,NO
+pakeha_te reo_teina_tikanga_tuakana,tikanga,1,,4,cultural,SC,YES
+pakeha_te reo_teina_tikanga_tuakana,tuakana,1,,4,cultural,SC,NO
+iwi_kapa haka,iwi,1,,1,cultural,SC,YES
+iwi_kapa haka,kapa haka,1,,1,cultural,SC,YES
+kohanga (reo)_poi,kohanga (reo),1,,3,cultural,SC,YES
+kohanga (reo)_poi,poi,1,,2,cultural,MC,YES
+kaupapa (maori)_marae,kaupapa (maori),1,,3,cultural,SC,YES
+kaupapa (maori)_marae,marae,1,,1,cultural,MC,YES
+kiwi_pakeha,kiwi,1,,1,proper noun,PN,YES
+kiwi_pakeha,pakeha,1,,2,proper noun,PN,YES
+pakeha_pou,pakeha,1,,2,proper noun,PN,YES
+pakeha_pou,pou,1,,3,cultural,MC,NO
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,hui,1,,2,core,SC,YES
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,puanga,1,,1,cultural,FF,NO
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,taonga,1,,4,core,SC,YES
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,taonga puoro,1,,2,cultural,MC,NO
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,te reo maori,1,,2,proper noun,PN,NO
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,whanau,1,,1,core,SC,YES
+karakia_whanau,karakia,1,,3,cultural,SC,YES
+karakia_whanau,whanau,1,,1,core,SC,YES
+kawakawa_waka,kawakawa,1,,2,core,FF,YES
+kawakawa_waka,waka,1,,1,cultural,MC,YES
+kapa haka_kawakawa_kumara_waka,kapa haka,1,,1,cultural,SC,YES
+kapa haka_kawakawa_kumara_waka,kawakawa,1,,2,core,FF,YES
+kapa haka_kawakawa_kumara_waka,kumara,1,,3,cultural,FF,YES
+kapa haka_kawakawa_kumara_waka,waka,1,,1,cultural,MC,YES
+haka_poi,haka,1,,2,cultural,SC,YES
+haka_poi,poi,1,,2,cultural,MC,YES
+haka_kapa haka_kohanga (reo),haka,1,,2,cultural,SC,YES
+haka_kapa haka_kohanga (reo),kapa haka,1,,1,cultural,SC,YES
+haka_kapa haka_kohanga (reo),kohanga (reo),1,,3,cultural,SC,YES
+iwi_kumara_puanga,iwi,1,,1,cultural,SC,YES
+iwi_kumara_puanga,kumara,1,,3,cultural,FF,YES
+iwi_kumara_puanga,puanga,1,,1,cultural,FF,NO
+kawakawa_taonga puoro,kawakawa,1,,2,core,FF,YES
+kawakawa_taonga puoro,taonga puoro,1,,2,cultural,MC,NO
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,hapu,1,,4,cultural,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,hui,1,,2,core,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,iwi,1,,1,cultural,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,kaupapa (maori),1,,3,cultural,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,korero,1,,3,core,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,mana,1,,3,cultural,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,pakeha,1,,2,proper noun,PN,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,powhiri,1,,4,cultural,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,tamariki,1,,2,core,SC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,teina,1,,3,cultural,SC,NO
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,tuakana,1,,4,cultural,SC,NO
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,waka,1,,1,cultural,MC,YES
+hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,wananga,1,,3,cultural,SC,NO
+powhiri_waka,powhiri,1,,4,cultural,SC,YES
+powhiri_waka,waka,1,,1,cultural,MC,YES
+aotearoa_waka_whanau,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_waka_whanau,waka,1,,1,cultural,MC,YES
+aotearoa_waka_whanau,whanau,1,,1,core,SC,YES
+hangi_marae_waiata,hangi,1,,1,cultural,MC,YES
+hangi_marae_waiata,marae,1,,1,cultural,MC,YES
+hangi_marae_waiata,waiata,1,,2,core,SC,YES
+kapa haka_puanga_taiaha_waiata_waka_whanau,kapa haka,1,,1,cultural,SC,YES
+kapa haka_puanga_taiaha_waiata_waka_whanau,puanga,1,,1,cultural,FF,NO
+kapa haka_puanga_taiaha_waiata_waka_whanau,taiaha,1,,4,cultural,MC,YES
+kapa haka_puanga_taiaha_waiata_waka_whanau,waiata,1,,2,core,SC,YES
+kapa haka_puanga_taiaha_waiata_waka_whanau,waka,1,,1,cultural,MC,YES
+kapa haka_puanga_taiaha_waiata_waka_whanau,whanau,1,,1,core,SC,YES
+aotearoa_kiwi_te reo,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_kiwi_te reo,kiwi,1,,1,proper noun,PN,YES
+aotearoa_kiwi_te reo,te reo,1,,1,core,SC,YES
+aotearoa_aroha_kiwi_wananga,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_aroha_kiwi_wananga,aroha,1,,4,core,SC,YES
+aotearoa_aroha_kiwi_wananga,kiwi,1,,1,proper noun,PN,YES
+aotearoa_aroha_kiwi_wananga,wananga,1,,3,cultural,SC,NO
+aotearoa_tangata whenua_te puni kokiri_whanau,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_tangata whenua_te puni kokiri_whanau,tangata whenua,1,,3,cultural,SC,YES
+aotearoa_tangata whenua_te puni kokiri_whanau,te puni kokiri,1,,3,proper noun,PN,YES
+aotearoa_tangata whenua_te puni kokiri_whanau,whanau,1,,1,core,SC,YES
+haka_ki-o-rahi_pou,haka,1,,2,cultural,SC,YES
+haka_ki-o-rahi_pou,ki-o-rahi,1,,2,cultural,SC,NO
+haka_ki-o-rahi_pou,pou,1,,3,cultural,MC,NO
+hangi_whanau,hangi,2,,1,cultural,MC,YES
+hangi_whanau,whanau,2,,1,core,SC,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,iwi,1,,1,cultural,SC,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,kaupapa (maori),1,,3,cultural,SC,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,mana,1,,3,cultural,SC,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,taonga,1,,4,core,SC,YES
+aotearoa_iwi_kaupapa (maori)_mana_taonga_whanau,whanau,1,,1,core,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,haka,1,,2,cultural,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,kapa haka,1,,1,cultural,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,kohanga (reo),1,,3,cultural,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,tamariki,1,,2,core,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,waiata,1,,2,core,SC,YES
+haka_kapa haka_kohanga (reo)_tamariki_waiata_whanau,whanau,1,,1,core,SC,YES
+taro_teina,taro,1,,1,cultural,FF,YES
+taro_teina,teina,1,,3,cultural,SC,NO
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,iwi,1,,1,cultural,SC,YES
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,karakia,1,,3,cultural,SC,YES
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,ki-o-rahi,1,,2,cultural,SC,NO
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,puanga,1,,1,cultural,FF,NO
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,taonga puoro,1,,2,cultural,MC,NO
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,te puni kokiri,1,,3,proper noun,PN,YES
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,wananga,1,,3,cultural,SC,NO
+hapu_iwi_puanga_whanau,hapu,1,,4,cultural,SC,YES
+hapu_iwi_puanga_whanau,iwi,1,,1,cultural,SC,YES
+hapu_iwi_puanga_whanau,puanga,1,,1,cultural,FF,NO
+hapu_iwi_puanga_whanau,whanau,1,,1,core,SC,YES
+haka_karakia_marae_whanau,haka,1,,2,cultural,SC,YES
+haka_karakia_marae_whanau,karakia,1,,3,cultural,SC,YES
+haka_karakia_marae_whanau,marae,1,,1,cultural,MC,YES
+haka_karakia_marae_whanau,whanau,1,,1,core,SC,YES
+kawakawa_kumara,kawakawa,1,,2,core,FF,YES
+kawakawa_kumara,kumara,1,,3,cultural,FF,YES
+iwi_tamariki_tikanga_wananga_whanau,iwi,1,,1,cultural,SC,YES
+iwi_tamariki_tikanga_wananga_whanau,tamariki,1,,2,core,SC,YES
+iwi_tamariki_tikanga_wananga_whanau,tikanga,1,,4,cultural,SC,YES
+iwi_tamariki_tikanga_wananga_whanau,wananga,1,,3,cultural,SC,NO
+iwi_tamariki_tikanga_wananga_whanau,whanau,1,,1,core,SC,YES
+hangi_korero_kumara_marae_whanau,hangi,1,,1,cultural,MC,YES
+hangi_korero_kumara_marae_whanau,korero,1,,3,core,SC,YES
+hangi_korero_kumara_marae_whanau,kumara,1,,3,cultural,FF,YES
+hangi_korero_kumara_marae_whanau,marae,1,,1,cultural,MC,YES
+hangi_korero_kumara_marae_whanau,whanau,1,,1,core,SC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,haka,1,,2,cultural,SC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,hangi,1,,1,cultural,MC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,hikoi,1,,4,cultural,SC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,kauri,1,,4,core,FF,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,kawakawa,1,,2,core,FF,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,kiwi,1,,1,proper noun,PN,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,marae,1,,1,cultural,MC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,poi,1,,2,cultural,MC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,pou,1,,3,cultural,MC,NO
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,waiata,1,,2,core,SC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,waka,1,,1,cultural,MC,YES
+haka_hangi_hikoi_kauri_kawakawa_kiwi_marae_poi_pou_waiata_waka_whanau,whanau,1,,1,core,SC,YES
+haka_kapa haka_poi_taonga puoro_waiata,haka,1,,2,cultural,SC,YES
+haka_kapa haka_poi_taonga puoro_waiata,kapa haka,1,,1,cultural,SC,YES
+haka_kapa haka_poi_taonga puoro_waiata,poi,1,,2,cultural,MC,YES
+haka_kapa haka_poi_taonga puoro_waiata,taonga puoro,1,,2,cultural,MC,NO
+haka_kapa haka_poi_taonga puoro_waiata,waiata,1,,2,core,SC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,hapu,1,,4,cultural,SC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,iwi,1,,1,cultural,SC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,mana,1,,3,cultural,SC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,marae,1,,1,cultural,MC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,te reo,1,,1,core,SC,YES
+hapu_iwi_mana_marae_te reo_te reo maori_waka,te reo maori,1,,2,proper noun,PN,NO
+hapu_iwi_mana_marae_te reo_te reo maori_waka,waka,1,,1,cultural,MC,YES
+non-maori_te reo,non-maori,1,,4,proper noun,PN,YES
+non-maori_te reo,te reo,1,,1,core,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,aroha,1,,4,core,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,haka,1,,2,cultural,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,iwi,1,,1,cultural,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,marae,1,,1,cultural,MC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,pou,1,,3,cultural,MC,NO
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,powhiri,1,,4,cultural,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,te reo maori,1,,2,proper noun,PN,NO
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,waiata,1,,2,core,SC,YES
+aroha_haka_iwi_marae_pou_powhiri_te reo maori_waiata_whanau,whanau,1,,1,core,SC,YES
+aotearoa_kapa haka,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_kapa haka,kapa haka,1,,1,cultural,SC,YES
+hikoi_te reo,hikoi,1,,4,cultural,SC,YES
+hikoi_te reo,te reo,1,,1,core,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,haka,1,,2,cultural,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,hangi,1,,1,cultural,MC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,hikoi,1,,4,cultural,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,kapa haka,1,,1,cultural,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,karakia,1,,3,cultural,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,kauri,1,,4,core,FF,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,kiwi,1,,1,proper noun,PN,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,poi,1,,2,cultural,MC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,te reo,1,,1,core,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,tikanga,1,,4,cultural,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,waiata,1,,2,core,SC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,waka,1,,1,cultural,MC,YES
+haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,wananga,1,,3,cultural,SC,NO
+aotearoa_hangi_puanga,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_hangi_puanga,hangi,1,,1,cultural,MC,YES
+aotearoa_hangi_puanga,puanga,1,,1,cultural,FF,NO
+iwi_te puni kokiri,iwi,1,,1,cultural,SC,YES
+iwi_te puni kokiri,te puni kokiri,1,,3,proper noun,PN,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,hangi,1,,1,cultural,MC,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,kawakawa,1,,2,core,FF,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,kiwi,1,,1,proper noun,PN,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,kumara,1,,3,cultural,FF,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,marae,1,,1,cultural,MC,YES
+hangi_kawakawa_kiwi_kumara_marae_pakeha,pakeha,1,,2,proper noun,PN,YES
+te reo_whanau,te reo,1,,1,core,SC,YES
+te reo_whanau,whanau,1,,1,core,SC,YES
+aotearoa_whanau,aotearoa,1,,1,proper noun,PN,YES
+aotearoa_whanau,whanau,1,,1,core,SC,YES
+iwi_puanga_wananga,iwi,1,,1,cultural,SC,YES
+iwi_puanga_wananga,puanga,1,,1,cultural,FF,NO
+iwi_puanga_wananga,wananga,1,,3,cultural,SC,NO
+kapa haka_karakia_marae_pakeha_tangata whenua,kapa haka,1,,1,cultural,SC,YES
+kapa haka_karakia_marae_pakeha_tangata whenua,karakia,1,,3,cultural,SC,YES
+kapa haka_karakia_marae_pakeha_tangata whenua,marae,1,,1,cultural,MC,YES
+kapa haka_karakia_marae_pakeha_tangata whenua,pakeha,1,,2,proper noun,PN,YES
+kapa haka_karakia_marae_pakeha_tangata whenua,tangata whenua,1,,3,cultural,SC,YES
+te reo_te reo maori,te reo,1,,1,core,SC,YES
+te reo_te reo maori,te reo maori,1,,2,proper noun,PN,NO
+hangi_puanga_tamariki_waiata,hangi,1,,1,cultural,MC,YES
+hangi_puanga_tamariki_waiata,puanga,1,,1,cultural,FF,NO
+hangi_puanga_tamariki_waiata,tamariki,1,,2,core,SC,YES
+hangi_puanga_tamariki_waiata,waiata,1,,2,core,SC,YES
+haka_te reo maori_waiata_whanau,haka,1,,2,cultural,SC,YES
+haka_te reo maori_waiata_whanau,te reo maori,1,,2,proper noun,PN,NO
+haka_te reo maori_waiata_whanau,waiata,1,,2,core,SC,YES
+haka_te reo maori_waiata_whanau,whanau,1,,1,core,SC,YES
+kapa haka_karakia_kaupapa (maori)_whanau,kapa haka,1,,1,cultural,SC,YES
+kapa haka_karakia_kaupapa (maori)_whanau,karakia,1,,3,cultural,SC,YES
+kapa haka_karakia_kaupapa (maori)_whanau,kaupapa (maori),1,,3,cultural,SC,YES
+kapa haka_karakia_kaupapa (maori)_whanau,whanau,1,,1,core,SC,YES
+kiwi_te reo_te reo maori_whanau,kiwi,1,,1,proper noun,PN,YES
+kiwi_te reo_te reo maori_whanau,te reo,1,,1,core,SC,YES
+kiwi_te reo_te reo maori_whanau,te reo maori,1,,2,proper noun,PN,NO
+kiwi_te reo_te reo maori_whanau,whanau,1,,1,core,SC,YES
+puanga_waka,puanga,1,,1,cultural,FF,NO
+puanga_waka,waka,1,,1,cultural,MC,YES
+tamariki_whanau,tamariki,1,,2,core,SC,YES
+tamariki_whanau,whanau,1,,1,core,SC,YES
+kapa haka_karakia_kiwi_te reo_waiata,kapa haka,1,,1,cultural,SC,YES
+kapa haka_karakia_kiwi_te reo_waiata,karakia,1,,3,cultural,SC,YES
+kapa haka_karakia_kiwi_te reo_waiata,kiwi,1,,1,proper noun,PN,YES
+kapa haka_karakia_kiwi_te reo_waiata,te reo,1,,1,core,SC,YES
+kapa haka_karakia_kiwi_te reo_waiata,waiata,1,,2,core,SC,YES

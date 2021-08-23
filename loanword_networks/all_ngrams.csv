@@ -1,0 +1,4899 @@
+n-gram,size
+non-maori,1
+maori,1
+kiwi,1
+rotorua,1
+matariki,1
+te reo,2
+waikato,1
+wanaka,1
+tauranga,1
+porirua,1
+te reo maori,3
+waitangi,1
+taranaki,1
+timaru,1
+kapiti,1
+te anau,2
+iwi,1
+wanganui,1
+wairarapa,1
+mataura,1
+taupo,1
+paraparaumu,1
+manawatu,1
+marae,1
+whangarei,1
+te,1
+wakatipu,1
+ngai tahu,2
+manukau,1
+pakeha,1
+wainuiomata,1
+aotearoa,1
+waitakere,1
+tamihere,1
+mana,1
+henare,1
+petone,1
+no-one,1
+kaikoura,1
+karori,1
+rangiora,1
+oamaru,1
+whanau,1
+papanui,1
+harawira,1
+kaiapoi,1
+waikanae,1
+tonga,1
+haka,1
+tuatapere,1
+te wiki o te reo maori,6
+otaki,1
+tawa,1
+hokitika,1
+hurunui,1
+waimakariri,1
+otautau,1
+waka,1
+whanganui,1
+akaroa,1
+kapa haka,2
+hui,1
+paua,1
+kaitaia,1
+maunganui,1
+waihopai,1
+ewe,1
+oreti,1
+apu,1
+ohariu,1
+otatara,1
+ruapehu,1
+aotea,1
+naenae,1
+tahiti,1
+kumara,1
+rakaia,1
+manu,1
+reo,1
+hangi,1
+mangere,1
+rimutaka,1
+paremata,1
+waiau,1
+papakura,1
+tui,1
+taieri,1
+kaikorai,1
+rimu,1
+pita,1
+makarewa,1
+puanga,1
+pukekohe,1
+tania,1
+wairoa,1
+aoraki,1
+paekakariki,1
+kingi,1
+ohai,1
+kawarau,1
+tapanui,1
+ute,1
+te arawa,2
+kohanga reo,2
+tainui,1
+aratere,1
+tua,1
+waitaki,1
+huata,1
+mika,1
+te taura whiri i te reo maori,7
+moana,1
+ieremia,1
+manapouri,1
+motueka,1
+awarua,1
+hawea,1
+team-mate,1
+aranui,1
+horowhenua,1
+titahi,1
+waitemata,1
+kahu,1
+ngaio,1
+tana,1
+whakapapa,1
+tangata whenua,2
+pakuranga,1
+tamariki,1
+te puni kokiri,3
+taonga,1
+makara,1
+waiheke,1
+whakatane,1
+mene,1
+waikiwi,1
+powhiri,1
+wai,1
+hone harawira,2
+hokonui,1
+kenepuru,1
+moa,1
+wipiiti,1
+keane,1
+rongotai,1
+waikaka,1
+weka,1
+waiariki,1
+kahurangi,1
+hauraki,1
+tariana turia,2
+hikoi,1
+remuera,1
+tekapo,1
+merino,1
+pukerua,1
+raumati,1
+waiata,1
+kiri,1
+onehunga,1
+kahui,1
+nia,1
+te wananga o aotearoa,4
+waipukurau,1
+maree,1
+tongariro,1
+kaumatua,1
+hone,1
+manurewa,1
+te tai tonga,3
+nupe,1
+runga,1
+te rangi,2
+wairau,1
+taro,1
+howie,1
+takapuna,1
+te tai tokerau,3
+waimate,1
+otahuhu,1
+karaka,1
+kea,1
+kura,1
+wananga,1
+rarotonga,1
+heretaunga,1
+tokoroa,1
+kaimanawa,1
+kiri te kanawa,3
+ohoka,1
+taine,1
+tipene,1
+maniototo,1
+waipara,1
+kerikeri,1
+kauri,1
+pohutukawa,1
+ratana,1
+tiki,1
+monie,1
+rangitata,1
+tokanui,1
+manaakitanga,1
+niwa,1
+paea,1
+tararua,1
+aimee,1
+ngauranga,1
+tamati,1
+orewa,1
+otara,1
+matamata,1
+kaka,1
+owhiro,1
+taita,1
+tataurangi,1
+te kahu,2
+whakarewarewa,1
+kohanga,1
+heke,1
+riki,1
+te kuiti,2
+waituna,1
+hine,1
+rata,1
+kereru,1
+taihape,1
+maka,1
+mangakino,1
+ohakea,1
+piha,1
+ranui,1
+nana,1
+tame,1
+aparima,1
+hataitai,1
+kopu,1
+te aro,2
+waikaia,1
+kaupapa,1
+tikanga,1
+te ururoa,2
+kaipara,1
+ngapuhi,1
+matai,1
+turangi,1
+tamaki,1
+weta,1
+titirangi,1
+tapu,1
+kaitangata,1
+motatapu,1
+omakau,1
+orepuki,1
+te rapa,2
+waiouru,1
+waitangirua,1
+korero,1
+tangi,1
+nikau,1
+marama,1
+wiremu,1
+hana,1
+mai,1
+rangitikei,1
+kahukura,1
+karapiro,1
+maua,1
+mohua,1
+moorea,1
+pipi,1
+takaka,1
+turia,1
+waitara,1
+poi,1
+tama,1
+te atatu,2
+reinga,1
+nee,1
+owaka,1
+pauatahanui,1
+rawhiti,1
+teretonga,1
+waihi,1
+waite,1
+wakatu,1
+wingatui,1
+karakia,1
+kuia,1
+kawakawa,1
+rotoiti,1
+tuhoe,1
+toa,1
+aranga,1
+awatere huata,2
+iti,1
+manuherikia,1
+ngati rarua,2
+opawa,1
+rakiura,1
+rangatira,1
+tuna,1
+uru,1
+wainoni,1
+wairakei,1
+wakari,1
+arataki,1
+hapu,1
+mauri,1
+takitimu,1
+kawerau,1
+kina,1
+mateparae,1
+apia,1
+arahura,1
+hawera,1
+keanu,1
+paeroa,1
+ropati,1
+taumarunui,1
+tiwai,1
+tore,1
+tupou,1
+waimea,1
+waitutu,1
+whangamata,1
+whitianga,1
+taonga puoro,2
+moko,1
+teina,1
+pukaki,1
+te puke,2
+parata,1
+runanga,1
+eketahuna,1
+kahia,1
+otepuni,1
+paparua,1
+rimene,1
+waihora,1
+te puia,2
+ngati kahungunu,2
+aroha,1
+muriwai,1
+huia,1
+totara,1
+rangi,1
+turei,1
+turoa,1
+hore,1
+anika moa,2
+ero,1
+hinuera,1
+hume,1
+kaitoke,1
+manawatu-wanganui,1
+nonu,1
+paparoa,1
+papatoetoe,1
+paremoremo,1
+pero,1
+ki-o-rahi,1
+papamoa,1
+kakariki,1
+waiuku,1
+papeete,1
+rowena,1
+awapuni,1
+awatere,1
+haira,1
+himatangi,1
+kakapo,1
+kora,1
+kota,1
+morati,1
+punakaiki,1
+tane,1
+tauiwi,1
+te heuheu,2
+tito,1
+whatuira,1
+ngati whakaue,2
+mokopuna,1
+kura kaupapa maori,3
+mahi,1
+koro,1
+ngati porou,2
+kupu,1
+paihia,1
+haare,1
+eru,1
+haiu,1
+ohau,1
+akita,1
+irate,1
+kaweka,1
+kee,1
+kowhai,1
+kuiti,1
+mairehau,1
+matarangi,1
+moke,1
+ngamu,1
+orakei,1
+orana,1
+otira,1
+riwaka,1
+ruapuna,1
+waikawa,1
+waimairi,1
+whiteware,1
+ngata,1
+kura kaupapa,2
+kapua,1
+ria,1
+tino rangatiratanga,2
+kaikohe,1
+te paea,2
+te awamutu,2
+metiria turei,2
+opotiki,1
+takapau,1
+temuera,1
+tiki taane,2
+angina,1
+aorangi,1
+aramoana,1
+ario,1
+awoke,1
+hoare,1
+kaino,1
+karamea,1
+keri,1
+mana motuhake,2
+meo,1
+ngaire,1
+one-on-one,1
+one-time,1
+peta,1
+rangiatea,1
+rangitoto,1
+reekie,1
+taare,1
+titewhai harawira,2
+waikouaiti,1
+wea,1
+pou,1
+pounamu,1
+maungakiekie,1
+rohe,1
+kupe,1
+waingawa,1
+reunite,1
+tiaki,1
+waaka,1
+anamika,1
+at-home,1
+erika,1
+kaiwera,1
+keene,1
+mahe,1
+mahuta,1
+maitai,1
+mararoa,1
+merepeka raukawa,2
+murihiku,1
+oturehua,1
+owairaka,1
+pakatoa,1
+pania,1
+pio,1
+pohio,1
+poneke,1
+poo,1
+take-home,1
+taramakau,1
+te awanga,2
+tutu,1
+wiri,1
+papenoo,1
+tawhiao,1
+akina te reo,3
+te mahi kai,3
+karena,1
+taniwha,1
+tupuna,1
+hori,1
+motu,1
+hokianga,1
+koha,1
+nepia,1
+pokie,1
+te araroa,2
+te kanawa,2
+mee,1
+tuariki,1
+inia,1
+hemi,1
+nga puhi,2
+waipareira,1
+eee,1
+iraena,1
+kaitaki,1
+maramarua,1
+mite,1
+moira,1
+omarama,1
+pahiatua,1
+papakowhai,1
+poutini,1
+puketapu,1
+ratu,1
+toro,1
+tuatara,1
+tuineau,1
+tumarae,1
+wairio,1
+whitireia,1
+matariki maori,2
+waka ama,2
+whirimako,1
+kaupapa maori,2
+eruera,1
+reti,1
+waitaha,1
+paora,1
+wahine,1
+manuka,1
+reihana,1
+nuku,1
+waipawa,1
+kokako,1
+pukeko,1
+ai,1
+aratika,1
+aru,1
+eroni,1
+hara,1
+heroine,1
+hoani,1
+karamaena,1
+kuka,1
+mahia,1
+maire,1
+ngai tamanuhiri,2
+paine,1
+pekepo,1
+pirie,1
+rena,1
+te amo,2
+te aroha,2
+te raekaihau,2
+tonu,1
+waimatuku,1
+wainui,1
+whangaparaoa,1
+atamira,1
+tauranga moana,2
+kahungunu,1
+purapurawhetu,1
+awhina,1
+pepeha,1
+te ahu,2
+te karere,2
+ahuriri,1
+kimi,1
+te puna,2
+kaha,1
+ohakune,1
+urewera,1
+tamatea,1
+whare,1
+hotere,1
+hunua,1
+aramoho,1
+tame iti,2
+amaru,1
+arahanga,1
+ema,1
+epuni,1
+hema,1
+hororata,1
+huhu,1
+irina,1
+ito,1
+manawatu wanganui,2
+maniapoto,1
+mataitai,1
+mei,1
+mora,1
+mururoa,1
+neha,1
+ngati tama,2
+ngati toa,2
+nikita,1
+nino,1
+noema,1
+paranoia,1
+parekura horomia,2
+poata,1
+poke,1
+puketutu,1
+rapana,1
+renata,1
+takahe,1
+tautari,1
+te apiti,2
+te rure,2
+temuka,1
+tinge,1
+waianiwaniwa,1
+waimumu,1
+wapiti,1
+kapai,1
+korero maori,2
+nga tamatoa,2
+kia ora te reo maori,5
+te kupu o te wiki,5
+maihi,1
+taiaha,1
+rangatahi,1
+te aho,2
+katikati,1
+anahera,1
+koru,1
+taiaroa,1
+hinewehi mohi,2
+ruamahanga,1
+wharenui,1
+hekia parata,2
+rewi,1
+maraenui,1
+hohepa,1
+pupuke,1
+tukituki,1
+ao,1
+herewini,1
+huka,1
+kaingaroa,1
+matua,1
+te horo,2
+anae,1
+aperi,1
+aramoho wanganui,2
+arapai,1
+aro,1
+eerie,1
+hohaia,1
+hoi,1
+honiara,1
+kaiwharawhara,1
+kapiti waiorua,2
+kone,1
+mairangi,1
+makarora,1
+marika,1
+maruia,1
+mohi,1
+nae,1
+ngati whatua,2
+parore,1
+peak-time,1
+piri weepu,2
+pokere,1
+pomahaka,1
+rangi ruru,2
+rangipo,1
+rotoma,1
+ruahine,1
+ruane,1
+ruaporo,1
+taharaki,1
+tahuna,1
+takahue,1
+tiatia,1
+tinakori,1
+torea,1
+wairaurahiri,1
+waitahuna,1
+waitai,1
+whakaari,1
+whirinaki,1
+tauranga moana maori,3
+ngati kahungunu iwi,3
+mauriora kingi,2
+te matawai,2
+uenuku,1
+mihi,1
+whina,1
+mana wahine,2
+karanga,1
+te rito,2
+paepae,1
+mauao,1
+okareka,1
+whetu,1
+apiata,1
+maia,1
+maoritanga,1
+rona,1
+te mangai paho,3
+tuwharetoa,1
+tamaki makaurau,2
+hakaraia,1
+mata,1
+napier-taupo,1
+reweti,1
+waitomo,1
+whoa,1
+amuri,1
+emirate,1
+eti,1
+haana,1
+hira,1
+hue,1
+kapiti mana,2
+kepa,1
+kiro,1
+kotuku,1
+kowai,1
+kumeu,1
+mahara okeroa,2
+mahuika,1
+mahurangi,1
+mea,1
+motukarara,1
+neemia,1
+neurone,1
+ngatiwai,1
+nima,1
+ohia,1
+oio,1
+okeroa,1
+one-to-one,1
+oriana,1
+oriwa,1
+otapiri,1
+paringa,1
+patearoa,1
+peka peka,2
+poki,1
+popata,1
+pukekura,1
+putaruru,1
+rewi pene,2
+ripia,1
+taiapa,1
+takanini,1
+taramea,1
+taupata,1
+tawera,1
+te kaha,2
+te kauwhata,2
+te runanga o ngai tahu,5
+te tii,2
+te tii marae,3
+te tipua,2
+te whaiti,2
+teme,1
+tuhakaraina,1
+wharekaho,1
+whatarangi,1
+whataroa,1
+koroneho,1
+otangarei,1
+rangi matamua,2
+tono toi,2
+puha,1
+kaipo,1
+arohatia te reo,3
+pikia,1
+rika,1
+tetaurawhiri,1
+waata,1
+mana whenua,2
+mihaka,1
+whanaungatanga,1
+manuhiri,1
+piripi,1
+te kani,2
+winiata,1
+kuranui,1
+orakei marae,2
+tahau,1
+te matatini,2
+mita,1
+tikanga maori,2
+kereama,1
+hinemoa,1
+kaitiaki,1
+taane,1
+ohinemutu,1
+raimona,1
+tangaroa,1
+anaru,1
+rawiri,1
+ruatoki,1
+te maori,2
+ange,1
+ngaruawahia,1
+ropiha,1
+harare,1
+no-no,1
+taonga maori,2
+te huia,2
+te rauparaha,2
+waitotara,1
+aia,1
+akena,1
+awatere-huata,1
+awhitu,1
+harihari,1
+heremaia,1
+hitaua,1
+hoki,1
+hone heke,2
+iona,1
+kahawai,1
+kahotea,1
+kaui,1
+kiwiana,1
+kohe,1
+kohi,1
+kokomo,1
+kumeroa,1
+mareko,1
+maru,1
+matua whangai,2
+mawhera,1
+menumate,1
+meri,1
+mikaere,1
+miki,1
+mohaka,1
+mokopeka,1
+moonee,1
+mourie,1
+moutoa,1
+ngan-kee,1
+ngati poneke,2
+ngauruhoe,1
+ngawihi,1
+o-tautahi,1
+okahu,1
+ono,1
+opie,1
+pereira,1
+perera,1
+pipitea marae,2
+pokeno,1
+pomare,1
+poore,1
+rakete,1
+romi ropati,2
+romina,1
+rongowhakaata,1
+taiko,1
+taitapanui,1
+takarei,1
+tamara,1
+tangimoana,1
+taramoa,1
+tarawera,1
+te ata,2
+te atiawa,2
+te hau ki turanga,4
+te tai rawhiti,3
+te tau ihu,3
+terawhiti,1
+titiroa,1
+toko,1
+totori,1
+tutaia,1
+urea,1
+waikari,1
+waikeria,1
+waikuku,1
+waipapa,1
+waitere,1
+waiwera,1
+whaanga,1
+whio,1
+woe,1
+ki o rahi,3
+paraoa,1
+puanga matariki,2
+puanga-matariki,1
+pukaha,1
+rahui,1
+tuhonohono,1
+wirihana,1
+putiki,1
+tukutuku,1
+te haumihiata,2
+tomoana,1
+karetu,1
+ngahiwi apanui,2
+owhata,1
+ruha,1
+tarau porowha,2
+te ahikaa,2
+te ataarangi,2
+te manga maori,3
+te ngakau o te awa,5
+te ohu whakaita,3
+te taura whiri,3
+tutaeporoporo,1
+tuakana,1
+watene,1
+harakeke,1
+mokoia,1
+peeti,1
+pita paraone,2
+ropitini,1
+tikipunga,1
+hereaka,1
+tawhara,1
+taiao,1
+tutanekai,1
+awanui,1
+tahana,1
+murupara,1
+pai,1
+rakau,1
+reo maori,2
+taua,1
+tere,1
+mau,1
+pakiri,1
+tokerau,1
+pakeke,1
+parekura,1
+karangahape,1
+karekare,1
+mahoe,1
+tahiti nui,2
+tahu,1
+te ara,2
+te pou,2
+waipu,1
+ataahua,1
+hikurangi,1
+hoe,1
+matauri,1
+raroa,1
+raurimu,1
+tami,1
+ake,1
+aki,1
+anatoki,1
+arawata,1
+arawhata,1
+arie,1
+arohanui,1
+ea,1
+haru,1
+hera,1
+hiini,1
+himiona,1
+himona,1
+homeware,1
+hui taumata,2
+i hope i,3
+ianeta,1
+inga,1
+kapea,1
+karitane,1
+kawau,1
+keohane,1
+kohimarama,1
+korokoro,1
+kuki,1
+mahara,1
+manaena,1
+matangi,1
+matawhero,1
+maungaraki,1
+meara,1
+miriori,1
+moeau,1
+monowai,1
+moraine,1
+moriori,1
+namana,1
+narita,1
+ngatata,1
+nokomai,1
+noumea,1
+nui,1
+oia,1
+okinawa,1
+omihi,1
+opi,1
+oringi,1
+otamita,1
+paewai,1
+paki,1
+pene,1
+peneha,1
+perano,1
+pinero,1
+punga,1
+puree,1
+raekura,1
+raetihi,1
+raiha,1
+rangimoekau,1
+rapahoe,1
+raukumara,1
+reiterate,1
+rihia,1
+ropata,1
+rotoroa,1
+tahunanui,1
+tamahori,1
+tangiora,1
+taputeranga,1
+tatua,1
+tawera nikau,2
+tawhai,1
+te maramatanga,2
+te marua,2
+te mata,2
+te moana,2
+timu,1
+toime,1
+tomeu,1
+totaranui,1
+tuapeka,1
+tutekawa,1
+ure,1
+waianiwa,1
+waikoikoi,1
+waiwhetu,1
+wanaka wanaka,2
+wharewaka,1
+whenuapai,1
+whinge,1
+kinita,1
+koauau,1
+maroto,1
+merania karauria,2
+ori,1
+paratene,1
+rerekura,1
+te matau,2
+te whaanau maarama,3
+tukiwaho,1
+whanganui maori,2
+kete,1
+papatuanuku,1
+pehiaweri marae,2
+pihema,1
+erima henare,2
+ngahiwi tomoana,2
+ngaiterangi,1
+tama-te-kapua,1
+te aranga,2
+te kura o te koutu,5
+te reo i te hapori,5
+te reo i te kainga,5
+kopa,1
+papawai marae,2
+tama huata,2
+parihaka,1
+ranginui,1
+tautoko,1
+anika,1
+huhana,1
+ngati raukawa,2
+whaikorero,1
+kaeo,1
+kaiwaka,1
+mako,1
+otane,1
+apirana ngata,2
+pewhairangi,1
+te huinga reo,3
+tipuna,1
+ara,1
+awhi,1
+epitome,1
+nikora,1
+papawai,1
+rahui katene,2
+rongo,1
+imitate,1
+kaiwhakahaere,1
+nanaia mahuta,2
+tairawhiti,1
+tangiwai,1
+te roroa,2
+aerie,1
+akane,1
+amaia,1
+aorere,1
+areaiiti,1
+atau,1
+eke,1
+epi,1
+haimona,1
+hariri,1
+hei tiki,2
+honoraria,1
+horo,1
+hukarere,1
+hutu,1
+i hope he,3
+in-one,1
+inane,1
+kaki,1
+kaniere,1
+karawana,1
+karina,1
+karu,1
+kaukau,1
+kaweku,1
+keira,1
+kimono,1
+konia,1
+konui,1
+kotare,1
+mahinerangi,1
+mana maori,2
+manapouri to te anau,4
+mangamahoe,1
+mangaorapa,1
+mangaroa,1
+mani,1
+manihere,1
+mapua,1
+marahau,1
+maroni,1
+matinee,1
+matipo,1
+matukituki,1
+mautua,1
+meeanee,1
+meremere,1
+meringue,1
+mingo,1
+moeke,1
+moera,1
+mune,1
+muru,1
+ngaia,1
+ngati kahungunu ki wairarapa,4
+ngati kuia,2
+ngatitoa,1
+ngoho,1
+ngongotaha,1
+niro,1
+okaka,1
+oke,1
+onewhero,1
+ota,1
+otaku,1
+otautahi,1
+otematata,1
+otorohanga,1
+panguru,1
+paramore,1
+parekereke,1
+pareora,1
+paritutu,1
+pate,1
+patea,1
+petero,1
+pirika,1
+poananga,1
+pongia,1
+pukekawa,1
+purewa,1
+raimi,1
+rakahura,1
+rakaumanga,1
+rakiura maori,2
+ramahana,1
+rana waitai,2
+rapaki,1
+rapira,1
+rato,1
+reina,1
+reka,1
+renate,1
+retaruke,1
+rewa,1
+roni,1
+rui,1
+taika,1
+tairakena,1
+tamarua,1
+tariana,1
+tariki,1
+tatiana,1
+tauherenikau,1
+taupiri,1
+te kahi,2
+te mana,2
+te puku o te whenua,5
+te tai hauauru,3
+te uku,2
+te waka huruhurumanu ki otautahi,5
+tenana,1
+terei,1
+tiara,1
+tingate,1
+tirakatene,1
+tirau,1
+titoki,1
+tokaanu,1
+tokoriki,1
+tuapawa,1
+tuku,1
+tuturau,1
+wahanui,1
+waihape,1
+waiho,1
+waimarama,1
+waimatua,1
+waitahanui,1
+waitangi marae,2
+waitikiri,1
+waititi,1
+whoopi,1
+wipa,1
+wipo,1
+witi ihimaera,2
+ihaka,1
+kaha mai,2
+kahurangi maori,2
+manurewa marae,2
+maori matariki,2
+matakokiri,1
+matamua,1
+matariki wananga-a-kai,2
+matariki-oke,1
+matariki-puanga,1
+matauranga maori,2
+mato,1
+monga,1
+nga taonga taakaro,3
+paitangi,1
+peke-taiaroa,1
+puanga whanganui,2
+pukaea,1
+rehua,1
+roana,1
+tane mahuta,2
+tautoru,1
+te awarua,2
+te kaupoi,2
+toetoe,1
+tuakana-teina,1
+tupu,1
+turapa,1
+waipoua,1
+wikohika,1
+horopito,1
+matauranga,1
+pikopiko,1
+te kura o kokohuia,4
+te taiwhenua o heretaunga,4
+awa,1
+raranga,1
+ruaumoko,1
+te arawa maori,3
+waiata maori,2
+whakairo,1
+apopo,1
+hinurewa,1
+kina te reo,3
+maia mihaka,2
+maimoa,1
+maipi,1
+make te reo,3
+merito,1
+morena,1
+ngahihi-o-te-ra,1
+ngati pikiao,2
+papakainga,1
+paraone,1
+puhikura,1
+puku,1
+taiopenga,1
+take te reo,3
+tamaiti,1
+tangihanga,1
+tauranga te reo,3
+te ao maori,3
+te kohe,2
+te pumautanga o te arawa,5
+te reo tauranga,3
+te wiki o te reo,5
+toa tiaki taiao,3
+toki,1
+waiaroha,1
+wainohu,1
+whaitaima te whare,3
+hape,1
+hato petera,2
+hongi,1
+katene,1
+koromiko,1
+maketu,1
+omapere,1
+parua,1
+rangimarie,1
+tepapa,1
+maioha,1
+maunu,1
+mitai,1
+ngati wai,2
+raukura,1
+taipari,1
+apanui,1
+kawa,1
+koroua,1
+otumoetai,1
+ruakaka,1
+tamai,1
+te kura kaupapa maori,4
+tongia,1
+wairua,1
+waiwhetu marae,2
+akoranga,1
+amie,1
+ariki,1
+kohatu,1
+maori taonga,2
+ngatai,1
+pataka,1
+perenara,1
+roimata,1
+taki rua,2
+tauhara,1
+te atairangikaahu,2
+uri,1
+ama,1
+amorangi,1
+arapeta,1
+hari,1
+horomia,1
+kaimoana,1
+kamo,1
+katerina,1
+kohu,1
+maanu,1
+maori whanau,2
+me to take,3
+omokoroa,1
+raro,1
+re-route,1
+ruatoria,1
+timoti karetu,2
+tuahine,1
+aharoni,1
+ahau tupou,2
+ahipara,1
+ahu,1
+akarana,1
+akatarawa,1
+amaka,1
+amano,1
+amituanai,1
+anamari,1
+ani,1
+aperahama,1
+arahina,1
+arawa,1
+arohata,1
+ata,1
+atiamuri,1
+atiwhakatu,1
+awarua runanga,2
+emanate,1
+eno,1
+haami,1
+hamo,1
+haruru,1
+hauroko,1
+hautaki,1
+he huarahi tamariki,3
+hei hei,2
+heine,1
+hepi,1
+here to make,3
+hetaraka,1
+hikoikoi,1
+hikuwai,1
+hope to make,3
+hopuhopu,1
+iaea,1
+ikamatua,1
+ima,1
+inu,1
+ipu,1
+iwate,1
+kaimai,1
+kaituna,1
+kaiuma,1
+kakanui,1
+kamaru,1
+kanamaru,1
+kangapiro,1
+kanuka,1
+kapi-mana,1
+kaponga,1
+kapuka,1
+karetai,1
+kawanatanga,1
+kawiti,1
+kingipotiki,1
+kiwitea,1
+koi,1
+konini,1
+koreana,1
+kotara,1
+kowhiria,1
+kumototo,1
+kumuka,1
+kumutoto,1
+kurutai,1
+maere,1
+mahinarangi,1
+mahuru,1
+makoto,1
+mana pounamu,2
+manakau,1
+manawatu-rangitikei,1
+mangatawhiri,1
+mapara,1
+maraetai,1
+maraetotara,1
+maraora,1
+marita,1
+matakana,1
+matakanui,1
+matangi tonga,2
+maungamanu kaikoura,2
+maurie,1
+me to make,3
+mei whaitiri,2
+mimihau,1
+moerewa,1
+moimoi,1
+monotone,1
+motor-home,1
+moutere,1
+muritai,1
+mutate,1
+nahona,1
+naomie,1
+nepata,1
+neuro,1
+ngahina,1
+ngai tahu maori,3
+ngakawau,1
+ngaruroro,1
+ngati koata,2
+ngati ranana,2
+ngati tama whiti,3
+ngati toa kaumatua,3
+ohiro,1
+ohiwa,1
+okuku,1
+one where he,3
+onekawa,1
+opuha,1
+orari,1
+oratia,1
+otaihanga,1
+oteramika,1
+ouruhia,1
+outa,1
+pakau,1
+paparangi,1
+papatotara,1
+pare,1
+pehi te whare,3
+perawiti,1
+peri,1
+piko,1
+pomona,1
+ponga,1
+pouaka,1
+pourere,1
+puataua,1
+pukerau,1
+rahiri,1
+raina,1
+rangimoana,1
+rangitaiki,1
+rapatini,1
+rarakau,1
+rarangi,1
+rau,1
+rehua marae,2
+renato,1
+reporoa,1
+repute,1
+rewita,1
+rikiti,1
+rimi,1
+romano,1
+rongonui,1
+rorani,1
+rote,1
+rotoaira,1
+rotopiko,1
+ruakura,1
+ruataniwha,1
+ruka,1
+ruru,1
+tae,1
+tahere,1
+tahi,1
+taia,1
+tainui maori,2
+tairi,1
+tamahine,1
+tamaira,1
+tanaka,1
+tapea,1
+tarawhiti,1
+taruna,1
+tato,1
+tauira kapea,2
+taumoepeau,1
+te au miro,3
+te heu heu,3
+te huna,2
+te kooti,2
+te kope,2
+te kopi,2
+te oka,2
+te omanga,2
+te patu,2
+te raukura,2
+te tawharau,2
+te teko,2
+te wae wae,3
+te whaea,2
+tehau pohio,2
+temepara,1
+tihaka,1
+tiromoana,1
+titi,1
+toe-to-toe,1
+tokorangi,1
+toopi,1
+topi,1
+topia,1
+toto,1
+tuakau,1
+tuaputa,1
+tukuitonga,1
+tumaru,1
+tupe,1
+turua,1
+urawee naree,2
+urinate,1
+wai-iti,1
+waiana,1
+waihinahina,1
+waikaraka,1
+waimahaka,1
+waiorau,1
+waipa,1
+waipounamu,1
+wairaki,1
+wairepo,1
+waitane,1
+waitohi,1
+waiwhetu maori,2
+waka te raukura,3
+wakitipu,1
+wanganui maori,2
+wangapeka,1
+wanoa,1
+weepu,1
+wetere,1
+whaitiri,1
+wharawhara,1
+whetu tirikatene,2
+wineera,1
+aratoi,1
+awhi tapu,2
+hakari,1
+hei matau,2
+hekenukumai,1
+heketa,1
+heru,1
+hita,1
+hui-a,1
+ihirangi heke,2
+kahutara,1
+kaumatua kapa haka,3
+ki-o-rahi akotanga iho,3
+kiripatea,1
+korimako,1
+kouka,1
+kowhiti,1
+manaaki,1
+mangaia,1
+manu aute kite,3
+manu nikau,2
+maramataka,1
+matariki rotorua,2
+matariki to me,3
+mau rakau,2
+mokaraka,1
+motutara,1
+muriwai matariki,2
+naki,1
+nga hua o matariki,4
+nga tini whetu,3
+nga tohu o uenuku,4
+ngaromoana raureti,2
+ngati haua,2
+ngati rangi,2
+noome,1
+otamatea,1
+paimarie,1
+pao pao pao,3
+poi toa,2
+putatara,1
+raerino,1
+rawiri paratene,2
+rewana,1
+roopu,1
+taane mete,2
+taiwhenua,1
+taonga whakaari,2
+taumata,1
+taumata matauranga o ngati whakaue,5
+tawiti,1
+te aokapurangi,2
+te aute,2
+te kanikani o te rangatahi,5
+te kura kaupapa maori o pukemiro,6
+te mahurehure marae,3
+te marama,2
+te rangi huata,3
+te rangikaheke,2
+te rangikaheke kiripatea,3
+te tahawai marae,3
+te taiwhenua o te whanganui a orotu,7
+te tau huata,3
+te taumata o ngati whakaue iho ake,7
+tewake,1
+tipare,1
+tuatua,1
+waka te aurere,3
+wananga-a-kai,1
+wehipeihana,1
+whanganui iwi,2
+wiremu mato,2
+anaru kaipo,2
+kaiako,1
+kinaki,1
+korowai,1
+kowhaiwhai,1
+maori tikanga,2
+mauriora,1
+ngati ranginui iwi,3
+ngati rangiwewehi,2
+patupaiarehe,1
+pukemokimoki marae,2
+ruia te kakano,3
+taepa,1
+te ao marama,3
+te matatini kapahaka,3
+te rerenga kotuku,3
+tititorea,1
+whau,1
+apatu,1
+ataarangi,1
+auaha,1
+awa whenua,2
+haki tahana,2
+hinurewa poutu,2
+huinga rangatahi,2
+kaea,1
+kahungunu kia eke,3
+kaiaia,1
+kaiwhakaako,1
+kapa haka i,3
+katerina mataira,2
+kingi ria,2
+ko wai e huna ana,5
+korero mai,2
+kori kori a iwi,4
+kotahitanga,1
+kotuku tomoana,2
+kupu hou,2
+maaka,1
+maia ariana anahera,3
+maimoatia,1
+makariri,1
+maori whakatauki,2
+matanga maori,2
+materoa haenga,2
+matua tamai,2
+maungakaramea,1
+metaia keepa,2
+mihingarangi,1
+moana moko,2
+nga mihi,2
+nga tohu reo maori,5
+ngai te rangi,3
+ngati kahungungu,2
+ngoi pewhairangi,2
+ohauiti,1
+oma rapiti,2
+otonga,1
+pene nepe,2
+pipiwai,1
+pohiri,1
+potaua,1
+pukana,1
+rapata wiri,2
+roko,1
+roo,1
+ropu,1
+rotorua-nui-a-kahumatamomoe,1
+taihoa,1
+taiopenga o tuwharetoa,3
+takitimu waka,2
+taura whiri i te reo maori,6
+te akau ki papamoa,4
+te aokehu,2
+te aonui papakainga,3
+te aranga marae,3
+te hapua,2
+te iwa o matariki,4
+te kahui o rauru,4
+te kura kaupapa maori o otepou,6
+te kura o matapihi,4
+te potiki hononga kura,4
+te puawai,2
+te raania,2
+te rehia,2
+te reo he,3
+te reo te reo,4
+te reo tuatahi,3
+te runanga o ngai te rangi iwi,7
+te wananga o aotearoa maori,5
+te wananga o tamaki nui a rua,7
+te wharekura o mauao,4
+te wharekura o ngati rongomai,5
+toeke,1
+toro pikopiko,2
+tuakana teina,2
+tuehu,1
+turangawaewae,1
+wananga kura,2
+whaea,1
+whakamoemiti,1
+whakatauki,1
+whangaihia te reo maori ki nga matua,7
+whare pukapuka,2
+whiu,1
+wiki o te reo maori,5
+witeri,1
+hauturu,1
+hemopo,1
+huriwai,1
+iwi hapu,2
+kanikani,1
+kapa-haka,1
+kapahaka,1
+karauria,1
+kata,1
+kokopu,1
+mangawhai,1
+nga,1
+ngati whatua o orakei,4
+omanu,1
+paenga,1
+pakaitore,1
+pakipaki,1
+potaka,1
+taitokerau,1
+teara,1
+tunohopu marae,2
+tutaekuri,1
+umu,1
+upokongaro,1
+waiora,1
+whenua,1
+hika,1
+hiko,1
+hoani waititi marae,3
+ihenga,1
+katarina,1
+manaia,1
+maori pakeha,2
+mateni,1
+matewai,1
+maungatapere,1
+ngati hine,2
+ngati tumatauenga,2
+niko,1
+puke,1
+raukatauri,1
+rotorua maori,2
+rumaki,1
+tamatekapua,1
+tangatawhenua,1
+te kohanga reo,3
+te papa tongarewa,3
+te whare wananga o awanuiarangi,5
+tohunga,1
+utu,1
+waipuna,1
+whangerei,1
+a-minute,1
+ahi,1
+aine,1
+akarua,1
+akihito,1
+amaia ngapora,2
+amarama,1
+amauri,1
+amore,1
+anaemia,1
+anake,1
+animate,1
+arai hema,2
+ariana,1
+arohaina,1
+arona,1
+arunee,1
+ata rangi,2
+atonu,1
+atua,1
+aupepe,1
+awamoko,1
+awatea,1
+eaterie,1
+eeo,1
+eie,1
+en-route,1
+epiha,1
+haki te kura,3
+hapi,1
+hapuka,1
+hato paora,2
+hato paora maori,3
+haumaha,1
+haumoana,1
+he waka taurua,3
+hemera,1
+heremia,1
+herima,1
+heu heu,2
+hiku,1
+hikuai,1
+hina,1
+hine huata,2
+hineata kotara,2
+hinemoana,1
+hinewhare,1
+hirano,1
+hirohito,1
+hiroko tamano,2
+hohonu,1
+hone kaiwai,2
+hone tuwhare,2
+horotane,1
+huapai,1
+huarangi,1
+humaira,1
+humana,1
+huriwaka,1
+ihaia,1
+ihi,1
+ihimaera,1
+ikaroa-rawhiti,1
+ike,1
+ikuna,1
+inangahua,1
+inoke,1
+ioana,1
+ite,1
+ka tiriti o te moana,5
+kahikatea,1
+kaho,1
+kahurautete,1
+kaihautu,1
+kaira,1
+kairakau,1
+kairaki,1
+kairau,1
+kairua,1
+kamana,1
+kamoto,1
+kana,1
+kanai,1
+kapa hanga kainga,3
+kapi mana,2
+kapiti wairarapa,2
+kapiti-mana,1
+kari,1
+kati,1
+katipa,1
+kawahata,1
+kawariki,1
+kawera,1
+keane wainuiomata,2
+keiko,1
+keitiria,1
+kerangi,1
+kere,1
+kihi tawhai,2
+kimani,1
+kira,1
+kiriau taieri,2
+kokiri marae,2
+koko,1
+koopu,1
+koraunui te kohanga reo,4
+koura,1
+kua ranea aperahama,3
+kururangi,1
+kute,1
+kuwaiti,1
+ma-tori,1
+maaka pohatu,2
+maea,1
+mahanama,1
+mahanga,1
+maheno,1
+mahina,1
+mahinapua,1
+mahuru kaikorai,2
+makarini,1
+makea,1
+makino,1
+mamaku,1
+manarua,1
+manawatu whanganui,2
+mane,1
+mangu kaha,2
+mano,1
+manu ura,2
+manu-wai,1
+marae where he,3
+maraekakaho,1
+mareo,1
+marewa,1
+mataau,1
+matamanoa,1
+matata,1
+matiaha,1
+matu,1
+mauheni,1
+maunakea,1
+maungaturoto,1
+maupuia,1
+meena,1
+mereana aranga,2
+meti,1
+metua aripu,2
+mina,1
+minoru morimoto,2
+mire,1
+miro,1
+mita ririnui,2
+moehau,1
+moeraki,1
+moreno,1
+mori,1
+motuihe,1
+motukawaiti,1
+motunau,1
+moturoa,1
+mungaroo,1
+murihiku marae,2
+nahu,1
+nanako,1
+naoki,1
+natone,1
+nearea,1
+neate,1
+nga hau e wha,4
+nga taonga,2
+nga tapuwae,2
+nga uruora,2
+ngai tahu kaiwhakahaere,3
+ngaiwi,1
+ngakuta,1
+nganu,1
+ngapuhi runanga,2
+ngatea,1
+ngati koata ngati tama ngati toa rangitane te atiawa ngati apa,11
+ngati kuia ngati apa,4
+ngati rarua maori,3
+ngati rarua one,3
+ngatokorua urarii,2
+ngawaka,1
+ngawi,1
+ngunguru,1
+niko tangaroa,2
+nita,1
+noa,1
+non-white,1
+noomi,1
+noone,1
+nori,1
+numerate,1
+ohingaiti,1
+oho mauri oho ake,4
+ohoko,1
+ohuka,1
+ohura,1
+okano,1
+okataina,1
+okura,1
+oma,1
+one to make,3
+one-minute,1
+onepunga,1
+onewa,1
+ongoongo,1
+onoke,1
+opanuku,1
+opiate,1
+opihi,1
+oraki,1
+orawia,1
+oroua,1
+otahuti,1
+otakou,1
+otama,1
+otautau otautau,2
+oteha,1
+owhango,1
+pakawau,1
+paniora,1
+paora winitana,2
+paora winitana mene,3
+parangatai,1
+parapine,1
+pareanga,1
+patia,1
+patu,1
+patumahoe,1
+pawarenga,1
+pekapeka,1
+pekia,1
+peorua,1
+pera,1
+petunia,1
+pietari,1
+pihama,1
+piki,1
+pio terei,2
+pirini,1
+poa,1
+pongakawa,1
+ponoko,1
+poo-poo,1
+pookie,1
+popera,1
+porangahau,1
+porirua to karori,3
+porirua wainuiomata pukerua,3
+porirua-kapiti,1
+poto,1
+pourakino,1
+pourerere,1
+poutoa,1
+puerua,1
+puhinui,1
+pukehina,1
+puketiro,1
+pukeuri,1
+puni,1
+purau,1
+purina,1
+puriri,1
+puru,1
+raine,1
+rakiura maru,2
+rana,1
+ranatunga,1
+rangi maniapoto,2
+rangihaeata,1
+rangikura,1
+rangitane,1
+rangiuaia,1
+rangiuru,1
+rapaki runanga,2
+rapaura,1
+rarere,1
+raupare,1
+rawinia hauraki,2
+rehau,1
+reiha,1
+remi,1
+rere,1
+retina,1
+retiree,1
+rewiti,1
+riau,1
+riki kauika,2
+romana,1
+rotokare,1
+rua,1
+ruari,1
+ruatahuna,1
+ruia mai,2
+runa,1
+ruwhiu,1
+taiawhio,1
+taihape waiouru ohakune raetihi,4
+taikato,1
+taimania,1
+tainui taranaki,2
+tairua,1
+taitapu whakarewa motueka,3
+taka,1
+takahanga marae,2
+takaki,1
+takuta,1
+tamati hakopa kapo,3
+tamihana paurini,2
+tamihere to take,3
+tane puki,2
+tane tuhakaraina,2
+tanga,1
+tangata,1
+tani,1
+taoho,1
+taonui,1
+taranaki tui,2
+taranaki wanganui,2
+tatou,1
+tauariki,1
+taunoa,1
+taunoka,1
+taupe,1
+tauranga taupo,2
+taurua,1
+tautuku,1
+tawharu,1
+te akau,2
+te ati awa,3
+te awakura,2
+te houka,2
+te huarahi ki te oranga pai,6
+te kairanga,2
+te mana akonga,3
+te moana kotuku,3
+te ohu kaimoana,3
+te puka,2
+te puni,2
+te riu roa,3
+te ropu whakahaere,3
+te ruki kawiti,3
+te taurapa o te waka,5
+te tii waitangi marae,4
+te tomairangi marae,3
+te wero,2
+te whanau a apanui,4
+te wheke,2
+te whetu,2
+te whiti,2
+teepa,1
+teki,1
+tekira,1
+ten-one,1
+teratai,1
+teri,1
+teri puketapu,2
+tiaina,1
+tiakinui,1
+tikana,1
+tikao,1
+timoti te heu heu,4
+tini,1
+tino,1
+tiopira,1
+titania,1
+toheroa,1
+tohetea,1
+toi whakaari,2
+toia,1
+toitoi,1
+tokoiti,1
+toku,1
+tomei,1
+tomi maru,2
+tongariro rangipo,2
+tongariro-rangipo,1
+toomata,1
+torana,1
+tou,1
+tui moana,2
+tuitupou,1
+tuki nenee,2
+tukoroirangi,1
+tuku aho,2
+tukuroirangi,1
+tumunui,1
+ture,1
+tute,1
+tutukaka,1
+tuwairua,1
+tuwhare,1
+ueno,1
+utai,1
+uterine,1
+ututaonga,1
+wahi tapu,2
+waiinu,1
+waikato tairawhiti,2
+waikiki,1
+waikoau,1
+waimarama marae,2
+waimataitai,1
+waimiha,1
+waingongora,1
+wainuiomata where he,3
+waiopehu,1
+waipahi,1
+waipiata,1
+wairama,1
+wairangi koopu,2
+wairarapa taranaki,2
+wairea,1
+waitaiki,1
+waitoa,1
+waitutu paiki,2
+waiwhetu taita,2
+waka huia,2
+wakura,1
+wane,1
+water-take,1
+weheka,1
+weti katipa,2
+whai oranga o te iwi,5
+whanganui manawatu,2
+whangapoua,1
+whangateau,1
+wharepapa,1
+whareroa,1
+wharetoa,1
+whenua hou,2
+whenuakite,1
+whine,1
+whoopee,1
+winitana,1
+wireera,1
+wiremu haare,2
+witika,1
+wome,1
+ahiaruhe,1
+akauri,1
+akiko maruno,2
+anamaria watene,2
+angiangi,1
+apirana turupa ngata,3
+arano kaitaia,2
+arapatiki,1
+aratoi wairarapa,2
+arore,1
+awataha marae,2
+awhi tapu where,3
+awhine,1
+e ai ki,3
+e kia ana te korero,5
+e kii e kii,4
+e ngaa uri whakatapu,4
+haka poi,2
+hake,1
+hapu iwi,2
+hari matariki,2
+hauhake,1
+hauiti,1
+hawaiki to aotearoa,3
+he aha ki te maramatanga o tera,7
+he kanohi kitea ki te arawa nei i te motu tonu koia te tuara o tona papa o tona tuakana o tana hoa rangatira,24
+he kimi i etahi i painga mo te iwi maori,10
+he kura ki waikato waikato,5
+he manu o aotearoa,4
+he mea takahi tera i te mana o taua kahui engari he momo aki momo whakararu i nga whiriwhiringa o taua runanga i a ia e wananga i nga tika me nga he o taua take,36
+he moumou taima te,4
+he rawe nga whakaritenga ko nga korero i puta i te hui a ki taku mohio ka eke to tatou tiaki i te kaupapa ki te taumata e tika ana,30
+he taura whakapapa,3
+hekama,1
+heke-huata,1
+hemi whaanga,2
+heperi,1
+herewini te whanau a apanui,5
+heroine mana wahine,3
+hika ahi,2
+hinaatore,1
+hine hika,2
+hinemanu ohia,2
+hinerauaamoa,1
+hirini tane to take,4
+hoe matariki,2
+hohepa te umuroa,3
+hohepa tuahine tuuhoe te arawa,5
+hokia ki nga maunga,4
+hone pene,2
+hou,1
+huikakahu kawe,2
+huirangi waikerepuru,2
+huruhuruwhenua,1
+hurunui o rangi marae,4
+i a ia e noho hei kawana a i hangaia he ture hou,13
+i hui tahi matou ko te pirimia inatatanei ki te whakatika i nga raru a kua tau,17
+i noho nei ia i to matou taha,8
+i rere tonu te patai mena he hoiho,8
+i rotorua nei hei te huitanguru o te tau hou pakeha nei,12
+i te ao maori,4
+in-tune,1
+iwi ngati kahungunu,3
+ka kite ano,3
+ka puta he kakano,4
+ka rawe hoki,3
+kaha mai tuwharetoa,3
+kaha mai tuwharetoa maori,4
+kahoa,1
+kahu te kanawa,3
+kahui rangatahi,2
+kahungunutanga,1
+kaikomako,1
+kairipoata,1
+kaiwhakahaere maori,2
+kakahu,1
+kaore i ko atu kaore i ko mai,8
+kapa haka waka ama,4
+kapowairua waitai,2
+karamaina,1
+karamu,1
+karawhiua,1
+karohirohi,1
+kaumatua hohepa,2
+kaupapa maori kaumatua mauriora kingi,5
+kaupapa maori rotorua,3
+kaupapa toi whenua,3
+kei te whai tonu te paata maori i te hiahia kia whai mana tonu te,15
+kei te whakanui,3
+kerapa,1
+keremea,1
+ki a au ka timata nga whakataetae i te powhiri,10
+ki a au kei te harikoa i te mea kua tae atu tenei take ki te taraipiunara o waitangi mana tonu e whiriwhiri mena he panga ano a tatou ki te wai kaore ranei,34
+ki o rahi ki whanganui,5
+ki-o-rahi akotanga iho to turangi,5
+kia noho hei mema paremata,5
+kiekie,1
+kihi ririnui,2
+kike,1
+kimi katene,2
+ko etahi o ratou kei te kii kaore he take o te paremata tonu engari kei te,17
+ko harawira te tangata i pirangi ki te noho hei minita i te,13
+ko reipa tonu te hunga kore whakarongo ki te taraipiunara i te,12
+ko te amorangi ki mua ko te hapai o ki muri,11
+ko te kii o te pirimia i a ia e mea ana ahakoa te whakatau o te tarapiunara ehara i te mea ka whai tonu atu te kawanatanga i ona korero,31
+ko te take matua o te,6
+ko te wai maori te take nui i korerotia i nga,11
+koeke,1
+koia pea tetahi kupu korero e whakamarama ana i te noho o timi i tenei ao,16
+kora tuhoe,2
+kori,1
+kotahi hei,2
+kua eke mai te,4
+kua kii mai ratou e kore rawaa nahinara i whakarite i tetahi ture hou ki te karo i te panga o nga iwi maori ki te wai,27
+kua noho pani tonu te ao maori a ia,9
+kua tanuku te toka o ngati tuwharetoa ara a timi te heuheu teina o te ariki o te iwi koia tera kua whai atu i nga mate o te takere o te waka,33
+kumara taewa,2
+kumarani,1
+maaka pepene,2
+maaka pohatu ngai tamanuhiri ngati apa ngati tuwharetoa,8
+mahi raranga,2
+mahi toi,2
+mahiraranga mahi toi,3
+mairina,1
+makaore,1
+make a matariki,3
+makoura,1
+mana wahine where,3
+mana whenua i,3
+mana whenua iwi,3
+manu aute,2
+manu rere,2
+manu rere tuwhara kia rahi,5
+manu tuwhara-kiarahi kite,3
+manutewhau moire,2
+maori kaumatua,2
+maori kaupapa,2
+maori korowai,2
+maori kura,2
+maori mana,2
+maraki,1
+marama hetaraka,2
+mata ariki,2
+mata o te tau e roa e,7
+mata riki,2
+matanga maori haki tahana,4
+mataraki,1
+matarawa,1
+matariki atua ka eke mai i te rangi e roa e whangai iho,13
+matariki puanga,2
+matariki tauranga,2
+matariki te arawa,3
+matariki te reo maori,4
+matariki to maori,3
+matariki wahine toi,3
+matariki whanau,2
+matariki whatarau,2
+matariki whatarau ngati kahungunu ngati raukawa ngati whanaunga,8
+matarikirotorua,1
+matarikitauranga,1
+matekino,1
+matou,1
+matuku moana,2
+maungarongo marae,2
+mauri moe mauri mate,4
+mawharu,1
+me tuku i nga poroporoaki ki nga tini mate o te,11
+merania,1
+merenia,1
+merepeka,1
+mie,1
+mihiroa marae,2
+mika haka,2
+minita watene,2
+miriama,1
+mitimiti,1
+moiera,1
+mokihi,1
+moku ake mo ngati rangiwewehi e hia,7
+moremore,1
+moteatea,1
+moteo te kohanga reo,4
+moturiki,1
+natana te hauroa tawhara,4
+natana te kura kaupapa maori o pukemiro,7
+natanahira pona,2
+nei nga kaupapa kua ara ake nga tangata kua aro nei ki nga momo kaupapa hei whakanui i te,19
+nei nga mano taara kua whakapauhia ki te pakanga ara ko te wai te take,15
+nga kahui pou,3
+nga kakano,2
+nga kura kaupapa o te puku,6
+nga mata ariki,3
+nga mihinui ki te tau hau ki a koutou,9
+nga pae o te maramatanga,5
+nga tamariki,2
+nga taonga takaro maori,4
+nga whaotapu o tamaki makaurau,5
+ngaa whetuu,2
+ngakura,1
+ngakuru,1
+ngapuhi ngati porau,3
+ngatai huata,2
+ngati apa,2
+ngati apa nga wairiki,4
+ngati kahungunu ngati porou ngati tuhoe,6
+ngati kawa,2
+ngati pakeha,2
+ngati porau hauora,3
+ngati porou hauora,3
+ngati pukenga,2
+ngati tuwharetoa,2
+ngati tuwharetoa timi te heuheu,5
+ngati wai ngati hine,4
+ngati whakaue ngati rangiwewehi,4
+nika,1
+nomura,1
+nonatatanei,1
+o matariki a e hia,5
+omahu marae,2
+omaru,1
+opaki,1
+orangihina,1
+oreo,1
+orewa kingi matariki,3
+orongonui,1
+otamataha,1
+paa harakeke,2
+pae arahi,2
+pahewa,1
+pahu,1
+pai marire,2
+paimarie kohanga reo,3
+pakaitore moutoa,2
+pakeha mai maori mai tamariki mai koeke mai,8
+papamoa where he,3
+paparoa marae kapa haka,4
+papataiao,1
+paraire tomoana,2
+parikoikoi,1
+penewiripo,1
+penewiripo kaitaia,2
+pere wihongi,2
+peruperu,1
+piata,1
+piko piko,2
+pingao,1
+pirihira taupe,2
+piupiu,1
+pohutu,1
+pona,1
+potiki,1
+pourangiwera,1
+pouroto ngaropo a matariki,4
+poututerangi marae,2
+puaka,1
+puaka matariki,2
+puanga karakia,2
+puanga maori,2
+puanga maunga karakia,3
+puawai neho-popata,2
+pumipi,1
+purapura,1
+purapurawhetu te pou,3
+purerua,1
+putara,1
+putiki wharanui marae,3
+putiki wharenui,2
+raharuhi aimee whata,3
+raharuhi ngati whakaue ngati pikiao,5
+rahera,1
+rahia,1
+raiha tahuri,2
+rakau mahi aringa,3
+rakaunui,1
+raku,1
+rangatahi arataki,2
+rangatahi to take,3
+rangitane ngati kauwhata ngati raukawa,5
+rangitane o wairarapa,3
+rapanui,1
+raruraru,1
+raua ko hurieta,3
+rawiri paratene tama waipara,4
+reira haere koutou whakangaro atu,5
+reira kia kaha kia maia kia u ki te reo maori,11
+reira te arawa kia matara,5
+reneti tapa,2
+ritihia,1
+rongo mamau,2
+roria,1
+rotorua harata,2
+rotorua kinaki,2
+rotorua te puia,3
+ruamoko rangatahi,2
+ruia,1
+ruiha,1
+taharepa,1
+tahuri,1
+taiaha tipare,2
+taiamai,1
+taikaha,1
+tainui tukiwaho,2
+taio,1
+takakau,1
+takakau maori,2
+takapau whanau kapahaka,3
+takawai,1
+tane whakaara,2
+tanemahuta,1
+taonga puroro,2
+taranaki ki te tonga,4
+taratahi,1
+tarei,1
+taria te,2
+tata kua hipa,3
+tatou katoa matariki,3
+tatu,1
+tau hou maori matariki,4
+taumatakupu,1
+tauranga moana matariki,3
+taurapa waka,2
+tauru,1
+taurua marae,2
+tawera a maori,3
+te ahukaramu,2
+te aitanga-a-hauiti,2
+te ao,2
+te ao hou,3
+te ao marama te kohanga reo kaiako,7
+te ara o matariki,4
+te ara wairua,3
+te arawa i rotorua,4
+te arawa kapa haka,4
+te arawa kaumatua anaru rangiheuea,5
+te arawa koeke,3
+te arawa matariki,3
+te arawa ngati porou,4
+te arepa kahi,3
+te atatu marae,3
+te awa tupua,3
+te awanuiarangi,2
+te awarua where,3
+te heikoko katerina mataira,4
+te hiku,2
+te hira,2
+te hokioi,2
+te hokowhitu,2
+te hui o te arawa ki te whakarite i a tatou ano mo te matatini whakataetae kapahaka o te motu ka,21
+te ika-a-maui,2
+te kahu o matariki,4
+te kaihou,2
+te kaihou ngarotata,3
+te kakano o te reo,5
+te kare tina,3
+te kopuru,2
+te kowhai,2
+te kura kaupapa maori o pukemiro kapowairua waitai,8
+te kura kaupapa maori o ruamata te kura kokiri,9
+te kura kaupapa maori o te rangi aniwaniwa,8
+te kura kaupapa maori o te rangi aniwaniwa te rina,10
+te kura kaupapa maori o wairarapa opaki,7
+te kura kaupapa maori o whakarewa i te reo ki tuwharetoa,11
+te kura kaupapa o otepou,5
+te kura-a-iwi ngati whatua o orakei,6
+te mahurehure,2
+te manawanui tawhara,3
+te matua ngahere kauri,4
+te nahi,2
+te nota,2
+te puna rangiriri,3
+te raa,2
+te reipa me te ropu harawira me puta te paati maori,11
+te reo irirangi o ngati kahungunu,6
+te roopu manaaki,3
+te ropu raranga whatu o aotearoa,6
+te ropu tahiwi a te whanganui-a-tara,6
+te tai o pipiri,4
+te tai rawhiti i turanga he aha,7
+te tai tonga kaitiaki wahine,5
+te takapu o rotowhio,4
+te tau hou maori,4
+te toki haruru,3
+te tuhi,2
+te waihirere,2
+te waka toi,3
+te wananga whare tapere o takitimu,6
+te whanau a kohine ponika,5
+te whare tawhiao,3
+te whenua,2
+te whetu arataki maori,4
+te whetu o te rangi marae,6
+te wiwi nati,3
+teia,1
+tekoteko noa iho,3
+tematakaheru,1
+tena ano tatou,3
+tera pea ko te,4
+terakihi,1
+tetua,1
+ti-uru,1
+timi,1
+timu kirikiri,2
+tina-rae,1
+tiramarama,1
+tirohia atu nei ka wheturangitia matariki te whetu o te tau,11
+tito kura,2
+tito ngati tuwharetoa ngapuhi,4
+tohora,1
+tohunga taonga,2
+toi,1
+topatari,1
+torere,1
+tuheitia,1
+tuheitia paki,2
+tuhoe whakapapa,2
+tui teka,2
+tunohopu,1
+turangawaewae marae,2
+turi,1
+tutira,1
+tutira mai nga iwi,4
+tuwerewere,1
+tuwhara-kia rahi,2
+tuwharetoa haka wairangi,3
+uawa,1
+uawa where he,3
+ururangi,1
+uruwhenua,1
+waiariki maori,2
+waiata poi,2
+waiata pokarekare ana,3
+waiata-a-ringa,1
+waikato tainui,2
+waikato te whare waananga o waikato,6
+waikato waikato,2
+waimaru,1
+waimirirangi,1
+waipouri,1
+wairarapa ki-o-rahi,2
+wairarapa maori,2
+wairarapa matariki,2
+wairarapa whaiora whanui,3
+waitai neho-popata,2
+waitata,1
+waiti waita waipuna-a-rangi tupu-a-nuku tupu-a-rangi,5
+waka hone mihaka,3
+waka hourua ngahiraka-mai-tawhiti,3
+waka tapu,2
+waka te awanui,3
+wanganui awhina,2
+warewhare,1
+whaka,1
+whakanui mo te motu i raro i te ture,9
+whakanuia nga koeke o te arawa matariki,7
+whanaungatanga manaakitanga arohatanga,3
+whangaehu marae,2
+whangai,1
+whanganui te kahui tupua te manawa,6
+whanganui to take,3
+whangaroa,1
+whare tupuna,2
+whenuakura urupa,2
+where to make,3
+whiro,1
+whiti hereaka,2
+wikitoria maori,2
+wiremu potiki,2
+aatarangi,1
+akina,1
+ako whakatere,2
+akonga,1
+anaru pewhairangi,2
+aneta,1
+ani puroa hinehau tomoana nee kopu,6
+aongatete,1
+aotearoa te reo maori,4
+apa apa,2
+aperahama te rahiri karamea,4
+arapeta tahana,2
+ari wiremu niko,3
+aroha karaitiana,2
+aroha pirihi,2
+ateneta paewai,2
+atutahi,1
+aue,1
+e pari o auahatanga,4
+erina,1
+haami piripi,2
+haapu,1
+haeata,1
+haka hangi,2
+haka ka mate ka mate,5
+hakeka,1
+hana te hemara,3
+hangi kapa haka karakia,4
+haraheke,1
+hautipua rererangi,2
+he kainga mo te reo,5
+he kupenga hao i te reo,6
+heeni morehu,2
+hemana,1
+hemana waaka,2
+henare a ngati hine,4
+hepa tatere,2
+here te reo,3
+heurea,1
+hikitia,1
+hineaumoana,1
+hinehou apiata,2
+hinepukohurangi,1
+hinerongonui,1
+hinerongonui kingi,2
+hinetekohurangi kohu,2
+hiria,1
+hoe a te waka,4
+hoo,1
+hopukia,1
+horakaka,1
+horohoro,1
+horouta,1
+hou mai,2
+huia te reo,3
+hurupaki,1
+ikaroa rawhiti,2
+in-home,1
+iraia,1
+iwi hapu whanau,3
+iwi hapu whanau maori,4
+iwi rangitane,2
+iwi tauranga,2
+iwi te arawa,3
+ka pai aroha kia ora hui tangi waka mokopuna tamariki i,11
+kaa,1
+kai iwi ototoka,3
+kai ora ngatiwhai,3
+kaiako mereana o,3
+kaiarahi reo,2
+kaimahi,1
+kaimatira,1
+kaipoo marae,2
+kaire kamo,2
+kaire ngararatunua whangarei te reo,5
+kaiwhaiki,1
+kamaua ngaiterangi iwi runanga,4
+kapa haka marae,3
+kapa haka to waka ama,5
+kapai to mahi,3
+karanga o te tau hou,5
+kaumatua matiu eru,3
+kaunihera a rohe,3
+kauri wahine,2
+kawakawa maori,2
+kepa ehau,2
+kereama taepa,2
+kia ora kiwi,3
+kia ora rotorua,3
+kia ora te reo,4
+kia ora to te reo,5
+kii tahi,2
+kimi ora where,3
+kingi ihaka,2
+kino,1
+kiwa,1
+koauau maori,2
+kohanga reo kura kaupapa,4
+kohanga reo kura kaupapa maori,5
+kohanga reo kura kaupapa maori wharekura,6
+kohanga reo maori,3
+kohupatiki,1
+komiti,1
+komiti nui,2
+korero aotearoa,2
+korero awhi,2
+koreromaori,1
+koretake,1
+koro hamuera,2
+koro kira,2
+koro kira wharekawa,3
+korowai wananga,2
+koutu kura,2
+koutu marae i,3
+kura a iwi,3
+kura kaupapa maori kohanga,4
+kura where te reo maori,5
+ma-tereo,1
+maa ree,2
+mahana te mauri ora,4
+maia ariana anahera anika aroha kora tia kaia ana ria tiare mereana nia tui wikitoria hinewai mahi terina mareikura,19
+maika nuku,2
+maketu to tongariro,3
+mana tamariki,2
+manaakitanga aotearoa,2
+manaakitanga rotorua,2
+mangakahia,1
+manu korero,2
+manu toeke,2
+maori a waitangi kuia,4
+maori iwi,2
+maori kapa haka,3
+maori korero,2
+maori tahi rua toru wha rima ono whitu waru iwa tekau,11
+maori waiata,2
+maori-pakeha,1
+marae tangoio,2
+marae whare,2
+mareikura,1
+mata hari,2
+mataia keepa,2
+matangireia,1
+matapihi,1
+matariki te ohu whakaita,4
+matariki waikato,2
+matarikiwaikato,1
+mataroria,1
+matewai timu,2
+matiu eru,2
+matua mataroria,2
+mau raakau,2
+maunga,1
+me a pene rakau,4
+me kapa haka,3
+me te reo maori,4
+mererina,1
+miao ree,2
+mihaka whanau,2
+mihimihi aka mihi,3
+mirimiri,1
+moana tauranga,2
+moerangi,1
+mokopuna irenee,2
+mokopuna ki tarewa,3
+monet-mei,1
+morehu,1
+nanae,1
+nga ingoa maori,3
+nga kaiwhakapumau i te reo maori,6
+nga manu korero,3
+nga mihi nui,3
+nga puna o waiorea,4
+nga rauru,2
+nga rauru kaiwhakahaere,3
+nga rauru kitahi rohe,4
+nga rauru rangitahi,3
+ngaa rauuira pumanawawhiti,3
+ngahihi o te,3
+ngahiwa,1
+ngahuia kawau,2
+ngai tahu rohe,3
+ngai te rangi iwi,4
+ngai tuhoe,2
+ngaiterangi iwi runanga,3
+ngamatapouri,1
+ngati,1
+ngati awa,2
+ngati hine ngati hau,4
+ngati hurungaterangi where,3
+ngati kahungunu maori,3
+ngati kahungunu ngati rongowhakaata,4
+ngati kahungunu reo,3
+ngati kahungunu tamaki nui a rua,6
+ngati kahungunu te reo,4
+ngati rangitihi,2
+ngati rongomai here,3
+ngati rongomai tikanga,3
+ngati tahu whaoa,3
+ngati whakaue iwi,3
+ngati whakaue kaumatua pihopa kingi,5
+ngati whakaue to make,4
+ngatoroirangi,1
+nihera huata,2
+nihongo,1
+nikau ari wiremu niko,4
+nikau ari wiremu niko tamati hemi nikora te ariki rawiri tane mikaere manaia kahu tangaroa kauri ariki manaaki tama ihaia matiu,21
+nikau kauri,2
+noho,1
+noho marae,2
+o te reo maori,4
+o-tear-a-row-wa wharehuia tangimoana pataera,4
+okehu,1
+okiato,1
+omahu,1
+onerahi,1
+opauahi,1
+otaika,1
+owairaka rawhitiroa marae,3
+paekupu,1
+paetakawaenga,1
+papaiouru,1
+parawera marae,2
+parekoora,1
+patarihia,1
+patiki,1
+pepe,1
+pepeha mihi,2
+pepi,1
+peti-paerau,1
+piatarihi pikiao te whetu o te,6
+pihopa,1
+pihopa kingi,2
+pikia ngati hikairo ngati maniapoto,5
+pikihuia,1
+pirihira,1
+pirikahu,1
+piripiri,1
+pita tipene,2
+pohe,1
+poi e one,3
+poi rakau,2
+poi te wiki o te reo maori,7
+porowini,1
+potae tainui ngapuhi,3
+pouako,1
+pouarahi reo here,3
+pukehamoamoa,1
+pukeroa oruawhata,2
+pumau,1
+ra-row-a,1
+rangiheuea,1
+rangitahi,1
+rangitane o tamaki nui a rua,6
+rarawa,1
+raupunga,1
+rawene,1
+rawiri waititi,2
+reweti hui kakahu te mete,5
+reweti te mete,3
+rika ria,2
+rohe-kararuria,1
+rongomaitawhiti rongomai,2
+roro,1
+rorohiko,1
+rotorua matariki,2
+ruamata,1
+ruamata marae,2
+ruana te whenua,3
+ruha rika,2
+ruha te whanau-a-apanui ngati porou te arawa,7
+runanga o te rarawa,4
+taamea,1
+tahakopa,1
+tahe,1
+taihoa kohanga reo,3
+tairawhiti iwi,2
+tairawhiti kaumatua taina ngarimu,4
+takirau marae tapuarau,3
+tamaho,1
+tangatarua marae,2
+tangohau,1
+tania te whenua,3
+tanirau,1
+tapuaekura marae,2
+tarewa pounamu te kohanga reo,5
+taringa,1
+taruke pihopa,2
+tatai korero,2
+tatere,1
+taukumekume,1
+taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuatahu,1
+taupo-nui-a-tia,1
+taura whiri,2
+tauranga iwi,2
+tauranga kura kaupapa,3
+tauranga to take,3
+te ahipourewa,2
+te aho aho,3
+te ahu kowhai te rangikaheke kauri rakau epiha anahera,9
+te ara hou,3
+te ara reo,3
+te arahi maipi,3
+te arawa e,3
+te arawa kaumatua,3
+te arawa kaumatua pihopa kingi,5
+te arawa kuia,3
+te arawa pouako i te reo,6
+te arawa waka,3
+te aroha marae,3
+te atarangi whiu,3
+te henga,2
+te hira paenga,3
+te hokinga mai o te auahituroa,6
+te ika,2
+te iria,2
+te kaea,2
+te kani kingi,3
+te kohe tuhaka kingi te wake ngati porou ngai tuhoe,10
+te komiti nui o ngati whakaue,6
+te kupenga hauora ahuriri,4
+te kupu o te wiki maori,6
+te kura,2
+te kura kaupapa maori o hurungaterangi,6
+te kura kaupapa maori o mana tamariki,7
+te kura kaupapa maori o nga mokopuna,7
+te kura kaupapa maori o ngati kahungunu o te wairoa,10
+te kura kaupapa maori o ruamata,6
+te kura kaupapa maori o tamaki nui-a-rua,7
+te kura kaupapa maori o te ara hou,8
+te kura kaupapa maori o te rawhitiora,7
+te kura kaupapa maori o te rawhitiroa,7
+te kura kaupapa maori o te rotoiti,7
+te kura kaupapa maori o te wananga whare tapere o takitimu,11
+te kura kaupapa maori o tupoho,6
+te kura kaupapa o maori o otepou,7
+te kura o te whakarewarewa,5
+te maipi,2
+te mana o te wai,5
+te mangai paho hopukia,4
+te mangai pahu,3
+te maori e mauri,4
+te mata o rongokako,4
+te papaiouru marae,3
+te parapara,2
+te pire,2
+te poari matua o raukawa raukawa,6
+te puia mitai maori,4
+te puia taparoto,3
+te puke tapuika,3
+te puna o te ao marama,6
+te puna o te matauranga marae,6
+te puna waiora,3
+te puni kokiri te arawa,5
+te puni kokiri te mangai paho,6
+te putea matua,3
+te rangikapiki,2
+te rangimarie,2
+te rarawa haami piripi,4
+te rarawa iwi,3
+te reo hikoi paekakariki,4
+te reo i,3
+te reo i te kainga maori,6
+te reo irirangi o te arawa,6
+te reo kete,3
+te reo maori a taonga,5
+te reo maori he,4
+te reo maori here,4
+te reo maori ki nga matua,6
+te reo maori one,4
+te reo maori ranui kaumatua hori,6
+te reo maori waiata,4
+te reo mauriora,3
+te reo owhata,3
+te reo pakeha,3
+te reo te reo maori,5
+te reo tika,3
+te reo tikanga,3
+te reo to make,4
+te reo u,3
+te reo waikato,3
+te rina,2
+te ropu matakite,3
+te ropu raranga ki rotorua,5
+te runanga o kirikiriroa,4
+te runanganui o kura kaupapa maori,6
+te tai hauauru where howie tamati,6
+te tai tokerau te reo,5
+te tairawhiti,2
+te taiurungi,2
+te tama o,3
+te tari puna,3
+te tari puna o aoeteroa,5
+te taua moana o aotearoa,5
+te tauarangi o aotearoa,4
+te taumata o ngati whakaue,5
+te taura whiri i te reo maori pita paraone,9
+te tiriti,2
+te ture mo te reo maori,6
+te uranga waka,3
+te wai koiora,3
+te waipounamu,2
+te waka takaro,3
+te wananga o aotearoa te arawa,6
+te wananga o aotearoa where,5
+te wananga o te aotearoa,5
+te wananga whakairo rakau,4
+te whanau apanui,3
+te whare wananga o waikato,5
+te wiki o te reo maori a kaupapa,8
+te wiki o te reo maori a rotorua,8
+te wiki o te reo maori hikoi,7
+te wiki o te reo maori rotorua,7
+te-horata te-rungarawa pikikotukuraeroa tamaikoha matiu tama toko awhina moera horomona hine tamaiti,12
+tee-ree-na,1
+teena,1
+tekupu,1
+tena koe,2
+tepo,1
+tika,1
+tiriti o waitangi,3
+tiwana,1
+toe-ronga,1
+toihoukura tairawhiti,2
+toku reo,2
+tomokia,1
+tonihuata,1
+towai,1
+tuhourangi kaumatua anaru rangiheuea,4
+tukaokao,1
+tukiterangi,1
+tukoherangi te rangiwheriko rangiahua pirinoa,5
+tukurau aotearoa,2
+tumanako titihuia,2
+tumanako titihuia tanirau,3
+tuputupu,1
+turahui winiata,2
+turanga merito,2
+turanga o moana,3
+un-maori,1
+waatea,1
+waiata korero,2
+waiata pepeha,2
+waiata tautoko,2
+waikato matamata-piako,2
+waikato ngati hikairo ki kawhia ngati maniapoto,7
+waikato te wananga o aotearoa aotearoa,6
+waikato-hauraki,1
+waikato-rotorua taupo,2
+waimarie,1
+waipatu marae,2
+wairere,1
+wairoa otoi,2
+waitakare,1
+waka te arawa,3
+watea,1
+wero,1
+whai,1
+whakaaro,1
+whakama,1
+whakamarama,1
+whakangahau te ataarangi kohanga reo kura wharekura wananga reo irirangi maori reo irirangi a-iwi whakaata maori,16
+whakanuia,1
+whakapapa to ngapuna,3
+whakapapa tupuna whanau hapu,4
+whakapapa whanau waiata,3
+whakarewarewa whare,2
+whakatipuranga rua mano ruatoki kura te ahurei o ngai tuhoe,10
+whakatu,1
+whanau hapu,2
+whanau hapu marae,3
+whanau iwi,2
+whanau maori,2
+whanau powhiri koha,3
+whangaihia reo kia tipu te reo,6
+whangaihia te reo ki nga matua,6
+whanganui kapa haka,3
+whanganui whanau,2
+whanganui where he,3
+whangarei maori,2
+wharehuia,1
+wharekai,1
+wharekura,1
+whareora,1
+whenuakura,1
+where te reo maori,4
+whiti,1
+winikerei taua,2
+wirepa,1
+wirihana apatu,2
+wowo,1
+aami,1
+aati,1
+ahaa,1
+ahaa ha ha ha haa,5
+ahau,1
+ahee,1
+ahio,1
+aho,1
+ai weiwei,2
+aii,1
+aiko,1
+aime,1
+aimee metuatini,2
+ainaro where he,3
+aiono,1
+airini,1
+aironi,1
+aitana,1
+aiwa,1
+akatarawa akatarawa,2
+akatere,1
+akekeia,1
+akio,1
+akira,1
+akitio,1
+akitio wairarapa,2
+akona,1
+akuhata,1
+ama nata,2
+amani,1
+amiria,1
+amo,1
+amohanga,1
+amora,1
+anakiwa,1
+anama,1
+anania,1
+anau,1
+anemone,1
+angora,1
+ani parata,2
+anika moa tiki,3
+anina,1
+anini hira,2
+anituatua,1
+anu,1
+aoraki to make,3
+aoreatoa,1
+aotea porirua,2
+aotearoa maori,2
+aparima runaka,2
+aparime,1
+aputa,1
+arahunga,1
+arai whakaari hema,3
+arakura,1
+aramoana a maori,3
+arapata,1
+arapata hakiwai,2
+arapawa,1
+ararua,1
+aratiki,1
+aratu,1
+areta,1
+areta koopu,2
+ariake,1
+ariana mahia,2
+ariana tikao,2
+ariana tikau,2
+arikinui,1
+aripu,1
+aroha-ngia-tatou,1
+arohamai,1
+ata putaranui,2
+atami,1
+atapi,1
+atarau,1
+atareta poananga,2
+atawhai,1
+atihana,1
+atiu,1
+atone,1
+atoni,1
+atuaia,1
+awamangu,1
+awarua waituna,2
+awarua-waituna,1
+awatapu,1
+awaterehuata,1
+awhina tamarapa,2
+e ihoa atua o nga iwi,6
+e to make,3
+eire,1
+eiria morai,2
+ekeroma,1
+eketi,1
+eme,1
+emea,1
+emie,1
+eminate,1
+emora,1
+eni,1
+enua,1
+eoi,1
+epati,1
+erana,1
+eri,1
+erihe,1
+erina wainui,2
+eru manukau,2
+eruera manuera manuera huia,4
+eteuati ete,2
+etu manu,2
+ha to make,3
+haemata,1
+haenga,1
+hahei,1
+haka whakakapi a haka,4
+hakanoa,1
+hakarimata,1
+hakatere,1
+hakepa,1
+haki,1
+hakopa noanoa,2
+hakurei maru,2
+hamana,1
+hamuti tamuti,2
+hanae,1
+hane,1
+hapata,1
+hapeta,1
+harangue,1
+hari hari,2
+haruna,1
+hatepe,1
+hatuma,1
+hatupatu,1
+hau,1
+haua,1
+hauara,1
+haupai puha,2
+haupapa,1
+hauraki maori,2
+hawaiiki,1
+hawera taranaki,2
+he maunga teitei,3
+he whare korero,3
+heina,1
+heinie,1
+heka,1
+hekateraka,1
+hekenui,1
+hema te ao,3
+hemi hikawai,2
+hemi te paa,3
+henare hape,2
+henare rawiri paratene,3
+henari,1
+hepi te heuheu,3
+herangi,1
+herekopa weta,2
+heremataarii hatitio,2
+hereora,1
+herewini araroa,2
+heterohero,1
+heureka,1
+hiha,1
+hii,1
+hikawai,1
+hikawera,1
+hiki pihema,2
+himatangi to peka peka,4
+himitangi,1
+hinau,1
+hine e hine,3
+hine rangi,2
+hine wehimohi,2
+hinehopu,1
+hinehou,1
+hinerangi,1
+hinetekawa,1
+hino,1
+hinote,1
+hiraani,1
+hirai,1
+hiri,1
+hirini moko,2
+hiriwa te rangi,3
+hiriwa terangi,2
+hiriwai,1
+hiroki,1
+hirota,1
+hiwi tauroa,2
+ho-ho,1
+hoa,1
+hoeata,1
+hoera te kooti,3
+hohei,1
+hohepa poihipi,2
+hoki mai,2
+hoki ratima,2
+hokianga mangamuka,2
+hokioi,1
+hoko,1
+hokonui runanga,2
+hone harawera,2
+hone harewera,2
+hone pani tamati waka nene harawira,6
+hongi maori,2
+honi parata,2
+honore,1
+hoopi,1
+hopa,1
+hope to make one,4
+hope to take,3
+hopihana epiha,2
+horahora,1
+horokiri,1
+horokiwi,1
+horomai,1
+horomatangi,1
+horowhenua kapiti,2
+horowhenua manawatu,2
+horowhenua-kapiti,1
+houhora,1
+houkamau,1
+houtama,1
+how-to,1
+howie tamati,2
+huhana mihinui,2
+hui aranga,2
+hui mei,2
+hui taumata maori,3
+huia pera,2
+huia tawhai,2
+huingawaka marae,2
+humaine,1
+humarie tiopira,2
+hungate,1
+hunia,1
+huri,1
+iana,1
+iata,1
+iea,1
+ihaka hireme erika,3
+ihakara,1
+ihe,1
+ihipera whareaitu,2
+ihumatao,1
+ihumatao mangere,2
+ika,1
+ikawai,1
+imi,1
+inanimate,1
+ine,1
+inga anuku,2
+ingenue,1
+ingo,1
+initi raimi,2
+ioane,1
+ioane tupou,2
+iori,1
+iota,1
+irapuato,1
+irate temuera,2
+irei,1
+irie,1
+irihai haira,2
+irihapeti,1
+irirangi,1
+iritana tawhiwhirangi,2
+iro,1
+iro aotea,2
+irongate,1
+itania,1
+itia,1
+iwa,1
+iwi kiwi,2
+iwi ngaa rauru,3
+iwi ngapuhi,2
+iwi ngati tama ngati rarua,5
+iwi ngati tuwharetoa,3
+iwi te atiawa,3
+iwi to make,3
+iwi whanau a apanui,4
+ka mate haka,3
+ka mate ka mate haka,5
+ka pai kiwi,3
+ka roimata o hine hukatere,5
+ka romata o hine hukatere,5
+kahu ariki,2
+kahu ripia,2
+kahu waititi,2
+kahupatiki marae,2
+kahurungi,1
+kai tahu ki,3
+kaia kanepi,2
+kaiarahi,1
+kaiata,1
+kaiko,1
+kaikoura hapuku,2
+kaikoura marae,2
+kaikoura matamata,2
+kaikoura where he,3
+kaimaumau,1
+kainuku,1
+kairae,1
+kairakau pourere aramoana,3
+kairanga,1
+kairangi,1
+kaitaia waitakere taumarunui,3
+kaiteriteri,1
+kaiti,1
+kaiti atua,2
+kaitiaki iwi,2
+kaitoke te marua,3
+kaiwai,1
+kakahi,1
+kakapotahi,1
+kakapuaka,1
+kakaramea tihia,2
+kaneohe,1
+kanga piro,2
+kano,1
+kanohi ki kanohi,3
+kanui,1
+kanuni,1
+kapa haka a hangi,4
+kapa haka heeni wahine koti,5
+kapa moeke,2
+kapene,1
+kapiti porirua,2
+kapiti porirua wairarapa,3
+kapiti-horowhenua,1
+kapiti-porirua,1
+kapiti-to,1
+kapoi,1
+kapuni,1
+karaitiana,1
+karaitiana amaru,2
+karakia mihi,2
+karangahake,1
+karapiro waikato,2
+karapiro where he,3
+karapoti,1
+kararaina te wera taite,4
+karariki,1
+karatau,1
+karauna,1
+kare,1
+kare kare ana,3
+kareena,1
+karewa,1
+karika,1
+karima,1
+karimou,1
+karine,1
+karini tuari,2
+karioi,1
+karita,1
+kariuki,1
+karo,1
+karoke,1
+karori a rare,3
+karori ngaio,2
+kataraina mahutonga waiariki,3
+kati mamoe,2
+katika,1
+katipo,1
+katona,1
+kauahi ngapora,2
+kauika,1
+kaupoa,1
+kauri rata rimu totara kahikatea,5
+kawana,1
+kawarua,1
+kawau pehi te whare,4
+kawe,1
+kawharu,1
+kawhena,1
+kawhena rangihaeata,2
+kawora,1
+keane kiwi,2
+kee apu,2
+keepa,1
+keita,1
+kena kena,2
+keneperu,1
+kere kere,2
+kere tupe,2
+kerekere,1
+kereopa,1
+keri keri,2
+keri tuna,2
+keriana kingi,2
+kerikeri where he,3
+kerupi,1
+ketetahi,1
+kia hua ko te pai,5
+kia tau to atawhai,4
+kihara,1
+kimihia,1
+kimiko,1
+kimura,1
+kingi ngahuia,2
+kingi reihana,2
+kiore,1
+kiwi team-mate,2
+kiwi to take,3
+kohaihai,1
+kohanga reo where,3
+kone hataitai,2
+koo waitakere,2
+kopae,1
+kopi,1
+koputaroa,1
+kopuwai,1
+korako,1
+koraunui,1
+koraunui marae,2
+kore rere,2
+korean-kiwi,1
+kotahi te wairua one,4
+kotaro,1
+kotihotiho,1
+kowaro,1
+kuaotonu,1
+kuini moana oraki,3
+kukupa,1
+kumara-potato,1
+kumaratunga,1
+kumera,1
+kumiko,1
+kune kune,2
+kunekune,1
+kuniaki kawahata,2
+kuoi,1
+kupapa,1
+kupe tauranga,2
+kura kaupapa maori runanga,4
+kura-awa,1
+kurahaupo,1
+kuratai,1
+kuripuni,1
+kurumi nara,2
+kuta,1
+m-time,1
+maaka rangiuaia maori,3
+maaka tauranga,2
+maakiti,1
+maama,1
+maara,1
+maea onehunga,2
+mahaanui,1
+mahanga eru,2
+mahara okeroa aotearoa,3
+mahara okeroa te tai tonga,5
+maharoa okeroa,2
+mahato,1
+mahuhu,1
+mahuri,1
+maia te hira,3
+maihi kawiti,2
+maihi nuku,2
+maimuri,1
+mairoa,1
+maka to make,3
+makara-ohariu,1
+makaroa,1
+makati,1
+makene,1
+makuhari,1
+mamea,1
+mamie,1
+mana kapiti,2
+mana motuhake i make,4
+mana motuhake o aotearoa,4
+mana otai,2
+manaaki whenua,2
+manaakitia mai aotearoa,3
+manahi,1
+manahi ripia,2
+manahuna,1
+manako tonga,2
+manama,1
+manawa ruki,2
+manawaroa,1
+manawatu where he,3
+manawatu-rangitikei-horowhenua,1
+manawau,1
+manawhenua manamoana,2
+manawhenua manumoana,2
+manera kakapotahi,2
+mangahewa,1
+mangaka,1
+mangakino to ngati kahungunu ki wairarapa,6
+mangakuri,1
+mangapurupuru,1
+mangaroa to kaitoke,3
+mangatangi,1
+mangatepopo,1
+mangaweka,1
+mangawhau,1
+mange,1
+mangeao,1
+mangiore,1
+mangonui,1
+maniatutu,1
+manika,1
+manu toko,2
+manukau pukekohe ohope,3
+manuwatu-wanganui,1
+maori hikoi,2
+maori homie,2
+maori hui,2
+maori kapiti,2
+maori komiti,2
+maori manaakitanga,2
+maori miki kiore,3
+maori tohunga,2
+maoria,1
+marae ataea,2
+marae ngapuhi kaumatua kingi taurua,5
+maraea temoana wharemako,3
+maraeroa,1
+maraeroa marae,2
+maramara,1
+maranui,1
+marauria,1
+mareroa,1
+mareroa huata,2
+mariama,1
+mariano,1
+marieke marieke,2
+marieta,1
+mariu,1
+maru tuaputa,2
+marua,1
+marurai,1
+mataatua marae,2
+mataira,1
+matakauri,1
+matapouri,1
+matarua,1
+mataupu,1
+mataura marae,2
+mataura otautau,2
+mataura parawa,2
+mataura tuturau,2
+matautia,1
+matauwhi,1
+matawai,1
+matea,1
+matene,1
+matenga,1
+matete,1
+mati,1
+matia,1
+matiaha tane puki,3
+matiatia,1
+matiu,1
+matiu rata,2
+matoe,1
+matoura ata whaka rongona,4
+matua kiriahi,2
+maukatere waipara,2
+maungakatote,1
+maungaku,1
+maungatapu,1
+maungauraki,1
+maungawera,1
+maungawhau,1
+mauritangi,1
+mauro,1
+me aroha noa,3
+meat-pie,1
+mei ngaronoa rawiri waimamaku,4
+menapi,1
+mene mene,2
+meninga,1
+meramea tanirau,2
+merauke,1
+mere arihi te huinga,4
+mereana,1
+mereana peka manukau,3
+merengue,1
+mererae,1
+mererueha,1
+meriana,1
+merimeri,1
+meteorite,1
+metohia,1
+metua marama,2
+mieko,1
+mihaere,1
+mihaere petera,2
+mika taine,2
+mikita,1
+miko,1
+mine to wanganui,3
+mini-mania,1
+mino,1
+minoi,1
+minora kea,2
+minutia,1
+minutiae,1
+miri,1
+miriama kaiaha tahi te kuiti,5
+miriama kamo,2
+miriana turia,2
+mita hikairo mohi,3
+moan-ee,1
+moana hemi winitana,3
+moari,1
+moata,1
+moate,1
+moeono,1
+moeraki waipiata maraeweka kokonga,4
+moetahi,1
+mohu,1
+moki,1
+moko whakairo,2
+mokoreta,1
+moma,1
+momi,1
+momona,1
+mongia,1
+moni,1
+monika,1
+morahu,1
+morange,1
+moreau,1
+moreira,1
+moro,1
+motonui,1
+motorama,1
+motorau,1
+mototapu,1
+motu tua,2
+motupohue,1
+mouaputa,1
+mouranga,1
+muina,1
+mumu,1
+murati,1
+muri,1
+murihiku iwi whanau,3
+muriwhenua,1
+muru no-one,2
+murumurunga te whaiti,3
+mutu,1
+nai,1
+naikatini,1
+nakamura,1
+nanai,1
+nani,1
+naoto,1
+nape nape,2
+napier-taihape,1
+nara,1
+narina,1
+natene,1
+natori,1
+natu,1
+naumai taurua,2
+nauta hataitai,2
+neame,1
+nee te huna,3
+neera,1
+neho,1
+neihana,1
+neki,1
+neru,1
+neto,1
+nga aho whakaari,3
+nga hau e wha taiapa,5
+nga iwi morehu,3
+nga kaiwhakamarama i nga ture,5
+nga maata waka,3
+nga paua,2
+nga peheha a nga tipuna,5
+nga taonga o tongariro,4
+nga taonga tuku iho,4
+nga tauira maori,3
+nga tawa,2
+ngaa waka,2
+ngaarangione,1
+ngaau,1
+ngahooro,1
+ngahuia,1
+ngai tahu tainui,3
+ngai tai ki tamaki,4
+ngai tumapuhia a rangi hapu,5
+ngakupa,1
+ngamaru raerino,2
+ngamatea,1
+ngaomi,1
+ngapara,1
+ngapora,1
+ngapuhi marae,2
+ngapuhi taumatua kaumatua,3
+ngariki,1
+ngario,1
+ngarita,1
+ngaruma karaitiana,2
+ngatamariki,1
+ngataringa,1
+ngati kahu,2
+ngati koata iwi,3
+ngati mahanga,2
+ngati raukawa ngati toa,4
+ngati toa runanga,3
+ngati toa te ati awa,5
+ngatiwai iwi,2
+ngawaiata,1
+ngawhare,1
+ngawhitu,1
+ngeru,1
+ngoi ngoi-mata,2
+nguamo,1
+nguroa,1
+niha,1
+niki,1
+nikita nahona,2
+nimoi,1
+nine-time,1
+no-hope,1
+noa noa,2
+noi,1
+noire,1
+non-iwi,1
+non-merino,1
+non-pakeha,1
+non-pipi,1
+non-tote,1
+nonu tamati,2
+noone tauranga,2
+noooo,1
+norana,1
+norena,1
+norie,1
+not-orewa,1
+now-i,1
+nuki,1
+nukunuku,1
+numero,1
+o hare epuni,3
+oakura,1
+oamakau,1
+oamaru to tauranga,3
+oamaru where he,3
+oata,1
+oenone,1
+ohaaki,1
+ohai otautau te anau tuatapere,5
+ohakune tui,2
+ohakune turangi,2
+ohakuri,1
+ohau mangahao,2
+ohaupo,1
+ohinewai,1
+ohura wanganui arohata rimutaka,4
+oita,1
+okaihau,1
+okara,1
+okarito,1
+okaro,1
+okautete,1
+okiwi,1
+okuru,1
+omaka,1
+omaka marae,2
+omakere,1
+omea,1
+omori,1
+on-time,1
+on-to,1
+one te papa,3
+one to take,3
+one to take a one,5
+one to taranaki,3
+one-make,1
+one-one,1
+onepu,1
+oneroa,1
+onetangi,1
+onia,1
+onomatopoeia,1
+onuku marae,2
+ooi,1
+oparau,1
+oparau waikato,2
+open-mike,1
+opeta,1
+opeti,1
+oporo,1
+opunohu,1
+opunuku,1
+ora toa maori,3
+orari te ngawai,3
+oratorio,1
+orere,1
+oreti aparima,2
+orikaka,1
+orongorongo,1
+otahu,1
+otahuna,1
+otaihanga paekakariki,2
+otaki hui,2
+otaki to waiouru,3
+otaki-maori,1
+otara marae,2
+otari,1
+otautahi maori,2
+otautahi tatoo,2
+otautau te anau,3
+otautau wotautau,2
+ote,1
+otekaieke,1
+oterei,1
+otira where he,3
+otuataua,1
+otukaikino,1
+oui,1
+owanga,1
+paenga tawhiti he,3
+paepae tapu,2
+paeroa te kuiti wainuiomata,4
+pahia,1
+paiere,1
+paikea,1
+paitai,1
+paiti to make,3
+pakaitore kaumatua,2
+pakaraka,1
+pakeha maori,2
+paki ratana moana,3
+pakowhai,1
+paku,1
+paku tane,2
+pakura,1
+pakuratahi,1
+pamariki,1
+pan-maori,1
+pana,1
+panamera,1
+panapa,1
+pangaimotu,1
+pangari,1
+paora apera,2
+papa pekepo papa pekepo,4
+papakura where he,3
+papatowai puaho,2
+papau,1
+papuni,1
+parai,1
+parakura horomia,2
+paramoana,1
+paraparaumu raumati,2
+paraparaumu waikanae,2
+paraparaumu-raumati,1
+parawa,1
+parekohai hori,2
+parekowhai,1
+parekura horomia he,3
+paremoremo to rangipo,3
+paretai,1
+pari rotorua,2
+parihaka taranaki,2
+paringatai,1
+parirua,1
+pati mua au,3
+patikitiki,1
+patina,1
+paua toheroa,2
+pauanui,1
+paumau,1
+paurini,1
+peake,1
+peata,1
+pehi kupa,2
+peipi,1
+peita,1
+pekerakitahi,1
+penetito,1
+penie,1
+pepene,1
+pera turei,2
+pere,1
+perere,1
+pero tamarua,2
+peta awatere,2
+peta tamepo,2
+peta-marie,1
+petipa,1
+petone wainuiomata,2
+piangere,1
+piero,1
+pietie,1
+pihanga,1
+pihima,1
+pikau,1
+pikia tai raumati kapa moeke,5
+pina,1
+pingue,1
+pini,1
+piopio,1
+pipinui,1
+pipitea,1
+pipitea wanganui,2
+pirae,1
+pirongia mamaku,2
+piu-piu,1
+piutau,1
+pohangina,1
+pohoiwi,1
+poi poi,2
+poihakena,1
+pokarekare,1
+pokiha,1
+pongaroa,1
+poote,1
+popotunoa,1
+pore,1
+porihaka,1
+porirua kapiti,2
+porirua motueka,2
+porirua to raumati,3
+porirua waitangi,2
+porirua wanganui,2
+poroporoaki maori,2
+potae,1
+poti,1
+potito,1
+potu,1
+pou rua,2
+pou whitu,2
+pouerua,1
+pounawea,1
+poupou,1
+poupouare,1
+powhiri a maori,3
+puarewa pakau,2
+puhi puhi,2
+puhoi,1
+pui,1
+puka,1
+pukawa,1
+pukehurangi,1
+pukepoto,1
+puketahi,1
+puketeraki,1
+puketiri,1
+puna tumahai,2
+purakauiti,1
+purakaunui,1
+purerura,1
+putangirua,1
+putaruru kaitaia paeroa taihape opunake,5
+putaturu paeroa taihape opunake waipapa,5
+puto,1
+r-range,1
+raemaki,1
+raharuhi rukupo one,3
+rahimi,1
+rahui katene maori,3
+rahunga,1
+raiha mahuta,2
+raikaia,1
+rainui aroita,2
+rakai tawhiwhirangi,2
+rakauhauka,1
+rakaumanga kura kaupapa,3
+rakena,1
+rakiihia,1
+rakino,1
+rakiura runanga,2
+rakiura runanga kaiwhakahaere,3
+rakohema himiona,2
+ramani,1
+rameka,1
+rana waitai te puku,4
+ranapia,1
+rane,1
+ranee,1
+rangana,1
+rangi heremaia,2
+rangiauia,1
+rangihuna,1
+rangiora kaiapoi,2
+rangiora timaru,2
+rangiora-kaiapoi,1
+rangiroa,1
+rangitea,1
+rangitikei taiwhenua awhina whanau,4
+rangitoheriri,1
+rangiwahia,1
+rangiwai,1
+rango,1
+rani,1
+rani rangimoekau,2
+raniera,1
+rapaki kapahaka,2
+rapana taneatua,2
+rapatiotio,1
+rapere,1
+rationing-era,1
+raue,1
+rauhihi,1
+raumati to waikanae,3
+raumoko,1
+raunatiri,1
+raupo,1
+raureka,1
+raureti,1
+rawiri taonui,2
+re-hire,1
+re-home,1
+re-name,1
+re-nee karena,2
+ree,1
+rehire,1
+reika nomura,2
+reine,1
+reka to make,3
+remo,1
+renae toru,2
+repua te ara mou,4
+reremoana,1
+reroute,1
+retake,1
+retiro,1
+reto,1
+rewa kahia,2
+reweti nepia,2
+rewi maniapoto te kooti,4
+rewi matiu,2
+rewi taiki karetai,3
+rewire,1
+rewiri haretuku,2
+rie,1
+riki anaru,2
+rima matea,2
+rimanui,1
+rime,1
+rimoni,1
+rimutaka arohata,2
+ring-tone,1
+ringo,1
+rino tirakatene,2
+rino tirikatene,2
+ripa,1
+ripia piri weepu,3
+ripia taranaki,2
+riria hotere,2
+riripeti hera,2
+riwai,1
+roa,1
+rohe moana,2
+roimata kirikiri,2
+roimata pounamu,2
+roini,1
+romaine,1
+romanee,1
+romero,1
+romi ropati pita,3
+rongo wetere,2
+rongokea,1
+rongomaiwahine rutene,2
+rongongui,1
+rooke,1
+ropata paora,2
+ropiana taita,2
+ropiha nepia,2
+ropina,1
+rota,1
+rotenone,1
+rotokawa,1
+rotomahana,1
+rotorua are maori,3
+rotorua pukekohe,2
+rotorua to oamaru,3
+rotorua where he,3
+rotorua-whakatane,1
+rotowaro,1
+rotui,1
+rotuma,1
+rou,1
+rua kenana,2
+rua tipoki,2
+ruano,1
+ruapehu rangitikei,2
+ruapekapeka,1
+ruapuke,1
+ruia aperahama,2
+ruma karaitiana,2
+ruma rumaki,2
+runanga o ngati porou,4
+rune,1
+rupapera,1
+rupe,1
+rupeni,1
+ruri,1
+rutene,1
+taha maori,2
+taheke marae,2
+taheri,1
+tahiti-moorea,1
+tahorakuri,1
+taiarahia,1
+taiaroa te atatu,3
+taiaroa whanganui maori,3
+taina tamou,2
+tainaka,1
+taino,1
+tainui ngati mahuta,3
+tairangi,1
+tairei,1
+tairone,1
+taitapu,1
+taite,1
+taito,1
+taka pukeroa,2
+takahue kaumatua,2
+takamori,1
+takao,1
+takapu,1
+takapuwahia waitangirua,2
+takato,1
+take ngai tahu,3
+take take take,3
+take to tangata whenua,4
+take-me-home,1
+taki taituha hua,3
+takoha,1
+taku wahine purotu taku tane purotu,6
+takuma,1
+tama akena,2
+tama watene,2
+tama wiremu,2
+tamahere,1
+tamaki-makaurau,1
+tamarangi,1
+tamata,1
+tamati kawai,2
+tamati waka nene,3
+tame iti hone harawira,4
+tamehana,1
+tamepo,1
+tami hana,2
+tamie,1
+tamihana,1
+tamihana wiremu,2
+tamihere hauraki,2
+tamihere to make,3
+tamihina,1
+tamiti otaki,2
+tamoa,1
+tamou,1
+tamou tiana aiareti,3
+tamu,1
+tane nui a rangi,4
+tane pikia komihana,3
+taneatua,1
+tanenuiarangi manawatu,2
+tanera,1
+tangata tiaki-kaitiaki,2
+tanguru-tutaki,1
+tania neho maori,3
+tanoa,1
+tanu,1
+tapani,1
+tapawera,1
+tapu te ranga marae,4
+tapuae o uenuku,3
+tapuauruwai tuhakaraina,2
+tarahi,1
+tarakina,1
+tarakinikini,1
+taranaki kupe,2
+taranaki manawatu,2
+taranaki whanui,2
+taranaki where he,3
+taranaki-waikato,1
+tararu,1
+tararua wairarapa manawatu,3
+tarawa,1
+tariana turia to make,4
+taringatura,1
+taruia,1
+tataraakina,1
+tatupu,1
+tau henare rana waitai,4
+taua o te puka,4
+tauhiti,1
+taukamo,1
+taunahaurangi marae,2
+taupo whanganui,2
+taupo-kaingaroa-mangakino-pouakani,1
+tauputoputo,1
+tauranga rotorua taupo,3
+tauranga tauranga,2
+taurapa,1
+tauraroa,1
+tauriko,1
+taurima,1
+taurine,1
+tauroa,1
+tautarangi,1
+taute,1
+tauti,1
+tautuku to owaka,3
+tautuku wainuiomata,2
+tauwharaparae,1
+tawa to paraparaumu,3
+tawhaio,1
+tawhaki,1
+tawharanui,1
+tawhiti,1
+tawhitinui,1
+te ahi kaaroa maori,4
+te ahikaroa,2
+te akatoki tumuaki hiria,4
+te ama,2
+te ana-au,2
+te anau make,3
+te anau te anau-otautau-tuatapere,4
+te aniwaniwa akuhata,3
+te aniwi te maiharoa,4
+te ao marama maaka kingi porima,6
+te ara o kiwa,4
+te arikinui te atairangikaahu,4
+te aro i,3
+te aro wainuiomata,3
+te aroha where he,4
+te arohatai matiaha,3
+te atarua,2
+te atiawa ngati tama ngati rarua,6
+te aute te aute,4
+te awaiti,2
+te awamutu he,3
+te awhina arahanga,3
+te hau tonga whakataetae ngai tahu,6
+te hauroto kapa haka,4
+te heuheu tariana turia,4
+te hikoi,2
+te hopai,2
+te horo i,3
+te hukatai,2
+te kani atakirau,3
+te kao,2
+te kemara,2
+te kinga,2
+te kira naenae,3
+te kiri-o-hinekai,2
+te kohuna,2
+te kopahou,2
+te kotahitanga marae,3
+te kowhai where,3
+te kuiti-ite,2
+te kura kaupapa,3
+te maioha,2
+te makao,2
+te mana o te moana,5
+te maramatanga wananga whakapakari,4
+te maru,2
+te mauri o rangitaane o manawatu,6
+te moana tamariki,3
+te ngutu,2
+te ohu kai moana,4
+te oma,2
+te onehou,2
+te paatu hapu,3
+te pairi,2
+te paki,2
+te papa maori,3
+te papa where,3
+te papapa,2
+te peka,2
+te pene,2
+te pihinga ake,3
+te pirita,2
+te pohe te aro,4
+te pohue,2
+te pokai matauranga o te ao rua,7
+te pou o mangatawhiri,4
+te pouri,2
+te puka o te waka,5
+te puka-hereka,2
+te puna o te aomaramo,5
+te puna wai,3
+te puna wanaka maori,4
+te puna whaiora,3
+te puru,2
+te rakau,2
+te raki,2
+te raki hawea,3
+te rakiwhanoa,2
+te rangakura maori,3
+te rangi he,3
+te rapa whangarei,3
+te rau o te rangi,5
+te reo whakapuaki irirangi,4
+te riu toa,3
+te rongopai,2
+te rongopai morehu,3
+te rore,2
+te runanga a iwi o ngapuhi,6
+te runanga o nga puhi,5
+te runanganui o taranaki whanui,5
+te runanganui o taranaki whanui ki te upoko o te ika,11
+te tai hauhauru,3
+te tai tamariki,3
+te tai tokerau maori,4
+te tai tonga a maori,5
+te tai tonga rahui katene,5
+te take tairakena,3
+te taki,2
+te tau ihu iwi,4
+te tii marae a ngapuhi marae,6
+te tii o waitangi,4
+te tii o waitangi marae,5
+te tira puoro o aotearoa,5
+te tua,2
+te uira kapara,3
+te uri o hau,4
+te waewae,2
+te wai pounamu,3
+te waiau mahika kai,4
+te waihora,2
+te waihoroi,2
+te waipounamu kapa haka,4
+te waka huia,3
+te waka o te raukura,5
+te wakatoi,2
+te wananga,2
+te wananga o raukawa,4
+te wani,2
+te whaariki,2
+te whaata,2
+te whanau korowai,3
+te whanau rumaki,3
+te whare,2
+te whare o anupihi,4
+te wharekura o arowhenua,4
+te wharekura o rakaumanga,4
+te whariki,2
+te wheke he,3
+te whenua awhi,3
+tea-time,1
+team-mate taine,2
+teangauki kenimarawa toma,3
+tee-hee,1
+teina pehi wharawhara,3
+teine,1
+teio,1
+teio teio,2
+tekare papakura,2
+tekaumarua wharepouri,2
+temepara wiki unaku,3
+temuka rangiora,2
+tena kowhiria,2
+teng-hui,1
+tengawai,1
+teone ropata,2
+teonira,1
+tepaki,1
+teranga,1
+teranganokai karamaena,2
+terapa,1
+tere ngu,2
+tereora,1
+teria,1
+terina,1
+teringa-kohu,1
+teruakirikiri riwai,2
+teruo,1
+terure,1
+tetaki tairakena,2
+tete-a-tete,1
+teuku,1
+tiaamii,1
+tiaiti,1
+tiare,1
+tii,1
+tiitii uaita,2
+tikitapu,1
+tikitiki a-taranga,2
+tiko,1
+timaima,1
+timara,1
+timaru oamaru,2
+timea,1
+timi maipi,2
+timihou titahi,2
+timote,1
+tineke,1
+tinika,1
+tino pereira,2
+tino reka,2
+tinoi,1
+tinui,1
+tio,1
+tioripatea,1
+tip-toe,1
+tipapa,1
+tipi,1
+tipi-rangi waikato,2
+tipu,1
+tirangi,1
+tireti,1
+tiri mahana,2
+tirikatene-o,1
+tiritiri matangi,2
+tirohanga,1
+titokawaru,1
+tiueti,1
+toetuu,1
+toeumu,1
+tohoku,1
+tohu,1
+toi maunga toi moana,4
+toi poneke,2
+toi rakiura,2
+toi te papa,3
+toi te taia,3
+toi whakataa maori,3
+tokanui otara,2
+tokarahi,1
+tokatu,1
+tokitoki,1
+tokomairiro,1
+tokonui,1
+tokoroa taupo,2
+tomatea,1
+tomioka,1
+tomoki,1
+tomoko,1
+tongatapu,1
+tongotea-rapatini,1
+tongotongo,1
+toni-maree,1
+tonia,1
+tonie,1
+tonihi,1
+tonu u taine,3
+top-name,1
+top-range,1
+tora,1
+torahime,1
+tororaro,1
+toru,1
+toru runaki,2
+totaranui to takaka,3
+toumani,1
+toutai,1
+towie,1
+tua huriri,2
+tua tua,2
+tua-mata-uenga,1
+tuahiwi,1
+tuamarina,1
+tuari potiki,2
+tuarike,1
+tuataina,1
+tuatini,1
+tuheke,1
+tuhikarama,1
+tuhikaramea,1
+tuhoe tohunga hohepa kereopa,4
+tui hui,2
+tui kaka,2
+tui rapana,2
+tui waireti,2
+tuia,1
+tukaki,1
+tukapa,1
+tukapua,1
+tuke,1
+tuki,1
+tuki raimona,2
+tuki tuki,2
+tukutahi ropata,2
+tumai karetai,2
+tumai-totorewa,1
+tumana,1
+tumu te heuheu,3
+tuna hoki,2
+tuoro,1
+tupuna puna,2
+tupuoto,1
+turakina,1
+turakirae,1
+turanga,1
+turangawaewae marae ngaruawahia,3
+turina,1
+turiwhate,1
+tutae ka wetoweto,3
+tutaepatu,1
+tute rangi,2
+tutuwai,1
+tuuta,1
+tuwehi,1
+uao,1
+uea,1
+uemura,1
+ueta,1
+umuroa,1
+upoko,1
+urarii,1
+urawa,1
+urenika,1
+uriao,1
+urupa,1
+utani,1
+ututonga,1
+uwa,1
+uwe,1
+waahi,1
+waahi tapu,2
+waana,1
+waananga,1
+waanga,1
+waenga,1
+waharoa,1
+waharoa waikato,2
+waho,1
+wahu kaa,2
+wai taumaunu,2
+waiake,1
+waianawa,1
+waiapu,1
+waihapa,1
+waihau,1
+waihi marae,2
+waihi opihi,2
+waihirere,1
+waihoka,1
+waihopai runaka,2
+waikanae moreu,2
+waikaremoana,1
+waikatere,1
+waikato kawerau,2
+waikato manawatu,2
+waikato tauranga,2
+waikato team-mate,2
+waikerie,1
+waikiekie,1
+waikotikoti,1
+waikouro wairio,2
+waikukupa,1
+waikumete,1
+waimarama maori,2
+waimaria,1
+waimihi hotere,2
+waimumu te tipua,3
+waimumu waimatuku,2
+wainuimomata,1
+wainuiomata marae,2
+wainuiomata wainuiomata,2
+wainuioru,1
+wainuomata,1
+waioeka,1
+waioeka marae,2
+waiohika,1
+waiohine,1
+waiomu,1
+waiouru to rangipo,3
+waiouru wanganui,2
+waipahi waitahuna,2
+waipara hurunui,2
+waipori,1
+waipoua kauri,2
+waira,1
+wairapapa,1
+wairarapa kapiti,2
+wairewa,1
+wairoa ohakune kawakawa,3
+waitaanga,1
+waitai-rapana,1
+waitangarua,1
+waitangi maori,2
+waitangi marae maori,3
+waitara taranaki,2
+waitarere,1
+waitaria,1
+waitati,1
+waitekauri,1
+waitiri,1
+waitutu rimu,2
+waiwhakaiho,1
+waiwhetu runanga,2
+waka aniwaniwa,2
+waka te rau kura,4
+waka te raukawa,3
+wakaia,1
+wakapuaka,1
+wakatipu taniwha,2
+wanahi,1
+wanaka hine,2
+wanakore,1
+wanganui a taranaki,3
+wanganui hakihana,2
+wanganui taumarunui,2
+war-era,1
+wara,1
+warehou,1
+warihi,1
+watana,1
+water-pipe,1
+weeeee,1
+weihai timaru,2
+weina,1
+weipa,1
+weti,1
+whaiapu manukau,2
+whaikupu,1
+whaipooti,1
+whaiti,1
+whakahaere,1
+whakahuihui,1
+whakaipo,1
+whakamoe,1
+whakanui,1
+whakapapanui,1
+whakarau,1
+whakaraupo,1
+whakaruru,1
+whakatane to taupo,3
+whakatohea,1
+whanau hui,2
+whangae,1
+whangaehu,1
+whanganui-a-tara maori,2
+whangara mai tawhiti,3
+whangarei taranaki,2
+wharangi,1
+whare mahana,2
+wharenui matipo,2
+wharepaepae,1
+wharepuna,1
+wharewaka o poneke,3
+whata,1
+whatamango,1
+whatarangi rawiri,2
+whatarangi winiata,2
+whataroa to karamea,3
+whawhai,1
+wheeee,1
+wheki,1
+whenua tapu,2
+where a mataura,3
+where a rape,3
+where i ate,3
+where to take,3
+whero,1
+whi tapu,2
+whio are one,3
+whiritoa,1
+whirokino,1
+whiteware a rimu,3
+whitirea,1
+whoa whoa,2
+wiha,1
+wii,1
+wiki te amo,3
+wiki te whare,3
+wikitana popata,2
+winona,1
+wira,1
+wiremu kingi,2
+wiremu ropata,2
+wiriana tamihana te kahi,4
+wirihana rongotai,2
+wiringi,1
+wiripene,1
+witeri ahomiro neketai,3
+witoko,1
+wiwarena,1
+wongi,1
+woo-hoo,1
+wow-wee,1
