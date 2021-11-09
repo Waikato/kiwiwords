@@ -75,7 +75,7 @@ If the tweet is still publicly available on Twitter, the following variables wil
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 
-- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. Language Resources and Evaluation.
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em>
 
 ### Team
 
