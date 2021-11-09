@@ -58,7 +58,8 @@ If the tweet is still publicly available on Twitter, the following variables wil
 
 | Data Column                       | Description |
 | -------------                     | ------------- |
-| text								| The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised). |
+| content								| The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised). |
+| content_with_emojis								| The tweet content with emojis included. |
 | conversation_id                   | The ID for the conversation that the tweet is part of. |
 | in_reply_to_user_id               | If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet. | 
 | author_id                         | Twitter's unique identifier for the user who wrote the tweet. |
@@ -74,13 +75,13 @@ If the tweet is still publicly available on Twitter, the following variables wil
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 
-- 'Building a Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. Language Resources and Evaluation.
 
 ### Team
 
 - [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
-- [Paora Mato](https://www.waikato.ac.nz/staff-profiles/people/pmato)
+- [Paora Mato](https://www.waikato.ac.nz/php/research.php?mode=show&author=23169)
 - [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
 - [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
 
