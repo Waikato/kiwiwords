@@ -90,21 +90,21 @@ def format_data(input_file):
     tweets.to_csv(output_file, sep="\t", header = True, index = False)
         
     tweets = standardise_user_mentions(output_file)
-    content = tweets.pop("text")
+    content = tweets.pop("content_with_emojis")
     tweets.insert(2, content.name, content) 
     tweets.to_csv(output_file, sep="\t", header = True, index = False)
-
+    
 #Removes emojis and other special characters
-def remove_special_chars(input_file):
-    tweets = pa.read_csv(input_file, sep="\t")
+def remove_special_chars(inputFile):
+    tweets = pa.read_csv(inputFile, sep="\t", lineterminator='\n')
     good_tweets = []
     for tweet in tweets['text']:
         tweet = tweet.replace("\\'","'")
         #Remove emojis
-        permitted_chars = printable + "ĀĒĪŌŪāēīōū" 
-        tweet = "".join(c for c in tweet if c in permitted_chars) 
-        spaces = re.compile(r" {2,}")
-        tweet = spaces.sub(r" ", tweet)
+        #permitted_chars = printable + "ĀĒĪŌŪāēīōū" 
+        #tweet = "".join(c for c in tweet if c in permitted_chars) 
+        #spaces = re.compile(r" {2,}")
+        #tweet = spaces.sub(r" ", tweet)
         speechmarks = re.compile(r'"{1,}')
         tweet = speechmarks.sub(r"'", tweet)
         good_tweets.append(tweet)
@@ -151,7 +151,20 @@ def standardise_user_mentions(input_file):
         tweet = formula_error.sub("", tweet)
         good_tweets.append(tweet)
     del tweets['text']
-    tweets['text'] = good_tweets
+    tweets['content_with_emojis'] = good_tweets
+    
+    #CREATE VERSION WITHOUT EMOJIS
+    tweets['content'] = tweets['content_with_emojis']
+    content = []
+    for tweet in tweets['content']:
+        permitted_chars = printable + "ĀĒĪŌŪāēīōū" 
+        tweet = "".join(c for c in tweet if c in permitted_chars) 
+        spaces = re.compile(r" {2,}")
+        tweet = spaces.sub(r" ", tweet)
+        content.append(tweet)
+    del tweets['content']
+    tweets['content'] = content
+    
     return tweets
 
 #Add derived metadata to the final dataframe
@@ -163,8 +176,10 @@ def supplement_data(file1, file2, file3, joinCol):
     #Sort columns alphabetically
     #df3 = df3.reindex(columns=sorted(df3.columns))
     #Move ID and text columns to front
-    first_col = df3.pop("text")
-    df3.insert(0, "text", first_col)
+    first_col = df3.pop("content")
+    df3.insert(0, "content", first_col)
+    first_col = df3.pop("content_with_emojis")
+    df3.insert(0, "content_with_emojis", first_col)
     first_col = df3.pop("id")
     df3.insert(0, "id", first_col)
     df3.to_csv(file3, sep="\t", index=False)

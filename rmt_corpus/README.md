@@ -1,10 +1,10 @@
-# The RMT Corpus
-The Reo Māori Twitter (RMT) Corpus is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
+# Māori Twitter Corpus
+The *Reo Māori Twitter (RMT) Corpus* is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
 
 ### Download the RMT Corpus
 The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's [sample code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for API v2 endpoints.
 
-Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please email dtrye@waikato.ac.nz if you would like access to the complete dataset, including additional metadata mentioned in our paper.**
+Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dtrye@waikato.ac.nz) if you would like access to the complete dataset, including additional metadata mentioned in our paper.**
 
 The speed at which you can download the corpus depends on the [rate limit](https://developer.twitter.com/en/docs/twitter-api/rate-limits) for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.
 
@@ -58,7 +58,8 @@ If the tweet is still publicly available on Twitter, the following variables wil
 
 | Data Column                       | Description |
 | -------------                     | ------------- |
-| text								| The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised). |
+| content								| The tweet content, with consistent formatting applied (special characters stripped, user mentions and links standardised). |
+| content_with_emojis								| The tweet content with emojis included. |
 | conversation_id                   | The ID for the conversation that the tweet is part of. |
 | in_reply_to_user_id               | If the tweet is written in reply to another, this is the ID of the user who who wrote the original tweet. | 
 | author_id                         | Twitter's unique identifier for the user who wrote the tweet. |
@@ -67,10 +68,34 @@ If the tweet is still publicly available on Twitter, the following variables wil
 | source                            | The device or third-party application from which the tweet was posted (e.g. 'Twitter Web Client', 'Twitter for iPhone').
 | error								| The reason why the tweet could not be downloaded, if there was an error ('Authorization Error', 'Not Found Error', 'None'). | 
 
+### Other Resources
+- Code for cleaning and analysing the RMT Corpus is available on the [project GitHub repository](https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus).
+- You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in the corpus.
+
 ### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
-<br>
-'Building a High-Quality Corpus of Māori Language Tweets' by Trye et al. (full reference coming soon!).
 
-The information on this page was last checked in April 2021. Please let us know if you notice any errors in the code and/or instructions. 
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em>
+
+### Team
+
+- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
+- [Paora Mato](https://www.waikato.ac.nz/php/research.php?mode=show&author=23169)
+- [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
+- [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
+
+External Collaborators:
+
+- [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
+- [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University, US
+
+### Funding
+
+We graciously acknowledge the generous support of:
+
+- Ngā Pae o te Māramatanga
+- The University of Waikato
+
+The information on this page was last checked in April 2021. Please [let us know](mailto:dtrye@waikato.ac.nz) if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus) could be successfully downloaded from Twitter.
