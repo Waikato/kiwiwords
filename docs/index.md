@@ -15,6 +15,12 @@ Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant
 
 If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin and data downloading inquiries (dtrye@waikato.ac.nz).
 
+### Publications
+
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em>
+- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015.
+- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
+
 Thank you for visiting our website!
 
 <img src="pics/kiwi.png" alt="Kiwi bird" width="300"/>
