@@ -3,7 +3,7 @@
 ### Te Reo Māori
 Ko te *Putunga Reo Māori Tīhau (RMT)* nei he putunga o ngā tīhau 79,018 kua tuhia ki te reo Māori. He mea hanga hei tautoko i ngā mahi reo Māori -ā-waha o te rorohiko, hei rauemi hoki mō ngā iwi Māori puta noa i te motu. E 2,302 ngā kaituhi pīhau reo Māori nei, ko ētehi he whaiaro nō te tangata ake, ko ētehi he mea tuku nō te kamupene. Kua tautohua ngā kaituhi pīhau nei e te pae tukutuku a [Indigenous Tweets](http://indigenoustweets.com/mi/) nā Prof. Kevin Scannell.
 
-### Kia tikiake te putunga RMT
+#### Kia tikiake te putunga RMT
 Nā tēneki waehere e taea ai te tikiake i ngā pīhau me ngā raraungameta. Kua hangaia te waehere nei mai i ngā waehere o Twitter arā te waehere tauira o API v2 endpoints.
 
 Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. **Tukua tētehi īmēra ki a [David Trye](mailto:dtrye@waikato.ac.nz) inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.** 
