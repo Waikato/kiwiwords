@@ -102,21 +102,191 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#maori-twitter-corpus">Māori Twitter Corpus</a></li>
-            <li><a href="#download-the-rmt-corpus">Download the RMT Corpus</a></li>
-            <li><a href="#data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</a></li>
-            <li><a href="#data-description-rmt-corpus-finalcsv">Data Description: rmt-corpus-final.csv</a></li>
-            <li><a href="#other-resources">Other Resources</a></li>
-            <li><a href="#citing-the-rmt-corpus">Citing the RMT Corpus</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#funding">Funding</a></li>
+        <li class="main active"><a href="#putunga-reo-maori-tihau-the-reo-maori-twitter-corpus">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</a></li>
+            <li><a href="#te-reo-maori">Te Reo Māori</a></li>
+            <li><a href="#kia-tikiake-te-putunga-rmt">Kia tikiake te putunga RMT</a></li>
+            <li><a href="#english">English</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="maori-twitter-corpus">Māori Twitter Corpus</h1>
+<h1 id="putunga-reo-maori-tihau-the-reo-maori-twitter-corpus">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</h1>
+<h3 id="te-reo-maori">Te Reo Māori</h3>
+<p>Ko te <em>Putunga Reo Māori Tīhau (RMT)</em> nei he putunga o ngā tīhau 79,018 kua tuhia ki te reo Māori. He mea hanga hei tautoko i ngā mahi reo Māori -ā-waha o te rorohiko, hei rauemi hoki mō ngā iwi Māori puta noa i te motu. E 2,302 ngā kaituhi pīhau reo Māori nei, ko ētehi he whaiaro nō te tangata ake, ko ētehi he mea tuku nō te kamupene. Kua tautohua ngā kaituhi pīhau nei e te pae tukutuku a <a href="http://indigenoustweets.com/mi/">Indigenous Tweets</a> nā Prof. Kevin Scannell.</p>
+<h3 id="kia-tikiake-te-putunga-rmt">Kia tikiake te putunga RMT</h3>
+<p>Nā tēneki waehere e taea ai te tikiake i ngā pīhau me ngā raraungameta. Kua hangaia te waehere nei mai i ngā waehere o Twitter arā te waehere tauira o API v2 endpoints.</p>
+<p>Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. <strong>Tukua tētehi īmēra ki a <a href="mailto:dtrye@waikato.ac.nz">David Trye</a> inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.</strong> </p>
+<p>Ka hāngai te tere o tāu tikiake ki tāu ake rate limit i tāu pūkete kaiwhanake o Twitter (arā, 300, 900 rānei ngā tono ki ia 15 meneti). Ki te whakapaua tāu tatau, ka puta mai te kōrero hē: 429 'Too many requests'.</p>
+<ul>
+<li>Tonoa tētehi <a href="https://developer.twitter.com/en/apply-for-access">Pūkete Kaiwhanake o Twitter</a> inā kaore i a koe tētehi.</li>
+<li>Me matua noho a <a href="https://www.python.org/downloads/">Python 3</a> ki tāu rorohiko. Ka whakamahia e te waehere tikiake i te <code>requests==2.24.0</code>, ā, ka whakamahia hoki te <code>requests-oauthlib==1.3.0</code>. Ka whēnei ngā tono hei utaina ēnei:</li>
+</ul>
+<pre><code>pip install requests
+pip install requests-oauthlib
+</code></pre>
+
+<ul>
+<li>Tikiake me te unu i ngā kōnae katoa i te kōpake <a href="../pics/rmt.zip">rmt</a>. Kei tēneki kōpaki tētehi kōnae ko <code>rmt-corpus-v1.csv</code> te ingoa, kei reira ngā tīhau IDs me ngā raraungameta. Kei reira hoki ngā waehere Python e rua mō te tikiake me te whakahōputu o ngā raraunga (arā, <code>get_tweets_with_bearer_token.py</code> me te <code>json_to_tsv.py</code>).</li>
+<li>Kia whakaritea ai tāu API bearer token me tuku atu tēnei tono:</li>
+</ul>
+<pre><code>export 'BEARER_TOKEN'='&lt;your_bearer_token&gt;'
+</code></pre>
+
+<ul>
+<li>Whārere <code>get_tweets_with_bearer_token.py</code>.</li>
+</ul>
+<pre><code>python get_tweets_with_bearer_token.py &gt; output.json
+</code></pre>
+
+<p>Nā reira, ka tikiake te 100 tīhau i ia tono, ā, nā ēnei whakaritenga ka āhua 45 meneti pea te roa. Ka whēnei te roa i te mea, ka 30,000 tīhau (300 tono x 100 tīhau) i ia 15 meneti. I te otinga ake ka rauikatia ki te kōnae output.json heoi anō he pseudo-JSON kē; ka motumotu ngā taupū ki tētehi rārangi e whēnei ana; "Batch X, Code Y", he nama te X me te Y.</p>
+<ul>
+<li>Whārere <code>json_to_tsv.py</code> kia whakawhiti ai te kōnae putunga ki te hōputu TSV.</li>
+</ul>
+<pre><code>python json_to_tsv.py
+</code></pre>
+
+<p>Ko te otinga o tēnei waehere ko te kōnae <code>rmt-corpus-final.csv</code>, he kōnae ka tūwheratia ki te tautono ripanga. Kua rite tahi te hōputu o ngā kōrero tīhau, arā ka tangohia ngā pūāhua motuhake, ka weteoro te HTML, ā, ka rite tahi te whakatakoto o ngā kōrero kaitīhau me ngā tūhononga. Ka tāpiritia hoki ngā raraungameta mai i te kōnae motuhake o <code>rmt-corpus-v1.csv</code>. Ki raro iho nei ka whakamārama atu ngā taurangi kei ngā kōnae CSV.</p>
+<h4 id="he-whakamarama-raraunga-rmt-corpus-v1csv">He Whakamārama Raraunga: rmt-corpus-v1.csv</h4>
+<p>Koia nei ngā māramatanga (inā e mōhio ana) kei te kōnae <code>rmt-corpus-v1.csv</code>, ahakoa kei a Twitter tonu te tīhau ake, kāore rānei.</p>
+<table>
+<thead>
+<tr>
+<th>Taurangi</th>
+<th>Whakamārama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>Te tautohu motuhake o Twitter mō tēnei tīhau. Ka taea te rapu tēnei tautohu ki <a href="twitter.com/user/status/XXX">twitter.com/user/status/XXX</a>, inā ko XXX te tīhau tautohu.</td>
+</tr>
+<tr>
+<td>num_maori_words</td>
+<td>E hia ngā kupu Māori ki te tīhau.</td>
+</tr>
+<tr>
+<td>total_words</td>
+<td>E hia te katoa o ngā kupu ki te tīhau.</td>
+</tr>
+<tr>
+<td>percent_maori</td>
+<td>Ko te paiheneti o ngā kupu Māori ki te tīha (=<code>num_maori_words</code> / <code>total_words</code>*100).</td>
+</tr>
+<tr>
+<td>favourites</td>
+<td>E hia ngā pānga (likes, retweets &amp; quotes) i whakapā atu ki tēnei tīhau.</td>
+</tr>
+<tr>
+<td>reply_count</td>
+<td>E hia ngā whakahoki kōrero ki tēnei tīhau.</td>
+</tr>
+<tr>
+<td>user.alias</td>
+<td>He ingoakē mō kaitīhau, ka hangaia i te T<code>X</code>, inā ko te <code>X</code> tōna tūranga i tatau whānui o āna tīhau i te putunga katoa (<code>user.num_tweets</code>).</td>
+</tr>
+<tr>
+<td>user.status</td>
+<td>Te tūnga pūkete (i te Tīhema 2020) o te tangata nāna te tīhau i tuku: ka 'active', 'protected', 'suspended', 'not found' rānei.</td>
+</tr>
+<tr>
+<td>user.followers</td>
+<td>Tokohia āna apataki (i te Tīhema 2020).</td>
+</tr>
+<tr>
+<td>user.friends</td>
+<td>E hia ngā hoa ka whaia e ia (i te Tīhema 2020).</td>
+</tr>
+<tr>
+<td>user.num_tweets</td>
+<td>E hia ngā tīhau kua tukuna e ia.</td>
+</tr>
+<tr>
+<td>user.region</td>
+<td>Tōna wākāinga, e ai ki a ia. Inā i taea, i whakaritea ngā rohe nei ki  <a href="https://en.wikipedia.org/wiki/Regions_of_New_Zealand">New Zealand regions</a> me ngā ingoa o ngā whenua ki tāwāhi.</td>
+</tr>
+<tr>
+<td>year</td>
+<td>Te tau kua tukuna te tīhau (2007-2020).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="he-whakamarama-raraunga-rmt-corpus-finalcsv">He Whakamārama Raraunga: rmt-corpus-final.csv</h4>
+<p>Ki te ora tonu te tīhau ki a Twitter, ka tāpiri atu hoki ngā taurangi ki raro iho nei. Ki te kore te taurangi e kitea ka tuhia ‘None’.</p>
+<table>
+<thead>
+<tr>
+<th>Taurangi</th>
+<th>Whakamārama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>content</td>
+<td>Ko ngā kōrero o te tīhau; kua rite tahi te hōputu o nga kōrero tīhau, arā ka tangohia ngā pūāhua motuhake, ka weteoro te HTML, ā, ka rite tahi te whakatakoto o ngā kōrero kaitīhau me ngā tūhononga.</td>
+</tr>
+<tr>
+<td>conversation_id</td>
+<td>Ko te tautohu motuhake mō te kōrerorero e noho atu ai tēnei tīhau.</td>
+</tr>
+<tr>
+<td>in_reply_to_user_id</td>
+<td>Mehemea he whakahoki kōrero tēnei ki te tīhau o tāngata kē, koia nei te tautohu motuhake o te tangata nāna te tīhau tuatahi i tuku.</td>
+</tr>
+<tr>
+<td>author_id</td>
+<td>Ko te tautohu motuhake o Twitter mō te kaituhi o te tīhau.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Te wā me te rā i tuku ai te tīhau, ka whēnei te hōputu: <code>YYYY-MM-DDTHH:mm:ss.000Z</code>.</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>Ko te reo o te tīhau e ai ki a Twitter. Ka kore te reo Māori i kitea i kōnei i te mea he kore mōhio o te API ki te reo Māori.</td>
+</tr>
+<tr>
+<td>source</td>
+<td>Ko te pūrere, te tautono o wāho rānei i tuku i te tīhau (arā 'Twitter Web Client', 'Twitter for iPhone').</td>
+</tr>
+<tr>
+<td>error</td>
+<td>Ko te take i kore tikiake ai i te tīhau. Ki te hē mai, kā whēnei: 'Authorization Error', 'Not Found Error', 'None'.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="he-rauemi-i-tua-atu">He rauemi i tua atu</h4>
+<ul>
+<li>Ko te waehere i whakarite ai i tātari ai te putunga RMT kei kōnei <a href="https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus">project GitHub repository</a>.</li>
+<li>E taea ana te <a href="../pics/rmt-v1-wordlist.csv">tikiake kupu rārangi</a> me te tatau o ngā kupu me ngā tohuhaki i te putunga nei.</li>
+</ul>
+<h4 id="tohutoro-te-putunga-rmt">Tohutoro te putunga RMT</h4>
+<p>Ki te whakamahi koe i te putunga RMT nei, tēnā koe me tohutoro whēnei mai:</p>
+<ul>
+<li>Trye, D., Keegan, T. T., Mato, P., &amp; Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em></li>
+</ul>
+<h4 id="kaimahi">Kaimahi</h4>
+<ul>
+<li><a href="https://www.cs.waikato.ac.nz/~dgt12/">David Trye</a></li>
+<li><a href="https://www.cms.waikato.ac.nz/people/tetaka">Te Taka Keegan</a></li>
+<li><a href="https://www.waikato.ac.nz/php/research.php?mode=show&amp;author=23169">Paora Mato</a></li>
+<li><a href="https://www.cms.waikato.ac.nz/people/mapperle">Mark Apperley</a></li>
+<li><a href="https://www.linkedin.com/in/tamahau-brown-9287b7139/">Tamahau Brown</a></li>
+</ul>
+<p>Kaitautoko i tua:</p>
+<ul>
+<li><a href="https://tehiku.nz/te-hiku-tech/">Te Hiku Media</a>, NZ</li>
+<li><a href="https://cs.slu.edu/~scannell/index.html">Kevin Scannell</a>, Saint Louis University, US</li>
+</ul>
+<h4 id="tautoko-a-putea">Tautoko ā-pūtea</h4>
+<p>E mihi atu ana mō te tautoko ā-pūtea:</p>
+<ul>
+<li>Ngā Pae o te Māramatanga</li>
+<li>The University of Waikato</li>
+</ul>
+<p>I whakatikahia te kōrero kei tēnei whārangi i Noema 2021. <a href="mailto:dtrye@waikato.ac.nz">Whakamōhio mai koa</a> mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei . I te Noema 2021, 72,575 tīhau (<strong>91.85%</strong> o te putunga RMT) i taea ai te tikiake i a Twitter.</p>
+<h3 id="english">English</h3>
 <p>The <em>Reo Māori Twitter (RMT) Corpus</em> is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
-<h3 id="download-the-rmt-corpus">Download the RMT Corpus</h3>
+<h4 id="download-the-rmt-corpus">Download the RMT Corpus</h4>
 <p>The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
 <p>Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please <a href="mailto:dtrye@waikato.ac.nz">email David Trye</a> if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
 <p>The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
@@ -130,7 +300,7 @@ pip install requests-oauthlib
 
 <ul>
 <li>
-<p>Download and extract all files in the <a href="../pics/rmt-v1.zip">rmt-v1</a> folder. This folder contains a file called <code>rmt-corpus-v1.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
+<p>Download and extract all files in the <a href="../pics/rmt.zip">rmt</a> folder. This folder contains a file called <code>rmt-corpus-v1.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
 </li>
 <li>
 <p>Configure your API bearer token by running the following command in the terminal:</p>
@@ -153,7 +323,7 @@ pip install requests-oauthlib
 </code></pre>
 
 <p>This script will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original <code>rmt-corpus-v1.csv</code> file. A description of the variables in each of the CSV files is given below.</p>
-<h3 id="data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</h3>
+<h4 id="data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</h4>
 <p>The following information (where known) is supplied in <code>rmt-corpus-v1.csv</code>, even if the tweet is no longer available on Twitter.</p>
 <table>
 <thead>
@@ -217,7 +387,7 @@ pip install requests-oauthlib
 </tr>
 </tbody>
 </table>
-<h3 id="data-description-rmt-corpus-finalcsv">Data Description: rmt-corpus-final.csv</h3>
+<h4 id="data-description-rmt-corpus-finalcsv">Data Description: rmt-corpus-final.csv</h4>
 <p>If the tweet is still publicly available on Twitter, the following variables will appear alongside those mentioned above. Missing values are indicated with 'None':</p>
 <table>
 <thead>
@@ -265,17 +435,17 @@ pip install requests-oauthlib
 </tr>
 </tbody>
 </table>
-<h3 id="other-resources">Other Resources</h3>
+<h4 id="other-resources">Other Resources</h4>
 <ul>
 <li>Code for cleaning and analysing the RMT Corpus is available on the <a href="https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus">project GitHub repository</a>.</li>
 <li>You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in the corpus.</li>
 </ul>
-<h3 id="citing-the-rmt-corpus">Citing the RMT Corpus</h3>
+<h4 id="citing-the-rmt-corpus">Citing the RMT Corpus</h4>
 <p>If you use the RMT corpus, please cite the following paper:</p>
 <ul>
 <li>Trye, D., Keegan, T. T., Mato, P., &amp; Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em></li>
 </ul>
-<h3 id="team">Team</h3>
+<h4 id="team">Team</h4>
 <ul>
 <li><a href="https://www.cs.waikato.ac.nz/~dgt12/">David Trye</a></li>
 <li><a href="https://www.cms.waikato.ac.nz/people/tetaka">Te Taka Keegan</a></li>
@@ -288,13 +458,13 @@ pip install requests-oauthlib
 <li><a href="https://tehiku.nz/te-hiku-tech/">Te Hiku Media</a>, NZ</li>
 <li><a href="https://cs.slu.edu/~scannell/index.html">Kevin Scannell</a>, Saint Louis University, US</li>
 </ul>
-<h3 id="funding">Funding</h3>
+<h4 id="funding">Funding</h4>
 <p>We graciously acknowledge the generous support of:</p>
 <ul>
 <li>Ngā Pae o te Māramatanga</li>
 <li>The University of Waikato</li>
 </ul>
-<p>The information on this page was last checked in April 2021. Please <a href="mailto:dtrye@waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. 
+<p>The information on this page was last checked in November 2021. Please <a href="mailto:dtrye@waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. 
 As of 12 April 2021, 72,575 tweets (<strong>91.85%</strong> of the RMT Corpus) could be successfully downloaded from Twitter.</p></div>
         </div>
 
