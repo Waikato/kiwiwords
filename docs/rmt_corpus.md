@@ -42,10 +42,10 @@ Koia nei ngā māramatanga (inā e mōhio ana) kei te kōnae `rmt-corpus-v1.csv`
 | id                                | Te tautohu motuhake o Twitter mō tēnei tīhau. Ka taea te rapu tēnei tautohu ki [twitter.com/user/status/XXX](twitter.com/user/status/XXX), inā ko XXX te tīhau tautohu. |
 | num_maori_words                   | E hia ngā kupu Māori ki te tīhau. |
 | total_words                       | E hia te katoa o ngā kupu ki te tīhau. |
-| percent_maori                     | Ko te paiheneti o ngā kupu Māori ki te tīha (=`num_maori_words` / `total_words`\*100).
+| percent_maori                     | Ko te paiheneti o ngā kupu Māori ki te tīhau (=`num_maori_words` / `total_words`\*100).
 | favourites                        | E hia ngā pānga (likes, retweets & quotes) i whakapā atu ki tēnei tīhau. |
 | reply_count                       | E hia ngā whakahoki kōrero ki tēnei tīhau. |
-| user.alias                        | He ingoakē mō kaitīhau, ka hangaia i te T`X`, inā ko te `X` tōna tūranga i tatau whānui o āna tīhau i te putunga katoa (`user.num_tweets`). |
+| user.alias                        | He ingoakē mō kaitīhau, ka hangaia i te T`X`, inā ko te `X` tōna tūranga i te tatau whānui o āna tīhau i te putunga katoa (`user.num_tweets`). |
 | user.status                       | Te tūnga pūkete (i te Tīhema 2020) o te tangata nāna te tīhau i tuku: ka 'active', 'protected', 'suspended', 'not found' rānei. |
 | user.followers                    | Tokohia āna apataki (i te Tīhema 2020). |
 | user.friends                      | E hia ngā hoa ka whaia e ia (i te Tīhema 2020). |
