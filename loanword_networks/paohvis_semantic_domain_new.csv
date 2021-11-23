@@ -23,7 +23,7 @@ kapa haka_kohanga (reo)_poi_tamariki_tikanga,tamariki,1,,SC,core,1,YES
 kapa haka_kohanga (reo)_poi_tamariki_tikanga,tikanga,1,,SC,cultural,1,YES
 kawakawa_pakeha,kawakawa,1,,FF,core,1,YES
 kawakawa_pakeha,pakeha,1,,PN,proper noun,1,YES
-puanga_te puni kokiri,puanga,2,,FF,cultural,1,NO
+puanga_te puni kokiri,puanga,2,,PN,cultural,1,NO
 puanga_te puni kokiri,te puni kokiri,2,,PN,proper noun,3,YES
 kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,kiwi,1,,PN,proper noun,1,YES
 kiwi_marae_non-maori_pakeha_taonga_te puni kokiri_te reo_te reo maori,marae,1,,MC,cultural,1,YES
@@ -50,7 +50,7 @@ hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,pakeha,1,,PN,proper noun
 hapu_iwi_kapa haka_kaupapa (maori)_ki-o-rahi_pakeha_pou,pou,1,,MC,cultural,1,NO
 hikoi_tamariki,hikoi,1,,SC,cultural,1,YES
 hikoi_tamariki,tamariki,1,,SC,core,1,YES
-puanga_te puni kokiri,puanga,1,,FF,cultural,1,NO
+puanga_te puni kokiri,puanga,1,,PN,cultural,1,NO
 puanga_te puni kokiri,te puni kokiri,1,,PN,proper noun,3,YES
 korero_whanau,korero,1,,SC,core,1,YES
 korero_whanau,whanau,1,,SC,core,1,YES
@@ -89,7 +89,7 @@ iwi_kiwi_pakeha_te reo maori,pakeha,1,,PN,proper noun,1,YES
 iwi_kiwi_pakeha_te reo maori,te reo maori,1,,PN,proper noun,3,NO
 kapa haka_poi,kapa haka,1,,SC,cultural,2,YES
 kapa haka_poi,poi,1,,MC,cultural,1,YES
-puanga_whanau,puanga,1,,FF,cultural,1,NO
+puanga_whanau,puanga,1,,PN,cultural,1,NO
 puanga_whanau,whanau,1,,SC,core,1,YES
 aotearoa_hangi_iwi_marae,aotearoa,1,,PN,proper noun,1,YES
 aotearoa_hangi_iwi_marae,hangi,1,,MC,cultural,1,YES
@@ -125,7 +125,7 @@ kiwi_pakeha,pakeha,1,,PN,proper noun,1,YES
 pakeha_pou,pakeha,1,,PN,proper noun,1,YES
 pakeha_pou,pou,1,,MC,cultural,1,NO
 hui_puanga_taonga_taonga puoro_te reo maori_whanau,hui,1,,SC,core,1,YES
-hui_puanga_taonga_taonga puoro_te reo maori_whanau,puanga,1,,FF,cultural,1,NO
+hui_puanga_taonga_taonga puoro_te reo maori_whanau,puanga,1,,PN,cultural,1,NO
 hui_puanga_taonga_taonga puoro_te reo maori_whanau,taonga,1,,SC,core,1,YES
 hui_puanga_taonga_taonga puoro_te reo maori_whanau,taonga puoro,1,,MC,cultural,2,NO
 hui_puanga_taonga_taonga puoro_te reo maori_whanau,te reo maori,1,,PN,proper noun,3,NO
@@ -145,7 +145,7 @@ haka_kapa haka_kohanga (reo),kapa haka,1,,SC,cultural,2,YES
 haka_kapa haka_kohanga (reo),kohanga (reo),1,,SC,cultural,2,YES
 iwi_kumara_puanga,iwi,1,,SC,cultural,1,YES
 iwi_kumara_puanga,kumara,1,,FF,cultural,1,YES
-iwi_kumara_puanga,puanga,1,,FF,cultural,1,NO
+iwi_kumara_puanga,puanga,1,,PN,cultural,1,NO
 kawakawa_taonga puoro,kawakawa,1,,FF,core,1,YES
 kawakawa_taonga puoro,taonga puoro,1,,MC,cultural,2,NO
 hapu_hui_iwi_kaupapa (maori)_korero_mana_pakeha_powhiri_tamariki_teina_tuakana_waka_wananga,hapu,1,,SC,cultural,1,YES
@@ -170,7 +170,7 @@ hangi_marae_waiata,hangi,1,,MC,cultural,1,YES
 hangi_marae_waiata,marae,1,,MC,cultural,1,YES
 hangi_marae_waiata,waiata,1,,SC,core,1,YES
 kapa haka_puanga_taiaha_waiata_waka_whanau,kapa haka,1,,SC,cultural,2,YES
-kapa haka_puanga_taiaha_waiata_waka_whanau,puanga,1,,FF,cultural,1,NO
+kapa haka_puanga_taiaha_waiata_waka_whanau,puanga,1,,PN,cultural,1,NO
 kapa haka_puanga_taiaha_waiata_waka_whanau,taiaha,1,,MC,cultural,1,YES
 kapa haka_puanga_taiaha_waiata_waka_whanau,waiata,1,,SC,core,1,YES
 kapa haka_puanga_taiaha_waiata_waka_whanau,waka,1,,MC,cultural,1,YES
@@ -208,13 +208,13 @@ taro_teina,teina,1,,SC,cultural,1,NO
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,iwi,1,,SC,cultural,1,YES
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,karakia,1,,SC,cultural,1,YES
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,ki-o-rahi,1,,SC,cultural,1,NO
-iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,puanga,1,,FF,cultural,1,NO
+iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,puanga,1,,PN,cultural,1,NO
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,taonga puoro,1,,MC,cultural,2,NO
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,te puni kokiri,1,,PN,proper noun,3,YES
 iwi_karakia_ki-o-rahi_puanga_taonga puoro_te puni kokiri_wananga,wananga,1,,SC,cultural,1,NO
 hapu_iwi_puanga_whanau,hapu,1,,SC,cultural,1,YES
 hapu_iwi_puanga_whanau,iwi,1,,SC,cultural,1,YES
-hapu_iwi_puanga_whanau,puanga,1,,FF,cultural,1,NO
+hapu_iwi_puanga_whanau,puanga,1,,PN,cultural,1,NO
 hapu_iwi_puanga_whanau,whanau,1,,SC,core,1,YES
 haka_karakia_marae_whanau,haka,1,,SC,cultural,1,YES
 haka_karakia_marae_whanau,karakia,1,,SC,cultural,1,YES
@@ -286,7 +286,7 @@ haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wan
 haka_hangi_hikoi_kapa haka_karakia_kauri_kiwi_poi_te reo_tikanga_waiata_waka_wananga,wananga,1,,SC,cultural,1,NO
 aotearoa_hangi_puanga,aotearoa,1,,PN,proper noun,1,YES
 aotearoa_hangi_puanga,hangi,1,,MC,cultural,1,YES
-aotearoa_hangi_puanga,puanga,1,,FF,cultural,1,NO
+aotearoa_hangi_puanga,puanga,1,,PN,cultural,1,NO
 iwi_te puni kokiri,iwi,1,,SC,cultural,1,YES
 iwi_te puni kokiri,te puni kokiri,1,,PN,proper noun,3,YES
 hangi_kawakawa_kiwi_kumara_marae_pakeha,hangi,1,,MC,cultural,1,YES
@@ -300,7 +300,7 @@ te reo_whanau,whanau,1,,SC,core,1,YES
 aotearoa_whanau,aotearoa,1,,PN,proper noun,1,YES
 aotearoa_whanau,whanau,1,,SC,core,1,YES
 iwi_puanga_wananga,iwi,1,,SC,cultural,1,YES
-iwi_puanga_wananga,puanga,1,,FF,cultural,1,NO
+iwi_puanga_wananga,puanga,1,,PN,cultural,1,NO
 iwi_puanga_wananga,wananga,1,,SC,cultural,1,NO
 kapa haka_karakia_marae_pakeha_tangata whenua,kapa haka,1,,SC,cultural,2,YES
 kapa haka_karakia_marae_pakeha_tangata whenua,karakia,1,,SC,cultural,1,YES
@@ -310,7 +310,7 @@ kapa haka_karakia_marae_pakeha_tangata whenua,tangata whenua,1,,SC,cultural,2,YE
 te reo_te reo maori,te reo,1,,SC,core,2,YES
 te reo_te reo maori,te reo maori,1,,PN,proper noun,3,NO
 hangi_puanga_tamariki_waiata,hangi,1,,MC,cultural,1,YES
-hangi_puanga_tamariki_waiata,puanga,1,,FF,cultural,1,NO
+hangi_puanga_tamariki_waiata,puanga,1,,PN,cultural,1,NO
 hangi_puanga_tamariki_waiata,tamariki,1,,SC,core,1,YES
 hangi_puanga_tamariki_waiata,waiata,1,,SC,core,1,YES
 haka_te reo maori_waiata_whanau,haka,1,,SC,cultural,1,YES
@@ -325,7 +325,7 @@ kiwi_te reo_te reo maori_whanau,kiwi,1,,PN,proper noun,1,YES
 kiwi_te reo_te reo maori_whanau,te reo,1,,SC,core,2,YES
 kiwi_te reo_te reo maori_whanau,te reo maori,1,,PN,proper noun,3,NO
 kiwi_te reo_te reo maori_whanau,whanau,1,,SC,core,1,YES
-puanga_waka,puanga,1,,FF,cultural,1,NO
+puanga_waka,puanga,1,,PN,cultural,1,NO
 puanga_waka,waka,1,,MC,cultural,1,YES
 tamariki_whanau,tamariki,1,,SC,core,1,YES
 tamariki_whanau,whanau,1,,SC,core,1,YES
