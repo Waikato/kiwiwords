@@ -36,7 +36,35 @@ Whānau (family):
 Click to <a href="../pics/word_vectors.zip">download all word vector plots</a> (including other loanwords).
 
 ### Download the MLT Corpus
-Click to <a href="../pics/mlt-v2.zip">download the MLT Corpus</a>.
+Tweets in the MLT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's [sample code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for API v2 endpoints.
+
+Note: Many tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dtrye@waikato.ac.nz) if you would like access to the complete dataset.**
+
+The speed at which you can download the corpus depends on the [rate limit](https://developer.twitter.com/en/docs/twitter-api/rate-limits) for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.
+
+- Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
+- Ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine. The code for hydrating the corpus uses `requests==2.24.0`, which in turn uses `requests-oauthlib==1.3.0`. You can install these packages as follows:
+```
+pip install requests
+pip install requests-oauthlib
+```
+- Download and extract all files in the <a href="../pics/mlt-v2.zip">mlt</a> folder. This folder contains four CSV files with the tweet IDs for different components of the corpus, as well as two Python scripts for downloading and formatting the data (namely, `get_tweets_with_bearer_token.py` and `json_to_tsv.py`).
+
+- Configure your API bearer token by running the following command in the terminal:
+```
+export 'BEARER_TOKEN'='<your_bearer_token>'
+```
+- Run `get_tweets_with_bearer_token.py` from the terminal. 
+```
+python get_tweets_with_bearer_token.py > output.json
+```
+This will download the corpus in batches of 100 tweets. If you use the default settings, the script will download the Processed Corpus V2 (though you can change the `FILENAME` in the code to any of the other CSV files). The Process Corpus will take roughly **24 hours** to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes: 2,880,211 tweets / 30,000 tweets = 96 fifteen-minute batches, and 96 x 15 = 1440mins = 24hrs. (By comparison, because there are only a few thousand tweets, the relevant and irrelevant labelled tweets will download almost instantly. The Raw Corpus V2 contains some 4.5m tweets and will take approximately 38hrs to download.) The resulting file, `output.json`, is only pseudo-JSON (each batch is separated by a line in the form "Batch `X`, Code `Y`", where `X` and `Y` are numbers). 
+
+- Run `json_to_tsv.py` to convert the output file to TSV format. 
+```
+python json_to_tsv.py
+```
+This script will produce a file called `mlt_corpus_download_<timestamp>.csv`, which you can then open in a spreadsheet application. Unfortunately, due to a Unicode formatting error, some characters will not be correctly displayed (note: they are still correct in the JSON file). For now, we indicate problematic characters with `[unicode]`, but this is only a temporary fix.
 
 ### Citing the MLT Corpus
 If you use the MLT corpus, please cite the following paper:
