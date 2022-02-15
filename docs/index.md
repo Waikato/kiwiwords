@@ -17,7 +17,7 @@ If you would like to get in touch with us, please email [Andreea Calude](https:/
 
 ### Publications
 
-- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (in press). Harnessing Indigenous Tweets: The Reo Māori Twitter Corpus. <em>Language Resources and Evaluation.</em>
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation.</em> doi.org/10.1007/s10579-022-09580-w.
 - Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015.
 - Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
 
