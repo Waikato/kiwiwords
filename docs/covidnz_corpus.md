@@ -3,18 +3,19 @@ The *Covid NZ Twitter (CovidNZT) Corpus* consists of 40,243 tweets obtained betw
 
 <img src="../pics/covid_poster.jpg" alt="Covid19NZ Poster"/>
 
-This work is just beginning and we will have more details in due course. If you would like to talk to us about this project, please [email Andreea Calude](mailto:andreea@waikato.ac.nz).
+If you would like to talk to us about this project, please [email Andreea Calude](mailto:andreea@waikato.ac.nz).
 
-### Download the CovidNZT Corpus
-We are working on this.
+### Downloading the CovidNZT Corpus
+The CovidNZT Twitter Corpus is available on request. 
 
-### Citing the CovidNZT Corpus
-Coming soon - watch this space!
+### Publications
+- Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. https://doi.org/10.1136/medhum-2022-012401
+- Burnette, J., & Calude, A. S. (2022). Wake up New Zealand! Directives, politeness and stance in Twitter #Covid19NZ posts. *Journal of Pragmatics*, 196, 6-23. https://doi.org/10.1016/j.pragma.2022.05.002
 
 ### Team
 
 - [Jessie Burnette](https://www.linkedin.com/in/jessie-burnette-9b243933?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5mMkT4FJT5qBJPmE8W8UzA%3D%3D)
-- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [Maebh Long](https://www.waikato.ac.nz/fass/about/staff/mlong)
 - [Andreea S. Calude](https://www.calude.net/andreea/)
 
 ### Funding
