@@ -12,6 +12,10 @@ The CovidNZT Twitter Corpus is available on request.
 - Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. doi: 10.1136/medhum-2022-012401.
 - Burnette, J., & Calude, A. S. (2022). [Wake up New Zealand! Directives, politeness and stance in Twitter #Covid19NZ posts](https://www.sciencedirect.com/science/article/abs/pii/S0378216622001266). *Journal of Pragmatics*, 196, 6-23. doi: 10.1016/j.pragma.2022.05.002.
 
+### Media Attention
+
+- Article in *The Conversation*, [We analysed NZ Twitter users’ language during lockdown – with surprising results](https://theconversation.com/we-analysed-nz-twitter-users-language-during-lockdown-with-surprising-results-187520), 27 July 2022
+
 ### Team
 
 - [Jessie Burnette](https://www.linkedin.com/in/jessie-burnette-9b243933?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5mMkT4FJT5qBJPmE8W8UzA%3D%3D)
