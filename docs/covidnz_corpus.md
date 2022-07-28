@@ -9,8 +9,8 @@ If you would like to talk to us about this project, please [email Andreea Calude
 The CovidNZT Twitter Corpus is available on request. 
 
 ### Publications
-- Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. https://doi.org/10.1136/medhum-2022-012401
-- Burnette, J., & Calude, A. S. (2022). Wake up New Zealand! Directives, politeness and stance in Twitter #Covid19NZ posts. *Journal of Pragmatics*, 196, 6-23. https://doi.org/10.1016/j.pragma.2022.05.002
+- Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. doi: 10.1136/medhum-2022-012401.
+- Burnette, J., & Calude, A. S. (2022). Wake up New Zealand! Directives, politeness and stance in Twitter #Covid19NZ posts. *Journal of Pragmatics*, 196, 6-23. doi: 10.1016/j.pragma.2022.05.002.
 
 ### Team
 
