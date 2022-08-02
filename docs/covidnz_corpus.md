@@ -6,7 +6,7 @@ The *Covid NZ Twitter (CovidNZT) Corpus* consists of 40,243 tweets obtained betw
 If you would like to talk to us about this project, please [email Andreea Calude](mailto:andreea@waikato.ac.nz).
 
 ### Downloading the CovidNZT Corpus
-The CovidNZT Twitter Corpus can be downloaded <a href="../pics/covid_nzt.zip">here</a>. In accordance with Twitter's terms of service, we can only provide the tweet IDs; however, we also include a script for extracting the tweets via the Twitter API. Please follow the instructions in `readme.txt`.
+The CovidNZT Twitter Corpus can be downloaded <a href="../pics/covid_nzt.zip">here</a>. In accordance with Twitter's terms of service, we can only provide the raw tweet IDs; however, we also include a script for extracting the tweets via the Twitter API. Please follow the instructions in `readme.txt`.
 
 ### Publications
 - Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. doi: 10.1136/medhum-2022-012401.
