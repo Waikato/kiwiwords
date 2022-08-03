@@ -26,4 +26,4 @@ The CovidNZT Twitter Corpus can be downloaded <a href="../pics/covid_nzt.zip">he
 We graciously acknowledge the generous support of:
 
 - The ALPSS Collaboration Grant
-<img src="pics/logos2.png" alt="The University of Waikato, Marsden Fund"/>
+<img src="../pics/logos2.png" alt="The University of Waikato, Marsden Fund"/>
