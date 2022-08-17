@@ -14,6 +14,8 @@ The CovidNZT Twitter Corpus can be downloaded <a href="../pics/covid_nzt.zip">he
 
 ### Media Attention
 
+- RNZ Interview, [The Linguistics of Lockdown](https://www.rnz.co.nz/national/programmes/nights/audio/2018853802/the-linguesitcs-of-lockdown), 16 August 2022  
+- TVNZ Interview on *Seven Sharp*, [Social media, pandemics, and the way we talk](https://www.tvnz.co.nz/shows/seven-sharp/clips/social-media-pandemics-and-the-way-we-talk) (only accessible to NZ viewers), 3 August 2022
 - Article in *The Conversation*, [We analysed NZ Twitter users’ language during lockdown – with surprising results](https://theconversation.com/we-analysed-nz-twitter-users-language-during-lockdown-with-surprising-results-187520), 27 July 2022
 
 ### Team
