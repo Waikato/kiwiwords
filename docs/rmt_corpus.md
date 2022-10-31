@@ -74,7 +74,7 @@ Ki te ora tonu te tīhau ki a Twitter, ka tāpiri atu hoki ngā taurangi ki raro
 #### Tohutoro te putunga RMT
 Ki te whakamahi koe i te putunga RMT nei, tēnā koe me tohutoro whēnei mai:
 
-- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation.</em> doi:10.1007/s10579-022-09580-w.
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation</em>, *56*, 1229-1268. doi:10.1007/s10579-022-09580-w
 
 #### Kaimahi
 
@@ -175,7 +175,7 @@ If the tweet is still publicly available on Twitter, the following variables wil
 #### Citing the RMT Corpus
 If you use the RMT corpus, please cite the following paper:
 
-- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation.</em> doi:10.1007/s10579-022-09580-w.
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation</em>, *56*, 1229-1268. doi:10.1007/s10579-022-09580-w
 
 #### Team
 
