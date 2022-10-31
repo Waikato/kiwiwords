@@ -69,7 +69,7 @@ This script will produce a file called `mlt_corpus_download_<timestamp>.csv`, wh
 ### Citing the MLT Corpus
 If you use the MLT corpus, please cite the following paper:
 
-- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018. 
+- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018 
 
 ### Hybrid Hashtags
 The *Hybrid Hashtag (HH) Sub-Corpus* is a subset of tweets in the MLT Corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users. Popular hashtags include #waitangiday, #maorilanguageweek, #gokiwi, #proudkiwi, #kiwipride and #letssharegoodtereostories.
@@ -82,7 +82,7 @@ Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.
 ### Citing the HH Sub-Corpus
 If you use the Hybrid Hashtag Sub-Corpus, please cite the following paper:
 
-- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid Hashtags: #YouKnowYoureAKiwiWhen Your Tweet Contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015.
+- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid hashtags: #YouKnowYoureAKiwiWhen your tweet contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015
 
 ### Media Attention
 
