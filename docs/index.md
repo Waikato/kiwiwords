@@ -13,15 +13,16 @@ Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant
 
 ### Get in touch
 
-If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin and data downloading inquiries (dtrye@waikato.ac.nz).
+If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin or data-related issues (dtrye@waikato.ac.nz).
 
 ### Publications
 
+- Trye, D., Yogarajan, V., König, J., Keegan, T. T., Bainbridge, D., & Apperley, M. (2022, November). [A hybrid architecture for labelling bilingual Māori-English tweets](https://www.dropbox.com/s/7n1t2urmsjynx3i/findings.pdf?dl=0). In *Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022*, pp. 119-130. ([GitHub Repository](https://github.com/bilingual-MET/hybrid), [MET Corpus Explorer](https://bilingual-met.github.io/hybrid), [Interactive Error Analysis](https://bilingual-met.github.io/hybrid/sample))
 - Burnette, J., & Long, M. (2022). [Bubbles and lockdown in Aotearoa New Zealand: the language of self-isolation in #Covid19NZ tweets](https://mh.bmj.com/content/early/2022/07/27/medhum-2022-012401). *Medical Humanities*. doi:10.1136/medhum-2022-012401
 - Burnette, J., & Calude, A. S. (2022). [Wake up New Zealand! Directives, politeness and stance in Twitter #Covid19NZ posts](https://www.sciencedirect.com/science/article/abs/pii/S0378216622001266). *Journal of Pragmatics*, *196*, 6-23. doi:10.1016/j.pragma.2022.05.002
-- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). <em>Lang Resources & Evaluation</em>, *56*, 1229-1268. doi:10.1007/s10579-022-09580-w
-- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid hashtags: #YouKnowYoureAKiwiWhen your tweet contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015
-- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018 
+- Trye, D., Keegan, T. T., Mato, P., & Apperley, M. (2022). [Harnessing Indigenous Tweets: The Reo Māori Twitter corpus](https://link.springer.com/article/10.1007/s10579-022-09580-w). *Lang Resources & Evaluation*, *56*, 1229-1268. doi:10.1007/s10579-022-09580-w
+- Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid hashtags: #YouKnowYoureAKiwiWhen your tweet contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). *Front. Artif. Intell.* 3:15. doi:10.3389/frai.2020.00015
+- Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop*, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018 
 
 Thank you for visiting our website!
 
