@@ -96,9 +96,8 @@ E mihi atu ana mō te tautoko ā-pūtea:
 - The University of Waikato
 
 I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. [Whakamōhio mai koa](mailto:dtrye@waikato.ac.nz) mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei . 
-Version 2: I te Noema 2022, XXX tīhau (**XX%** o te putunga RMT V2) i taea ai te tikiake i a Twitter.
-Version 1: I te Noema 2021, 72,575 tīhau (**91.85%** o te putunga RMT V1) i taea ai te tikiake i a Twitter.
-
+- RMT V2: I te Noema 2022, 80,935 tīhau (**86%** o te putunga RMT V2) i taea ai te tikiake i a Twitter.
+- RMT V1: I te Noema 2021, 72,575 tīhau (**92%** o te putunga RMT V1) i taea ai te tikiake i a Twitter.
 
 ### English
 The *Reo Māori Twitter (RMT) Corpus V2* is a collection of 94,163 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's [Indigenous Tweets website](http://indigenoustweets.com/mi/).
@@ -200,5 +199,5 @@ We graciously acknowledge the generous support of:
 - The University of Waikato
 
 The information on this page was last checked in November 2022. Please [let us know](mailto:dtrye@waikato.ac.nz) if you notice any errors in the code and/or instructions. 
-Version 2: As of 25 November 2022, XXX tweets (**XX%** of the RMT Corpus V2) could be successfully downloaded from Twitter.
-Version 1: As of 12 April 2021, 72,575 tweets (**91.85%** of the RMT Corpus V1) could be successfully downloaded from Twitter.
+- RMT V2: As of 25 November 2022, 80,935 tweets (**86%** of the RMT Corpus V2) could be successfully downloaded from Twitter.
+- RMT V1: As of 12 April 2021, 72,575 tweets (**92%** of the RMT Corpus V1) could be successfully downloaded from Twitter.
