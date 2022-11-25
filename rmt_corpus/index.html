@@ -111,7 +111,7 @@
 
 <h1 id="putunga-reo-maori-tihau-the-reo-maori-twitter-corpus">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</h1>
 <h3 id="te-reo-maori">Te Reo Māori</h3>
-<p>Ko te <em>Putunga Reo Māori Tīhau (RMT)</em> nei he putunga o ngā tīhau 79,018 kua tuhia ki te reo Māori. He mea hanga hei tautoko i ngā mahi reo Māori -ā-waha o te rorohiko, hei rauemi hoki mō ngā iwi Māori puta noa i te motu. E 2,302 ngā kaituhi pīhau reo Māori nei, ko ētehi he whaiaro nō te tangata ake, ko ētehi he mea tuku nō te kamupene. Kua tautohua ngā kaituhi pīhau nei e te pae tukutuku a <a href="http://indigenoustweets.com/mi/">Indigenous Tweets</a> nā Prof. Kevin Scannell.</p>
+<p>Ko te <em>Putunga Reo Māori Tīhau (RMT V2)</em> nei he putunga o ngā tīhau 94,163 kua tuhia ki te reo Māori. He mea hanga hei tautoko i ngā mahi reo Māori -ā-waha o te rorohiko, hei rauemi hoki mō ngā iwi Māori puta noa i te motu. E 2,302 ngā kaituhi pīhau reo Māori nei, ko ētehi he whaiaro nō te tangata ake, ko ētehi he mea tuku nō te kamupene. Kua tautohua ngā kaituhi pīhau nei e te pae tukutuku a <a href="http://indigenoustweets.com/mi/">Indigenous Tweets</a> nā Prof. Kevin Scannell.</p>
 <h4 id="kia-tikiake-te-putunga-rmt">Kia tikiake te putunga RMT</h4>
 <p>Nā tēneki waehere e taea ai te tikiake i ngā pīhau me ngā raraungameta. Kua hangaia te waehere nei mai i ngā waehere o Twitter arā te waehere tauira o API v2 endpoints.</p>
 <p>Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. <strong>Tukua tētehi īmēra ki a <a href="mailto:dtrye@waikato.ac.nz">David Trye</a> inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.</strong> </p>
@@ -125,7 +125,7 @@ pip install requests-oauthlib
 </code></pre>
 
 <ul>
-<li>Tikiake me te unu i ngā kōnae katoa i te kōpake <a href="../pics/rmt.zip">rmt</a>. Kei tēneki kōpaki tētehi kōnae ko <code>rmt-corpus-v1.csv</code> te ingoa, kei reira ngā tīhau IDs me ngā raraungameta. Kei reira hoki ngā waehere Python e rua mō te tikiake me te whakahōputu o ngā raraunga (arā, <code>get_tweets_with_bearer_token.py</code> me te <code>json_to_tsv.py</code>).</li>
+<li>Tikiake me te unu i ngā kōnae katoa i te kōpake <a href="../pics/rmt.zip">rmt</a>. Kei tēneki kōpaki tētehi kōnae ko <code>rmt-corpus-v2.csv</code> te ingoa, kei reira ngā tīhau IDs me ngā raraungameta. Kei reira hoki ngā waehere Python e rua mō te tikiake me te whakahōputu o ngā raraunga (arā, <code>get_tweets_with_bearer_token.py</code> me te <code>json_to_tsv.py</code>).</li>
 <li>Kia whakaritea ai tāu API bearer token me tuku atu tēnei tono:</li>
 </ul>
 <pre><code>export 'BEARER_TOKEN'='&lt;your_bearer_token&gt;'
@@ -144,9 +144,9 @@ pip install requests-oauthlib
 <pre><code>python json_to_tsv.py
 </code></pre>
 
-<p>Ko te otinga o tēnei waehere ko te kōnae <code>rmt-corpus-final.csv</code>, he kōnae ka tūwheratia ki te tautono ripanga. Kua rite tahi te hōputu o ngā kōrero tīhau, arā ka tangohia ngā pūāhua motuhake, ka weteoro te HTML, ā, ka rite tahi te whakatakoto o ngā kōrero kaitīhau me ngā tūhononga. Ka tāpiritia hoki ngā raraungameta mai i te kōnae motuhake o <code>rmt-corpus-v1.csv</code>. Ki raro iho nei ka whakamārama atu ngā taurangi kei ngā kōnae CSV.</p>
-<h4 id="he-whakamarama-raraunga-rmt-corpus-v1csv">He Whakamārama Raraunga: rmt-corpus-v1.csv</h4>
-<p>Koia nei ngā māramatanga (inā e mōhio ana) kei te kōnae <code>rmt-corpus-v1.csv</code>, ahakoa kei a Twitter tonu te tīhau ake, kāore rānei.</p>
+<p>Ko te otinga o tēnei waehere ko te kōnae <code>rmt-corpus-final.csv</code>, he kōnae ka tūwheratia ki te tautono ripanga. Kua rite tahi te hōputu o ngā kōrero tīhau, arā ka tangohia ngā pūāhua motuhake, ka weteoro te HTML, ā, ka rite tahi te whakatakoto o ngā kōrero kaitīhau me ngā tūhononga. Ka tāpiritia hoki ngā raraungameta mai i te kōnae motuhake o <code>rmt-corpus-v2.csv</code>. Ki raro iho nei ka whakamārama atu ngā taurangi kei ngā kōnae CSV.</p>
+<h4 id="he-whakamarama-raraunga-rmt-corpus-v2csv">He Whakamārama Raraunga: rmt-corpus-v2.csv</h4>
+<p>Koia nei ngā māramatanga (inā e mōhio ana) kei te kōnae <code>rmt-corpus-v2.csv</code>, ahakoa kei a Twitter tonu te tīhau ake, kāore rānei.</p>
 <table>
 <thead>
 <tr>
@@ -205,7 +205,7 @@ pip install requests-oauthlib
 </tr>
 <tr>
 <td>year</td>
-<td>Te tau kua tukuna te tīhau (2007-2020).</td>
+<td>Te tau kua tukuna te tīhau (2007-2022).</td>
 </tr>
 </tbody>
 </table>
@@ -256,7 +256,7 @@ pip install requests-oauthlib
 <h4 id="he-rauemi-i-tua-atu">He rauemi i tua atu</h4>
 <ul>
 <li>Ko te waehere i whakarite ai i tātari ai te putunga RMT kei kōnei <a href="https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus">project GitHub repository</a>.</li>
-<li>E taea ana te <a href="../pics/rmt-v1-wordlist.csv">tikiake kupu rārangi</a> me te tatau o ngā kupu me ngā tohuhaki i te putunga nei.</li>
+<li>E taea ana te <a href="../pics/rmt-v1-wordlist.csv">tikiake kupu rārangi</a> me te tatau o ngā kupu me ngā tohuhaki i te putunga nei (V1).</li>
 </ul>
 <h4 id="tohutoro-te-putunga-rmt">Tohutoro te putunga RMT</h4>
 <p>Ki te whakamahi koe i te putunga RMT nei, tēnā koe me tohutoro whēnei mai:</p>
@@ -282,9 +282,11 @@ pip install requests-oauthlib
 <li>Ngā Pae o te Māramatanga</li>
 <li>The University of Waikato</li>
 </ul>
-<p>I whakatikahia te kōrero kei tēnei whārangi i Noema 2021. <a href="mailto:dtrye@waikato.ac.nz">Whakamōhio mai koa</a> mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei . I te Noema 2021, 72,575 tīhau (<strong>91.85%</strong> o te putunga RMT) i taea ai te tikiake i a Twitter.</p>
+<p>I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. <a href="mailto:dtrye@waikato.ac.nz">Whakamōhio mai koa</a> mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei . 
+- RMT V2: I te Noema 2022, 80,935 tīhau (<strong>86%</strong> o te putunga RMT V2) i taea ai te tikiake i a Twitter.
+- RMT V1: I te Noema 2021, 72,575 tīhau (<strong>92%</strong> o te putunga RMT V1) i taea ai te tikiake i a Twitter.</p>
 <h3 id="english">English</h3>
-<p>The <em>Reo Māori Twitter (RMT) Corpus</em> is a collection of 79,018 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
+<p>The <em>Reo Māori Twitter (RMT) Corpus V2</em> is a collection of 94,163 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
 <h4 id="download-the-rmt-corpus">Download the RMT Corpus</h4>
 <p>The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
 <p>Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please <a href="mailto:dtrye@waikato.ac.nz">email David Trye</a> if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
@@ -299,7 +301,7 @@ pip install requests-oauthlib
 
 <ul>
 <li>
-<p>Download and extract all files in the <a href="../pics/rmt.zip">rmt</a> folder. This folder contains a file called <code>rmt-corpus-v1.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
+<p>Download and extract all files in the <a href="../pics/rmt.zip">rmt</a> folder. This folder contains a file called <code>rmt-corpus-v2.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
 </li>
 <li>
 <p>Configure your API bearer token by running the following command in the terminal:</p>
@@ -314,16 +316,16 @@ pip install requests-oauthlib
 <pre><code>python get_tweets_with_bearer_token.py &gt; output.json
 </code></pre>
 
-<p>This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 45 minutes to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch <code>X</code>, Code <code>Y</code>", where <code>X</code> and <code>Y</code> are numbers). </p>
+<p>This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 1 hour to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch <code>X</code>, Code <code>Y</code>", where <code>X</code> and <code>Y</code> are numbers). </p>
 <ul>
 <li>Run <code>json_to_tsv.py</code> to convert the output file to TSV format. </li>
 </ul>
 <pre><code>python json_to_tsv.py
 </code></pre>
 
-<p>This script will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original <code>rmt-corpus-v1.csv</code> file. A description of the variables in each of the CSV files is given below.</p>
-<h4 id="data-description-rmt-corpus-v1csv">Data Description: rmt-corpus-v1.csv</h4>
-<p>The following information (where known) is supplied in <code>rmt-corpus-v1.csv</code>, even if the tweet is no longer available on Twitter.</p>
+<p>This script will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original <code>rmt-corpus-v2.csv</code> file. A description of the variables in each of the CSV files is given below.</p>
+<h4 id="data-description-rmt-corpus-v2csv">Data Description: rmt-corpus-v2.csv</h4>
+<p>The following information (where known) is supplied in <code>rmt-corpus-v2.csv</code>, even if the tweet is no longer available on Twitter.</p>
 <table>
 <thead>
 <tr>
@@ -382,7 +384,7 @@ pip install requests-oauthlib
 </tr>
 <tr>
 <td>year</td>
-<td>The year the tweet was written (between 2007 and 2020).</td>
+<td>The year the tweet was written (between 2007 and 2022).</td>
 </tr>
 </tbody>
 </table>
@@ -437,7 +439,7 @@ pip install requests-oauthlib
 <h4 id="other-resources">Other Resources</h4>
 <ul>
 <li>Code for cleaning and analysing the RMT Corpus is available on the <a href="https://github.com/Waikato/kiwiwords/tree/master/rmt_corpus">project GitHub repository</a>.</li>
-<li>You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in the corpus.</li>
+<li>You can <a href="../pics/rmt-v1-wordlist.csv">download a wordlist</a> with frequencies for all words and hashtags in Version 1 of the corpus.</li>
 </ul>
 <h4 id="citing-the-rmt-corpus">Citing the RMT Corpus</h4>
 <p>If you use the RMT corpus, please cite the following paper:</p>
@@ -463,8 +465,9 @@ pip install requests-oauthlib
 <li>Ngā Pae o te Māramatanga</li>
 <li>The University of Waikato</li>
 </ul>
-<p>The information on this page was last checked in November 2021. Please <a href="mailto:dtrye@waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. 
-As of 12 April 2021, 72,575 tweets (<strong>91.85%</strong> of the RMT Corpus) could be successfully downloaded from Twitter.</p></div>
+<p>The information on this page was last checked in November 2022. Please <a href="mailto:dtrye@waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. 
+- RMT V2: As of 25 November 2022, 80,935 tweets (<strong>86%</strong> of the RMT Corpus V2) could be successfully downloaded from Twitter.
+- RMT V1: As of 12 April 2021, 72,575 tweets (<strong>92%</strong> of the RMT Corpus V1) could be successfully downloaded from Twitter.</p></div>
         </div>
 
         <footer class="col-md-12">
