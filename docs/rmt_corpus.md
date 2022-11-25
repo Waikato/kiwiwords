@@ -95,7 +95,8 @@ E mihi atu ana mō te tautoko ā-pūtea:
 - Ngā Pae o te Māramatanga
 - The University of Waikato
 
-I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. [Whakamōhio mai koa](mailto:dtrye@waikato.ac.nz) mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei . 
+I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. [Whakamōhio mai koa](mailto:dtrye@waikato.ac.nz) mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei.
+
 - RMT V2: I te Noema 2022, 80,935 tīhau (**86%** o te putunga RMT V2) i taea ai te tikiake i a Twitter.
 - RMT V1: I te Noema 2021, 72,575 tīhau (**92%** o te putunga RMT V1) i taea ai te tikiake i a Twitter.
 
@@ -199,5 +200,6 @@ We graciously acknowledge the generous support of:
 - The University of Waikato
 
 The information on this page was last checked in November 2022. Please [let us know](mailto:dtrye@waikato.ac.nz) if you notice any errors in the code and/or instructions. 
+
 - RMT V2: As of 25 November 2022, 80,935 tweets (**86%** of the RMT Corpus V2) could be successfully downloaded from Twitter.
 - RMT V1: As of 12 April 2021, 72,575 tweets (**92%** of the RMT Corpus V1) could be successfully downloaded from Twitter.
