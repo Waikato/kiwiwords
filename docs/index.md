@@ -4,6 +4,10 @@ This website documents research on languages spoken in Aotearoa New Zealand, car
 
 Each project has a different focus and makes use of different data (all of which is collected by Waikato researchers in conjunction with our collaborators). The different tabs provide information on the projects, their main objective, the specific team of researchers involved and arising publications or media attention.
 
+### GitHub Repository
+
+Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant code for each project (e.g. for collecting, cleaning and analysing the data).
+
 ### Publications
 
 - Trye, D., Yogarajan, V., König, J., Keegan, T. T., Bainbridge, D., & Apperley, M. (2022, November). [A hybrid architecture for labelling bilingual Māori-English tweets](https://www.dropbox.com/s/7n1t2urmsjynx3i/findings.pdf?dl=0). In *Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022*, pp. 119-130. ([GitHub Repository](https://github.com/bilingual-MET/hybrid), [MET Corpus Explorer](https://bilingual-met.github.io/hybrid), [Interactive Error Analysis](https://bilingual-met.github.io/hybrid/sample))
@@ -13,15 +17,11 @@ Each project has a different focus and makes use of different data (all of which
 - Trye, D., Calude, A. S., Bravo-Marquez, F., & Keegan, T. T. (2020). [Hybrid hashtags: #YouKnowYoureAKiwiWhen your tweet contains Māori and English](https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full). *Front. Artif. Intell.* 3:15. doi:10.3389/frai.2020.00015
 - Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). [Māori loanwords: A corpus of New Zealand English tweets](https://www.aclweb.org/anthology/P19-2018/). In *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop*, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018 
 
-### GitHub Repository
-
-Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant code for each project (e.g. for collecting, cleaning and analysing the data).
+<br>We are grateful to our funders for their generous support:<br>
+<img src="pics/logos_new.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand, Ngā Pae o te Māramatanga"/>
 
 ### Get in touch
 
 If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin or data queries (dtrye@waikato.ac.nz).
-
-<br>We are grateful to our funders for their generous support:<br>
-<img src="pics/logos_new.png" alt="The University of Waikato, Marsden Fund, Royal Society of New Zealand, Ngā Pae o te Māramatanga"/>
 
 Thank you for visiting our website!
