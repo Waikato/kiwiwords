@@ -93,7 +93,7 @@ If you use the Hybrid Hashtag Sub-Corpus, please cite the following paper:
 
 ### Team
 
-- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [David Trye](https://dgt12.github.io/)
 - [Andreea S. Calude](https://www.calude.net/andreea/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 
