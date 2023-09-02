@@ -23,6 +23,6 @@ Our [GitHub repository](https://github.com/Waikato/kiwiwords/) provides relevant
 
 ### Get in touch
 
-If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://www.cs.waikato.ac.nz/~dgt12/) for website admin or data queries (dtrye@waikato.ac.nz).
+If you would like to get in touch with us, please email [Andreea Calude](https://www.calude.net/andreea/) for general research inquiries (andreea@waikato.ac.nz) and [David Trye](https://dgt12.github.io/) for website admin or data queries (dtrye@waikato.ac.nz).
 
 Thank you for visiting our website!
