@@ -78,7 +78,7 @@ Ki te whakamahi koe i te putunga RMT nei, tēnā koe me tohutoro whēnei mai:
 
 #### Kaimahi
 
-- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
+- [David Trye](https://dgt12.github.io/)
 - [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
 - [Paora Mato](https://www.waikato.ac.nz/php/research.php?mode=show&author=23169)
 - [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
