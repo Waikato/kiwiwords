@@ -4,7 +4,7 @@ This website documents research on languages spoken in Aotearoa New Zealand, con
 
 Each project explores a different aspect of language and draws on a different dataset. The datasets were collected by Waikato researchers in collaboration with our partners. Use the tabs to learn more about each project, including its objectives, research team and any resulting publications or media coverage.
 
-**Note: As of March 2025, this website is no longer actively maintained. Please visit XXX for information about more recent projects!**
+**Note: As of March 2025, this website is no longer actively maintained. Please visit [calude.net](https://www.calude.net/andreea/#/publications) for information about more recent projects!**
 
 ### GitHub Repository
 
