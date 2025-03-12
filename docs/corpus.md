@@ -38,7 +38,7 @@ Click to <a href="../pics/word_vectors.zip">download all word vector plots</a> (
 ### Download the MLT Corpus
 Tweets in the MLT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's [sample code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for API v2 endpoints.
 
-Note: Many tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dtrye@waikato.ac.nz) if you would like access to the complete dataset.**
+Note: Many tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dgt12@students.waikato.ac.nz) if you would like access to the complete dataset.**
 
 The speed at which you can download the corpus depends on the [rate limit](https://developer.twitter.com/en/docs/twitter-api/rate-limits) for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.
 
