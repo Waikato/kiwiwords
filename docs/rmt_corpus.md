@@ -6,7 +6,7 @@ Ko te *Putunga Reo Māori Tīhau (RMT V2)* nei he putunga o ngā tīhau 94,163 k
 #### Kia tikiake te putunga RMT
 Nā tēneki waehere e taea ai te tikiake i ngā pīhau me ngā raraungameta. Kua hangaia te waehere nei mai i ngā waehere o Twitter arā te waehere tauira o API v2 endpoints.
 
-Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. **Tukua tētehi īmēra ki a [David Trye](mailto:dgt12@students.waikato.ac.nz) inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.** 
+Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. **Tukua tētehi īmēra ki a [David Trye](mailto:dtrye@waikato.ac.nz) inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.** 
 
 Ka hāngai te tere o tāu tikiake ki tāu ake rate limit i tāu pūkete kaiwhanake o Twitter (arā, 300, 900 rānei ngā tono ki ia 15 meneti). Ki te whakapaua tāu tatau, ka puta mai te kōrero hē: 429 'Too many requests'.
 
@@ -95,7 +95,7 @@ E mihi atu ana mō te tautoko ā-pūtea:
 - Ngā Pae o te Māramatanga
 - The University of Waikato
 
-I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. [Whakamōhio mai koa](mailto:dgt12@students.waikato.ac.nz) mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei.
+I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. [Whakamōhio mai koa](mailto:dtrye@waikato.ac.nz) mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei.
 
 - RMT V2: I te Noema 2022, 80,935 tīhau (**86%** o te putunga RMT V2) i taea ai te tikiake i a Twitter.
 - RMT V1: I te Noema 2021, 72,575 tīhau (**92%** o te putunga RMT V1) i taea ai te tikiake i a Twitter.
@@ -106,7 +106,7 @@ The *Reo Māori Twitter (RMT) Corpus V2* is a collection of 94,163 te reo Māori
 #### Download the RMT Corpus
 The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's [sample code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for API v2 endpoints.
 
-Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dgt12@students.waikato.ac.nz) if you would like access to the complete dataset, including additional metadata mentioned in our paper.**
+Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. **Please [email David Trye](mailto:dtrye@waikato.ac.nz) if you would like access to the complete dataset, including additional metadata mentioned in our paper.**
 
 The speed at which you can download the corpus depends on the [rate limit](https://developer.twitter.com/en/docs/twitter-api/rate-limits) for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.
 
@@ -199,7 +199,7 @@ We graciously acknowledge the generous support of:
 - Ngā Pae o te Māramatanga
 - The University of Waikato
 
-The information on this page was last checked in November 2022. Please [let us know](mailto:dgt12@students.waikato.ac.nz) if you notice any errors in the code and/or instructions. 
+The information on this page was last checked in November 2022. Please [let us know](mailto:dtrye@waikato.ac.nz) if you notice any errors in the code and/or instructions. 
 
 - RMT V2: As of 25 November 2022, 80,935 tweets (**86%** of the RMT Corpus V2) could be successfully downloaded from Twitter.
 - RMT V1: As of 12 April 2021, 72,575 tweets (**92%** of the RMT Corpus V1) could be successfully downloaded from Twitter.
