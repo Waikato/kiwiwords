@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,90 +9,78 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Māori Corpus - Kiwi Words</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-139965982-2', 'mkdocs.org');
+            ga('create', "UA-139965982-2", "mkdocs.org");
             ga('send', 'pageview');
         </script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="..">Kiwi Words</a>
-                </div>
+                <a class="navbar-brand" href="..">Kiwi Words</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="..">Home</a>
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="active">
-                                <a href="./">Māori Corpus</a>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Māori Corpus</a>
                             </li>
-                            <li >
-                                <a href="../corpus/">Loanwords</a>
+                            <li class="nav-item">
+                                <a href="../corpus/" class="nav-link">Loanwords</a>
                             </li>
-                            <li >
-                                <a href="../covidnz_corpus/">Covid19NZ</a>
+                            <li class="nav-item">
+                                <a href="../covidnz_corpus/" class="nav-link">Covid19NZ</a>
                             </li>
-                            <li >
-                                <a href="../nze_lexicon/">NZE Lexicon</a>
+                            <li class="nav-item">
+                                <a href="../nze_lexicon/" class="nav-link">NZE Lexicon</a>
                             </li>
-                            <li >
-                                <a href="../maori_english/">Māori English</a>
+                            <li class="nav-item">
+                                <a href="../maori_english/" class="nav-link">Māori English</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="..">
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../corpus/">
+                            <li class="nav-item">
+                                <a rel="next" href="../corpus/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://github.com/Waikato/kiwiwords/edit/master/docs/rmt_corpus.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            <li class="nav-item">
+                                <a href="https://github.com/Waikato/kiwiwords/edit/master/docs/rmt_corpus.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -100,21 +88,33 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#putunga-reo-maori-tihau-the-reo-maori-twitter-corpus">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</a></li>
-            <li><a href="#te-reo-maori">Te Reo Māori</a></li>
-            <li><a href="#english">English</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#putunga-reo-maori-tihau-the-reo-maori-twitter-corpus" class="nav-link">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="putunga-reo-maori-tihau-the-reo-maori-twitter-corpus">Putunga Reo Māori Tīhau: The Reo Māori Twitter Corpus</h1>
 <h3 id="te-reo-maori">Te Reo Māori</h3>
 <p>Ko te <em>Putunga Reo Māori Tīhau (RMT V2)</em> nei he putunga o ngā tīhau 94,163 kua tuhia ki te reo Māori. He mea hanga hei tautoko i ngā mahi reo Māori -ā-waha o te rorohiko, hei rauemi hoki mō ngā iwi Māori puta noa i te motu. E 2,302 ngā kaituhi pīhau reo Māori nei, ko ētehi he whaiaro nō te tangata ake, ko ētehi he mea tuku nō te kamupene. Kua tautohua ngā kaituhi pīhau nei e te pae tukutuku a <a href="http://indigenoustweets.com/mi/">Indigenous Tweets</a> nā Prof. Kevin Scannell.</p>
 <h4 id="kia-tikiake-te-putunga-rmt">Kia tikiake te putunga RMT</h4>
 <p>Nā tēneki waehere e taea ai te tikiake i ngā pīhau me ngā raraungameta. Kua hangaia te waehere nei mai i ngā waehere o Twitter arā te waehere tauira o API v2 endpoints.</p>
-<p>Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. <strong>Tukua tētehi īmēra ki a <a href="mailto:dtrye@waikato.ac.nz">David Trye</a> inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.</strong> </p>
+<p>Kia mōhio mai: kō ētehi o ngā tīhau kāore i reira ināianei, nō reira ka kore e taea te tikiake. <strong>Tukua tētehi īmēra ki a <a href="mailto:dgt12@students.waikato.ac.nz">David Trye</a> inā ka hiahiatia te katoa o te putunga RMT me ētehi raraungameta i tua atu, he raraungameta kua kōrerotia i tā mātou pepa.</strong> </p>
 <p>Ka hāngai te tere o tāu tikiake ki tāu ake rate limit i tāu pūkete kaiwhanake o Twitter (arā, 300, 900 rānei ngā tono ki ia 15 meneti). Ki te whakapaua tāu tatau, ka puta mai te kōrero hē: 429 'Too many requests'.</p>
 <ul>
 <li>Tonoa tētehi <a href="https://developer.twitter.com/en/apply-for-access">Pūkete Kaiwhanake o Twitter</a> inā kaore i a koe tētehi.</li>
@@ -123,27 +123,23 @@
 <pre><code>pip install requests
 pip install requests-oauthlib
 </code></pre>
-
 <ul>
 <li>Tikiake me te unu i ngā kōnae katoa i te kōpake <a href="../pics/rmt.zip">rmt</a>. Kei tēneki kōpaki tētehi kōnae ko <code>rmt-corpus-v2.csv</code> te ingoa, kei reira ngā tīhau IDs me ngā raraungameta. Kei reira hoki ngā waehere Python e rua mō te tikiake me te whakahōputu o ngā raraunga (arā, <code>get_tweets_with_bearer_token.py</code> me te <code>json_to_tsv.py</code>).</li>
 <li>Kia whakaritea ai tāu API bearer token me tuku atu tēnei tono:</li>
 </ul>
 <pre><code>export 'BEARER_TOKEN'='&lt;your_bearer_token&gt;'
 </code></pre>
-
 <ul>
 <li>Whārere <code>get_tweets_with_bearer_token.py</code>.</li>
 </ul>
 <pre><code>python get_tweets_with_bearer_token.py &gt; output.json
 </code></pre>
-
 <p>Nā reira, ka tikiake te 100 tīhau i ia tono, ā, nā ēnei whakaritenga ka āhua 45 meneti pea te roa. Ka whēnei te roa i te mea, ka 30,000 tīhau (300 tono x 100 tīhau) i ia 15 meneti. I te otinga ake ka rauikatia ki te kōnae output.json heoi anō he pseudo-JSON kē; ka motumotu ngā taupū ki tētehi rārangi e whēnei ana; "Batch X, Code Y", he nama te X me te Y.</p>
 <ul>
 <li>Whārere <code>json_to_tsv.py</code> kia whakawhiti ai te kōnae putunga ki te hōputu TSV.</li>
 </ul>
 <pre><code>python json_to_tsv.py
 </code></pre>
-
 <p>Ko te otinga o tēnei waehere ko te kōnae <code>rmt-corpus-final.csv</code>, he kōnae ka tūwheratia ki te tautono ripanga. Kua rite tahi te hōputu o ngā kōrero tīhau, arā ka tangohia ngā pūāhua motuhake, ka weteoro te HTML, ā, ka rite tahi te whakatakoto o ngā kōrero kaitīhau me ngā tūhononga. Ka tāpiritia hoki ngā raraungameta mai i te kōnae motuhake o <code>rmt-corpus-v2.csv</code>. Ki raro iho nei ka whakamārama atu ngā taurangi kei ngā kōnae CSV.</p>
 <h4 id="he-whakamarama-raraunga-rmt-corpus-v2csv">He Whakamārama Raraunga: rmt-corpus-v2.csv</h4>
 <p>Koia nei ngā māramatanga (inā e mōhio ana) kei te kōnae <code>rmt-corpus-v2.csv</code>, ahakoa kei a Twitter tonu te tīhau ake, kāore rānei.</p>
@@ -282,7 +278,7 @@ pip install requests-oauthlib
 <li>Ngā Pae o te Māramatanga</li>
 <li>The University of Waikato</li>
 </ul>
-<p>I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. <a href="mailto:dtrye@waikato.ac.nz">Whakamōhio mai koa</a> mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei.</p>
+<p>I whakatikahia te kōrero kei tēnei whārangi i Noema 2022. <a href="mailto:dgt12@students.waikato.ac.nz">Whakamōhio mai koa</a> mehemea ka kite koe i ētehi hē i ngā waehere i tēneki whārangi rānei.</p>
 <ul>
 <li>RMT V2: I te Noema 2022, 80,935 tīhau (<strong>86%</strong> o te putunga RMT V2) i taea ai te tikiake i a Twitter.</li>
 <li>RMT V1: I te Noema 2021, 72,575 tīhau (<strong>92%</strong> o te putunga RMT V1) i taea ai te tikiake i a Twitter.</li>
@@ -291,7 +287,7 @@ pip install requests-oauthlib
 <p>The <em>Reo Māori Twitter (RMT) Corpus V2</em> is a collection of 94,163 te reo Māori tweets, designed for linguistic analysis and to help in the development of new Natural Language Processing (NLP) resources for the Māori community. The corpus captures output from 2,302 users, including a mixture of personal and institutional accounts. These users were identified via Prof. Kevin Scannell's <a href="http://indigenoustweets.com/mi/">Indigenous Tweets website</a>.</p>
 <h4 id="download-the-rmt-corpus">Download the RMT Corpus</h4>
 <p>The tweets and user metadata in the RMT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
-<p>Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please <a href="mailto:dtrye@waikato.ac.nz">email David Trye</a> if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
+<p>Note: Some tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please <a href="mailto:dgt12@students.waikato.ac.nz">email David Trye</a> if you would like access to the complete dataset, including additional metadata mentioned in our paper.</strong></p>
 <p>The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
 <ul>
 <li>Apply for a <a href="https://developer.twitter.com/en/apply-for-access">Twitter developer account</a> if you do not have one already.</li>
@@ -300,7 +296,6 @@ pip install requests-oauthlib
 <pre><code>pip install requests
 pip install requests-oauthlib
 </code></pre>
-
 <ul>
 <li>
 <p>Download and extract all files in the <a href="../pics/rmt.zip">rmt</a> folder. This folder contains a file called <code>rmt-corpus-v2.csv</code>, which has the tweet IDs and selected metadata, as well as two Python scripts for downloading and formatting the data (namely, <code>get_tweets_with_bearer_token.py</code> and <code>json_to_tsv.py</code>).</p>
@@ -311,20 +306,17 @@ pip install requests-oauthlib
 </ul>
 <pre><code>export 'BEARER_TOKEN'='&lt;your_bearer_token&gt;'
 </code></pre>
-
 <ul>
 <li>Run <code>get_tweets_with_bearer_token.py</code> from the terminal. </li>
 </ul>
 <pre><code>python get_tweets_with_bearer_token.py &gt; output.json
 </code></pre>
-
 <p>This will download the corpus in batches of 100 tweets. If you use the default settings, the script will take roughly 1 hour to run, as it will attempt to download 30,000 tweets (300 requests x 100 tweets) every 15 minutes. The resulting file, <code>output.json</code>, is only pseudo-JSON (each batch is separated by a line in the form "Batch <code>X</code>, Code <code>Y</code>", where <code>X</code> and <code>Y</code> are numbers). </p>
 <ul>
 <li>Run <code>json_to_tsv.py</code> to convert the output file to TSV format. </li>
 </ul>
 <pre><code>python json_to_tsv.py
 </code></pre>
-
 <p>This script will produce a file called <code>rmt-corpus-final.csv</code>, which you can then open in a spreadsheet application. Tweet text is formatted consistently (special characters are removed, any HTML is decoded, and user mentions and links are standardised). The tweets are also supplemented with metadata from the original <code>rmt-corpus-v2.csv</code> file. A description of the variables in each of the CSV files is given below.</p>
 <h4 id="data-description-rmt-corpus-v2csv">Data Description: rmt-corpus-v2.csv</h4>
 <p>The following information (where known) is supplied in <code>rmt-corpus-v2.csv</code>, even if the tweet is no longer available on Twitter.</p>
@@ -467,53 +459,52 @@ pip install requests-oauthlib
 <li>Ngā Pae o te Māramatanga</li>
 <li>The University of Waikato</li>
 </ul>
-<p>The information on this page was last checked in November 2022. Please <a href="mailto:dtrye@waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. </p>
+<p>The information on this page was last checked in November 2022. Please <a href="mailto:dgt12@students.waikato.ac.nz">let us know</a> if you notice any errors in the code and/or instructions. </p>
 <ul>
 <li>RMT V2: As of 25 November 2022, 80,935 tweets (<strong>86%</strong> of the RMT Corpus V2) could be successfully downloaded from Twitter.</li>
 <li>RMT V1: As of 12 April 2021, 72,575 tweets (<strong>92%</strong> of the RMT Corpus V1) could be successfully downloaded from Twitter.</li>
 </ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "..",
-                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
