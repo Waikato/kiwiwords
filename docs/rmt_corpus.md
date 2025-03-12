@@ -181,16 +181,16 @@ If you use the RMT corpus, please cite the following paper:
 
 #### Team
 
-- [David Trye](https://www.cs.waikato.ac.nz/~dgt12/)
-- [Te Taka Keegan](https://www.cms.waikato.ac.nz/people/tetaka)
-- [Paora Mato](https://www.waikato.ac.nz/php/research.php?mode=show&author=23169)
-- [Mark Apperley](https://www.cms.waikato.ac.nz/people/mapperle)
+- [David Trye](https://dgt12.github.io/)
+- [Te Taka Keegan](https://profiles.waikato.ac.nz/tetaka.keegan)
+- Paora Mato
+- [Mark Apperley](https://profiles.waikato.ac.nz/mark.apperley)
 - [Tamahau Brown](https://www.linkedin.com/in/tamahau-brown-9287b7139/)
 
 External Collaborators:
 
 - [Te Hiku Media](https://tehiku.nz/te-hiku-tech/), NZ
-- [Kevin Scannell](https://cs.slu.edu/~scannell/index.html), Saint Louis University, US
+- [Kevin Scannell](https://kevinscannell.com/)
 
 #### Funding
 

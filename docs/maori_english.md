@@ -13,7 +13,7 @@ Publications coming soon - watch this space!
 ### Team
 
 - [Andreea S. Calude](https://www.calude.net/andreea/) (PI)
-- [Hēmi Whaanga](https://www.waikato.ac.nz/fmis/about/staff/hemi)
+- [Hēmi Whaanga](https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=882622)
 
 External Collaborators:
 

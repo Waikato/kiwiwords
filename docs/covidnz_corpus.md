@@ -21,8 +21,8 @@ The CovidNZT Twitter Corpus can be downloaded <a href="../pics/covid_nzt.zip">he
 ### Team
 
 - [Jessie Burnette](https://www.linkedin.com/in/jessie-burnette-9b243933?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5mMkT4FJT5qBJPmE8W8UzA%3D%3D)
-- [Maebh Long](https://www.waikato.ac.nz/fass/about/staff/mlong)
-- [Andreea S. Calude](https://www.calude.net/andreea/)
+- [Maebh Long](https://www.otago.ac.nz/ciss/people/maebh-long)
+- [Andreea S. Calude](https://www.calude.net/andreea/#/home)
 
 ### Funding
 We graciously acknowledge the generous support of:
