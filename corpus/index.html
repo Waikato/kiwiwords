@@ -109,7 +109,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="maori-loanwords-on-twitter">Māori Loanwords on Twitter</h1>
+<h1 id="maori-loanwords-on-twitter">Māori Loanwords on Twitter<a class="headerlink" href="#maori-loanwords-on-twitter" title="Permanent link">&para;</a></h1>
 <p>The <em>Māori Loanword Twitter (MLT) Corpus</em> is a diachronic corpus of nearly 3 million New Zealand English tweets, posted between 2008 and 2018. The data was collected by extracting tweets containing one or more terms from a <a href="../pics/mlt_query_words.csv">list of 77 Māori words and phrases</a>. We then used computational machine learning methods to clean up the raw data, because many of the tweets were not relevant to a New Zealand English context (for instance, the loanword <i>Moana</i>, meaning sea, is commonly used to refer to the Disney film/princess).</p>
 <p>The corpus consists of three key components:</p>
 <ol>
@@ -117,11 +117,11 @@
 <li><i>Labelled Corpus</i>: 3,685 tweets that were manually labelled as "relevant" or "irrelevant" and used as training data for our model.</li>
 <li><i>Processed Corpus</i>: The final version of the corpus, containing only tweets that the model classified as relevant.</li>
 </ol>
-<h3 id="building-the-mlt-corpus">Building the MLT Corpus</h3>
+<h3 id="building-the-mlt-corpus">Building the MLT Corpus<a class="headerlink" href="#building-the-mlt-corpus" title="Permanent link">&para;</a></h3>
 <p>Below is a visual representation of the steps involved in building the corpus.
 <img src="../pics/Process2.png" alt="Process" width="1500"/></p>
 <p>For further information, see <a href="https://www.aclweb.org/anthology/P19-2018/">our paper</a>. </p>
-<h3 id="summary-statistics">Summary Statistics</h3>
+<h3 id="summary-statistics">Summary Statistics<a class="headerlink" href="#summary-statistics" title="Permanent link">&para;</a></h3>
 <p>This table shows key stats for the different components of the MLT Corpus:</p>
 <table>
 <thead>
@@ -154,14 +154,14 @@
 </tbody>
 </table>
 <p>*Please note that these statistics differ from what is stated in the paper, because we later refined our classifier, opting for a Naive Bayes Multinomial model that considered both unigrams and bigrams. </p>
-<h3 id="word-vectors">Word Vectors</h3>
+<h3 id="word-vectors">Word Vectors<a class="headerlink" href="#word-vectors" title="Permanent link">&para;</a></h3>
 <p>The following visualisations were created by training Word2Vec embeddings on the Māori Loanword Twitter (MLT) Corpus. Hyper-parameters were optimised by minimising the median ranking of a list of given word pairs. The vectors are projected into two-dimensional space using the t-SNE method. </p>
 <p>Aroha (love):
 <img src="../pics/aroha_tsne.png" alt="Word embeddings for aroha"/></p>
 <p>Whānau (family):
 <img src="../pics/whanau_tsne.png" alt="Word embeddings for whānau"/></p>
 <p>Click to <a href="../pics/word_vectors.zip">download all word vector plots</a> (including other loanwords).</p>
-<h3 id="download-the-mlt-corpus">Download the MLT Corpus</h3>
+<h3 id="download-the-mlt-corpus">Download the MLT Corpus<a class="headerlink" href="#download-the-mlt-corpus" title="Permanent link">&para;</a></h3>
 <p>Tweets in the MLT Corpus can be hydrated (downloaded from Twitter) using the code provided. The source code is adapted from Twitter's <a href="https://github.com/twitterdev/Twitter-API-v2-sample-code">sample code</a> for API v2 endpoints.</p>
 <p>Note: Many tweets in the corpus are no longer publicly available and, as such, cannot be downloaded. <strong>Please <a href="mailto:dgt12@students.waikato.ac.nz">email David Trye</a> if you would like access to the complete dataset.</strong></p>
 <p>The speed at which you can download the corpus depends on the <a href="https://developer.twitter.com/en/docs/twitter-api/rate-limits">rate limit</a> for your Twitter developer account (e.g. 300 or 900 requests per 15-minute window). If you exceed the allocated limit, a 429 'Too many requests' error will be returned.</p>
@@ -194,29 +194,29 @@ pip install requests-oauthlib
 <pre><code>python json_to_tsv.py
 </code></pre>
 <p>This script will produce a file called <code>mlt_corpus_download_&lt;timestamp&gt;.csv</code>, which you can then open in a spreadsheet application. Unfortunately, due to a Unicode formatting error, some characters will not be correctly displayed (note: they are still correct in the JSON file). For now, we indicate problematic characters with <code>[unicode]</code>, but this is only a temporary fix.</p>
-<h3 id="citing-the-mlt-corpus">Citing the MLT Corpus</h3>
+<h3 id="citing-the-mlt-corpus">Citing the MLT Corpus<a class="headerlink" href="#citing-the-mlt-corpus" title="Permanent link">&para;</a></h3>
 <p>If you use the MLT corpus, please cite the following paper:</p>
 <ul>
 <li>Trye, D., Calude, A., Bravo-Marquez, F., Keegan, T. T. (2019). <a href="https://www.aclweb.org/anthology/P19-2018/">Māori loanwords: A corpus of New Zealand English tweets</a>. In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop</i>, pp. 136–142. Florence, Italy: Association for Computational Linguistics. doi:10.18653/v1/P19-2018 </li>
 </ul>
-<h3 id="hybrid-hashtags">Hybrid Hashtags</h3>
+<h3 id="hybrid-hashtags">Hybrid Hashtags<a class="headerlink" href="#hybrid-hashtags" title="Permanent link">&para;</a></h3>
 <p>The <em>Hybrid Hashtag (HH) Sub-Corpus</em> is a subset of tweets in the MLT Corpus containing hashtags made up of Māori and English words (so-called "hybrid hashtags"). There are 81 hybrid hashtags in this dataset, used in 5,684 tweets and posted to Twitter by 3,771 distinct users. Popular hashtags include #waitangiday, #maorilanguageweek, #gokiwi, #proudkiwi, #kiwipride and #letssharegoodtereostories.</p>
 <p><img src="../pics/hashtag_graphs.jpg" alt="Box-plots showing the semantic domain and word class of hybrid hashtags in the MLT Corpus" width="500"/></p>
-<h3 id="download-the-hh-sub-corpus">Download the HH Sub-Corpus</h3>
+<h3 id="download-the-hh-sub-corpus">Download the HH Sub-Corpus<a class="headerlink" href="#download-the-hh-sub-corpus" title="Permanent link">&para;</a></h3>
 <p>Click to <a href="../pics/hh_corpus.xlsx">download the HH Sub-Corpus</a>.</p>
-<h3 id="citing-the-hh-sub-corpus">Citing the HH Sub-Corpus</h3>
+<h3 id="citing-the-hh-sub-corpus">Citing the HH Sub-Corpus<a class="headerlink" href="#citing-the-hh-sub-corpus" title="Permanent link">&para;</a></h3>
 <p>If you use the Hybrid Hashtag Sub-Corpus, please cite the following paper:</p>
 <ul>
 <li>Trye, D., Calude, A. S., Bravo-Marquez, F., &amp; Keegan, T. T. (2020). <a href="https://www.frontiersin.org/articles/10.3389/frai.2020.00015/full">Hybrid hashtags: #YouKnowYoureAKiwiWhen your tweet contains Māori and English</a>. <i>Front. Artif. Intell.</i> 3:15. doi:10.3389/frai.2020.00015</li>
 </ul>
-<h3 id="media-attention">Media Attention</h3>
+<h3 id="media-attention">Media Attention<a class="headerlink" href="#media-attention" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Article in <em>The Conversation</em>, <a href="https://theconversation.com/hashtags-may-not-be-words-grammatically-speaking-but-they-help-spread-a-message-133045">Hashtags may not be words, grammatically speaking, but they help spread a message</a>, 3 November 2020</li>
 <li>Interview for Stuff NZ, <a href="https://www.stuff.co.nz/science/113958987/mori-loanwords-enrich-twitter"><em>Māori loanwords enrich Twitter</em></a>, 8 July 2019</li>
 <li>Interview for Radio NZ, <a href="https://www.radionz.co.nz/news/te-manu-korihi/382254/nz-s-unique-te-reo-tweets"><em>NZ’s unique te reo tweets</em></a>, 12 February 2019</li>
 <li>Coverage from the University of Waikato, <a href="https://www.waikato.ac.nz/news-opinion/media/2019/when-machine-learning-twitter-and-te-reo-maori-merge"><em>When machine learning, Twitter and te reo Māori merge</em></a>, 11 February 2019</li>
 </ul>
-<h3 id="team">Team</h3>
+<h3 id="team">Team<a class="headerlink" href="#team" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://dgt12.github.io/">David Trye</a></li>
 <li><a href="https://www.calude.net/andreea/#/home">Andreea S. Calude</a></li>
@@ -227,7 +227,7 @@ pip install requests-oauthlib
 <li><a href="https://felipebravom.com/">Felipe Bravo Marquez</a>, University of Chile, Chile</li>
 <li><a href="https://www.linkedin.com/in/hi-nicole-chan">Nicole Chan</a>, Industry, NZ</li>
 </ul>
-<h3 id="funding">Funding</h3>
+<h3 id="funding">Funding<a class="headerlink" href="#funding" title="Permanent link">&para;</a></h3>
 <p>We graciously acknowledge the generous support of:</p>
 <ul>
 <li>Marsden Fund, Royal Society of New Zealand</li>
