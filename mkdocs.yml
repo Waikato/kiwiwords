@@ -10,3 +10,7 @@ nav:
     - Covid19NZ: covidnz_corpus.md
     - NZE Lexicon: nze_lexicon.md
     - Māori English: maori_english.md
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
